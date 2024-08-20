@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    align-self:flex-start;
+}
+.card{
+    margin: 8px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: var(--containerColor);
+    box-shadow: 0 5px 20px var(--textFadingColor);
+    border: 1px solid var(--borderColor);
+}

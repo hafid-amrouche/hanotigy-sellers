@@ -1,0 +1,62 @@
+/* CustomCheckbox.module.css */
+
+/* Hide the default checkbox */
+.customCheckbox input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox container */
+.customCheckbox {
+    display: inline-block;
+    position: relative;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+/* Custom checkmark */
+.customCheckbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px; /* Custom size */
+    width: 25px; /* Custom size */
+    border-radius: 4px; /* Rounded corners if needed */
+    border: 1px solid var(--borderColor);
+    background-color: rgba(var(--primaryColor-rgb), 0.2);
+}
+
+/* On hover, add a grey background color */
+.customCheckbox:hover input ~ .checkmark {
+    background-color: rgba(var(--primaryColor-rgb), 0.4);
+}
+
+/* When the checkbox is checked, add a custom background */
+.customCheckbox input:checked ~ .checkmark {
+    background-color: var(--primaryColor);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.customCheckbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.customCheckbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.customCheckbox .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--containerColor);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}

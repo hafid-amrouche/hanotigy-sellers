@@ -1,0 +1,12 @@
+
+.header{
+    background-color: var(--containerColor);
+    color: var(--primaryColor);
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+

@@ -1,0 +1,17 @@
+
+.states-container{
+    position: absolute;
+    max-height: 300px;
+    overflow-y: auto;
+    top: 58px;
+    left: 0;
+    background-color: var(--containerColor);
+    width: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.state:hover{
+    background-color: rgba(var(--primaryColor-rgb), 0.6);
+    color: var(--containerColor);
+}

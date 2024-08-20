@@ -1,0 +1,19 @@
+.product-card__image{
+    min-width: 80px;
+    height: 80px;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+}
+.font-family *:not(i){
+    font-family: monospace;
+    font-size: large;
+    word-spacing: -4px; /* Adjust the value to reduce the space between words */
+    letter-spacing: -0.8px;
+
+}
+.font-family h3{
+    font-size:x-large;
+    
+}

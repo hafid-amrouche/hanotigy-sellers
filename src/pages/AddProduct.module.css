@@ -1,0 +1,69 @@
+.card{
+    margin: 8px;
+    padding: 8px;
+    gap: 8px;
+    display: flex;
+}
+.price-container{
+    min-width: 120px;
+    flex: 1;
+}
+
+.color-button{
+    height: 38px;
+    width: 38px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.suggest-image{
+    border-radius: 8px;
+    transition: scale 300ms ease-in;
+}
+.suggest-image:hover,
+.suggest-image:active{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+/* width */
+
+.gallery-container::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+/* Track */
+
+.gallery-container::-webkit-scrollbar-track {
+    background: rgba(var(--primaryColor-rgb), 0.3);
+}
+
+/* Handle */
+
+.gallery-container::-webkit-scrollbar-thumb {
+    background: var(--primaryColor);
+}
+
+/* Handle on hover */
+
+.gallery-container::-webkit-scrollbar-thumb:hover {
+    background: var(--primary100Color);
+}
+
+.order{
+    border-radius: 50%;
+    background-color: var(--backgroundColor);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: 1px solid var(--borderColor);
+    align-items: center;
+    justify-content:center; 
+    color: var(--primaryColor)
+}
+.order.first{
+    background-color: var(--primaryColor);
+    color: var(--containerColor)
+}

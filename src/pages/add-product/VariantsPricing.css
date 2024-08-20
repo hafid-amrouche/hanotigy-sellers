@@ -1,0 +1,32 @@
+.add-product{
+      .table-row {
+        display: flex;
+        align-items: flex-start;
+        padding: 4px 0;
+      }
+      
+      .table-row.header {
+        font-weight: bold;
+      }
+      
+      .table-cell {
+        padding: 4px;
+      }
+      .table-cell:first-child{
+        flex: 1;
+      }
+      .table-cell:nth-child(2){
+        max-width: min(150px, 30%);
+        width: min(150px, 30%);
+        text-align: center;
+      }
+      .table-cell:nth-child(3){
+        max-width: min(150px, 30%);
+        width: min(150px, 30%);
+        text-align: center;
+      }
+      
+      .table-row.header .table-cell {
+        padding: 8px 4px;
+      }
+}

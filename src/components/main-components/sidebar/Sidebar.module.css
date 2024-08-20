@@ -1,0 +1,80 @@
+/* Backdrop covering the whole screen */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: flex;
+  justify-content: flex-start; /* Align the sidebar to the start (left) */
+  align-items: stretch; /* Stretch to cover full height */
+  z-index: 1003; /* Ensure it is above other content */
+  animation: fade-in 0.3s ease-out;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: relative;
+  background-color: var(--background-color);
+  height: 100%;
+  max-width: 300px;
+  width: 100%;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+}
+
+/* Keyframes for sliding the sidebar in from the left */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* Keyframes for sliding the sidebar out to the left */
+@keyframes slide-out {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Keyframes for fading in the backdrop */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Keyframes for fading out the backdrop */
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Applying slide-in animation */
+.sidebar-slide-in {
+  animation-name: slide-in;
+}
+
+/* Applying slide-out animation */
+.sidebar-slide-out {
+  animation-name: slide-out;
+}
+
+/* Applying fade-out animation when closing the backdrop */
+.backdrop-fade-out {
+  animation: fade-out 0.3s ease-out forwards;
+}

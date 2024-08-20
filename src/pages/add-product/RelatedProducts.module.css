@@ -1,0 +1,26 @@
+.searched-product{
+    padding: 8px 4px;
+}
+.searched-product:hover{
+    background-color: rgba(var(--primaryColor-rgb), 0.4);
+    cursor: pointer ;
+}
+.selected:hover{
+    background-color: unset; 
+}
+
+.search-product__image{
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+}
+
+.card{
+    margin: 8px;
+    padding: 8px;
+    gap: 16px;
+    display: flex;
+}

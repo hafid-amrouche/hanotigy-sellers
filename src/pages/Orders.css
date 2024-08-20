@@ -1,0 +1,103 @@
+.orders-table{
+  border-radius: 8px;
+  .table-flex .table-row {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+  }
+  
+  .table-flex .table-row.header {
+    font-weight: bold;
+  
+  }
+  .table-flex .table-cell {
+    padding: 4px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word !important; /* Older property, still widely supported */
+    word-break: break-word !important; /* Ensures text breaks within long words */
+    overflow-wrap: break-word !important; /* Modern, standard property */
+    flex-shrink: 0;
+  }
+  
+  .table-flex .table-row.header .table-cell {
+    padding: 8px 4px;
+  }  
+  .table-flex .table-cell:nth-child(1){
+    width: 30px !important;
+  }
+  .table-flex .table-cell:nth-child(2){
+    width: 78px !important;
+  }
+  .table-flex .table-cell:nth-child(3){
+    width: 120px !important;
+  }
+  .table-flex .table-cell:nth-child(4){
+    width: 60px !important;
+  }
+  .table-flex .table-cell:nth-child(5){
+    width: 80px !important;
+  }
+  .table-flex .table-cell:nth-child(6){
+    width: 130px !important;
+  }
+  .table-flex .table-cell:nth-child(7){
+    width: 110px !important;
+  }
+  .table-flex .table-cell:nth-child(8){
+    width: 100px !important;
+  }
+  .table-flex .table-cell:nth-child(9){
+    width: 50px !important;
+  }
+  .table-flex .table-cell:nth-child(10){
+    width: 110px !important;
+  }
+  .table-flex .table-cell:last-child{
+    width: 60px !important;
+    display: flex;
+  }
+  @media (max-width: 570px) {
+    .table-flex{
+      font-size: 0.8rem;
+    }
+    
+    padding: 0 !important;
+
+    .table-flex .table-row.header .table-cell {
+      padding: 4px 2px;
+    } 
+    .table-flex .table-cell:nth-child(1){
+      width: 30px !important;
+    }
+    .table-flex .table-cell:nth-child(2){
+      width: 58px !important;
+    }
+    .table-flex .table-cell:nth-child(3){
+      min-width: 80px !important;
+    }
+    .table-flex .table-cell:nth-child(4){
+      width: 40px !important;
+    }
+    .table-flex .table-cell:nth-child(5){
+      width: 68px !important;
+    }
+    .table-flex .table-cell:nth-child(6){
+      width: 130px !important;
+    }
+    .table-flex .table-cell:nth-child(7){
+      width: 110px !important;
+    }
+    .table-flex .table-cell:nth-child(8){
+      width: 100px !important;
+    }
+    .table-flex .table-cell:nth-child(9){
+      width: 50px !important;
+    }
+    .table-flex .table-cell:nth-child(10){
+      width: 110px !important;
+    }
+  }
+  
+}

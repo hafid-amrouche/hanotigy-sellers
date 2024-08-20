@@ -1,0 +1,29 @@
+
+.password{
+    padding-inline-end: 42px !important;
+}
+.eye{
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.label{
+    position: absolute;
+    left: 8px;
+    z-index: 1;
+    font-weight: bold;
+    color: var(--greyColor);
+    font-size: 1rem;
+}
+.label-on-top{
+    font-size: 12px;
+    top: 0;
+    left: 6px;
+    font-weight:normal;
+    color: var(--colorText);
+}
+.placeholder-exist{
+    padding: 6px 8px !important;
+}

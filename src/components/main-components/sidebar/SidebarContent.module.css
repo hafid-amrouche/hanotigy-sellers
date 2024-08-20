@@ -1,0 +1,33 @@
+.bottom-elements-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.sidebar{
+    background-color: var(--containerColor);
+    color: var(--greyColor);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    transition: width .5s;
+    flex-shrink: 0;
+    height: 100%;
+}
+.title-container{
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--containerColor);
+    color: rgba(var(--textColor-rgb), 0.9);
+}
+
+.title__icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+.title__icon:hover,
+.title__icon:active{
+    color: var(--primaryColor);
+}

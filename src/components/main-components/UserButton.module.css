@@ -1,0 +1,12 @@
+.user-paramters{
+    position: absolute;
+    width: 180px;
+    top: 56px;
+    right: 4px;
+    color: var(--primaryColor);
+}
+
+.user-paramters> :hover,
+.user-paramters> :active{
+    background-color: var(--backgroundColor);
+}

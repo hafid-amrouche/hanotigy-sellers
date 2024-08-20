@@ -1,0 +1,25 @@
+.component{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0 4px 12px;
+}
+.component:hover *,
+.component:active *{
+    color: var(--primaryColor);
+}
+.active{
+    color: var(--primaryColor)
+}
+.icon{
+    font-size: 20px;
+    padding: 12px;
+}
+.label{
+    font-weight: 700;
+    font-size: 18;
+    cursor: pointer;
+}
+.children-container{
+    padding-left: 24px;
+}

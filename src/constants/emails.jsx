@@ -1,0 +1,1 @@
+export const googleSheetsEmail = 'hanotify-api@adept-bastion-432905-r4.iam.gserviceaccount.com'

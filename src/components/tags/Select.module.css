@@ -1,0 +1,45 @@
+.select-container{
+    display: flex;
+    align-items: center;
+    border: var(--borderColor) 1px solid;
+    padding: 6px 8px;
+    background-color: var(--backgroundColor);
+    border-radius: 4px;
+    gap: 8px;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.options-box{
+    position: absolute;
+    z-index: 7;
+    margin-top: 1px;
+    padding-bottom: 20px;
+    width: calc(100% - 2px);
+}
+.option-box__container{
+    overflow-y: auto;
+    max-height: 40vh;
+    border-top: 0;
+    border: var(--borderColor) 1px solid;
+    border-radius: 4px;
+    background-color: var(--containerColor);
+}
+.option{
+    color: var(--primaryColor);
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+}
+.option:hover{
+    background-color: var(--primaryColor);
+    color: var(--containerColor);
+}

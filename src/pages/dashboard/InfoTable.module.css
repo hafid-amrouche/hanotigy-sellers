@@ -1,0 +1,22 @@
+.table{
+    color: var(--greyColor);
+    flex-grow: 1;
+    min-width: 200px;
+    padding: 8px;
+}
+
+.title-container{
+    display: flex;
+    padding-bottom: 8px;
+}
+.title__icon{
+    padding: 8px;
+}
+.table-item{
+    padding: 8px;
+}
+
+.table-item{
+    display: flex;
+    justify-content: space-between;
+}

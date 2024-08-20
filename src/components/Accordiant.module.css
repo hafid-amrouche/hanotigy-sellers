@@ -1,0 +1,6 @@
+.checked{
+    transform: rotate(180deg);
+}
+.icon{
+    transition: transform 300ms ease-in;
+}

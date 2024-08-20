@@ -1,0 +1,11 @@
+.container{
+    color: var(--containerColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+.loading-state {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loading {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: 10px solid #ddd;
+    border-top-color: var(--primaryColor);
+    animation: loading 0.5s linear infinite;
+  }
+  @keyframes loading {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

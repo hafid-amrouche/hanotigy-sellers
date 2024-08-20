@@ -1,0 +1,132 @@
+.orders__container{
+    max-width: min(100%, 1920px);
+    width: max-content;
+    margin: auto;
+    background-color: var(--containerColor);
+    padding: 16px;
+    border-radius: 8px;
+    @media(max-width: 570px ){
+        padding: 4px;
+        border-radius: 0px;
+        width: unset;
+    };
+    box-shadow: 0 5px 20px var(--textFadingColor);
+    border: 1px solid var(--borderColor);
+}
+
+.order:nth-child(even){
+    background-color: rgba(var(--primaryColor-rgb), 0.2);
+  }
+.search__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+.search__container>div{
+    display: flex;
+    gap: 4px;
+    flex: 1;
+    align-items: center;
+}
+
+.status-list-container:hover{
+    background-color: rgba(var(--primaryColor-rgb), 0.4);
+    cursor: pointer;
+}
+
+.smaller{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.td-variants{
+    flex: 1;
+}
+
+@media(max-width: 1240px ){
+    .td-variants{
+        display: none !important;
+    }
+    .td-zero{
+        flex: 1;
+    }
+}
+@media(max-width: 1080px ){
+    .td-zero{
+        display: none !important;
+    }
+    .td-s-type{
+        flex: 1;
+    }
+}
+@media(max-width: 1030px ){
+    .td-s-type{
+        display: none !important;
+    }
+    .td-first{
+        flex: 1;
+    }
+}
+@media(max-width: 930px){
+    .td-first{
+        display: none !important;
+    }
+    .td-second{
+        flex: 1;
+    }
+}
+@media(max-width: 820px ){
+    .td-second{
+        display: none !important;
+    }
+}
+
+@media (max-width: 690px){
+    .td-forth{
+        display: none !important;
+    }
+    .td-third{
+        flex: 1 !important;
+    }
+}
+@media (max-width: 570px){
+    .td-forth{
+        max-width: 110px !important;
+        display: unset !important;
+    }
+
+}
+@media (max-width: 530px){
+    .td-forth{
+        display: none !important;
+    }
+    .never-vanish{
+        flex:1 !important;
+    }
+}
+@media (max-width: 370px){ 
+    .td-third{
+        display: none !important;
+    }
+}
+
+.filtration-table{
+    table-layout: fixed;
+    td{
+        padding: 4px;
+        vertical-align: center
+    };
+    td:first-child{
+        white-space: nowrap;
+        padding-inline-end: 16px
+    };
+    td:nth-child(2){
+        width: 100%;
+    }
+
+}
+.searched-product:hover{
+    cursor: pointer;
+    background-color: rgba(var(--primaryColor-rgb), 0.2);
+}

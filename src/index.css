@@ -1,13 +1,433 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000');
+/* CSS for changing text selection color */
+::selection {
+  background-color: rgba(var(--primaryColor-rgb), 0.8); /* Green color */
+  color: var(--containerColor); /* Text color */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For older versions of Firefox */
+::-moz-selection {
+  background-color: var(--primaryColor);
+  color: var(--containerColor);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+#root {
+  color: var(--colorText);
+  background-color: var(--backgroundColor);
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+.cut-text{
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  overflow: hidden; /* Ensures that the overflow text is hidden */
+  text-overflow: ellipsis; /* Adds the ellipsis at the end of the text */
+}
+
+.container{
+  border-radius: 4px;
+  background-color: var(--containerColor);
+  box-shadow: 0 5px 20px var(--textFadingColor);
+  border: 1px solid var(--borderColor);
+}
+.hover-icon:hover,
+.hover-icon:active{
+  background-color: var(--background200Color);
+  border-radius: 50%;
+
+}
+
+.flex-1{
+  flex: 1 1 !important;
+}
+.d-f{
+  display: flex!important;
+}
+.f-wrap{
+  flex-wrap: wrap!important;
+}
+.g-2{
+  gap: 4px!important;
+}
+.g-3{
+  gap: 8px!important;
+}
+.g-4{
+  gap: 16px !important;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+.justify-space-around{
+  justify-content: space-around;
+}
+.row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.color-primary{
+  color: var(--primaryColor);
+}
+.color-text{
+  color: var(--textColor);
+}
+.color-red{
+  color: red;
+}
+
+.text-center{
+  text-align: center !important;
+}
+.p-relative{
+  position: relative;
+}
+.p-sticky{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+button{
+  background:none;
+  border: none;
+  color: unset;
+  cursor: pointer;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+[disabled]{
+  opacity: 0.5 !important;
+  pointer-events: none !important; /* Disable any pointer events (clicks, hovers, etc.) */
+  cursor:not-allowed !important;
+}
+input[disabled]{
+  opacity: 0.8 !important;
+}
+.no-event{
+  pointer-events: none
+}
+
+.box-input {
+  display: block;
+  position: relative;
+  padding: 6px 8px;
+  font-size: 1rem;
+  background-color: rgba(var(--containerColor-rgb), 0.4);
+  background-clip: padding-box;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  position: relative;
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  overflow: hidden; /* Ensures that the overflow text is hidden */
+  text-overflow: ellipsis; /* Adds the ellipsis at the end of the text */
+  width: 100%;
+}
+.box-input:focus {
+  border-color: var(--primaryColor);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(var(--primaryColor-rgb), 0.25);
+} 
+.error,
+.error *{
+  border-color: red !important;
+  color: red !important;
+}
+.error:focus,
+.error:focus {
+  border-color: red;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+.success{
+  border-color: rgb(0, 156, 13);
+  color: rgb(0, 156, 13);
+}
+.success:focus {
+  border-color: rgb(0, 156, 13);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 156, 13, 0.25);
+}
+
+input[type='checkbox']{
+  cursor: pointer;
+  scale: 1.2;
+}
+input[type='checkbox']:not(.simple){
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--backgroundColor);
+  border-radius: 15px !important;
+  height: 28px;
+  min-width: 30px;
+  position: relative;
+  transition: .4s;
+  width: 50px;
+  border: rgba(var(--greyColor-rgb), 0.4) 1px solid;
+}
+input[type='checkbox']:not(.simple):checked{
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor)
+}
+input[type='checkbox']:not(.simple):after{
+  background: var(--containerColor);
+  border-radius: 50%;
+  box-shadow: 0 0 5px #0003;
+  content: "";
+  height: 20px;
+  left: 10%;
+  position: absolute;
+  top: 3px;
+  transition: .4s;
+  width: 20px;
+}
+input[type='checkbox']:checked[type=checkbox]:not(.simple):after{
+  left: 50%;
+}
+
+
+input[type=radio] {
+  accent-color: var(--primaryColor);
+  scale: 1.5;
+  padding: 4px;
+  cursor: pointer;
+}
+.w-fit-content{
+  width: fit-content;
+}
+.borderless,
+.borderless:focus{
+  border: none !important;
+  outline: none !important;
+  box-shadow: unset !important;
+  padding: 0;
+}
+.border{
+  box-shadow: 0 5px 20px var(--textFadingColor);
+  border: 1px solid var(--borderColor);
+  border-radius: 4px;
+}
+
+.mb-2{
+  margin-bottom: 8px;
+}
+.mb-3{
+  margin-bottom: 8px;
+}
+.mb-4{
+  margin-bottom: 16px;
+}
+.m-3{
+  margin: 8px;
+}
+.m-2{
+  margin: 4px;
+}
+.ms-2{
+  margin-inline-start: 8px;
+}
+.mt-1{
+  margin-top: 4px;
+}
+.mt-2{
+  margin-top: 8px;
+}
+.my-2{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.p-2{
+  padding: 8px !important;
+}
+
+.p-1{
+  padding: 4px;
+}
+
+.p-3{
+  padding: 16px !important;
+}
+.px-4{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.px-3{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-2{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.px-1{
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+.pb-1{
+  padding-bottom: 4px;
+}
+.pb-2{
+  padding-bottom: 8px;
+}
+.py-1{
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+.py-2{
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.py-3{
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+} 
+.w-100{
+  width: 100% !important;
+}
+.vw-100{
+  width: 100vw;
+}
+
+.reorder-item nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.reorder-item ul,
+.reorder-item li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.reorder-item ul {
+  position: relative;
+  cursor: pointer;
+}
+
+.reorder-item li {
+  margin: 5px 0;
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+  transition: scale 300ms ease-in;
+}
+.reorder-item li:hover,
+.reorder-item li:active{
+  scale: 1.01;
+}
+
+.reorder-item li svg {
+  width: 18px;
+  height: 18px;
+  cursor: grab;
+}
+
+.reorder-item .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.reorder-item .refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(var(--textColor-rgb), 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.no-select{
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.jiggle {
+  animation: scale-animation 500ms infinite alternate;
+}
+
+.align-start{
+  align-items: flex-start !important;
+}
+
+.no-break{
+  white-space: nowrap;     /* Prevents text from wrapping */
+  overflow: visible;       /* Allows the text to overflow the container */
+  text-overflow: clip; 
+}
+.scale-on-hover:hover{
+  scale: 1.01;
+}
+.scale-2:hover{
+  scale: 1.1;
+}
+.scale-on-hover{
+  transition: scale 300ms ease-in-out;
+  cursor: pointer;
+}
+.right-0{
+  right: 0
+}
+
+.lh-1{
+  line-height: 130%;
+}
+.break-line{
+  word-wrap: break-word; /* Older property, still widely supported */
+  word-break: break-word; /* Ensures text breaks within long words */
+  overflow-wrap: break-word; /* Modern, standard property */
+}
+.blur{
+  filter: blur(2px);
 }

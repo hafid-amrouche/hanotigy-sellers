@@ -1,0 +1,10 @@
+.options {
+    top: 0;
+    z-index: 1;
+    min-width: 200px;
+    width: max-content;
+  }
+.container>:hover{
+    background-color: rgba(var(--primaryColor-rgb), 0.2);
+    cursor: pointer;
+}
