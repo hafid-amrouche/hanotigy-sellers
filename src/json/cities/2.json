@@ -1,0 +1,212 @@
+[
+    {
+        "id": 29,
+        "name": "Abou El Hassane - Abou El Hassane",
+        "name_ar": "أبو الحسن - أبو الحسن",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 30,
+        "name": "Ain Merane - Ain Merane",
+        "name_ar": "عين مران - عين مران",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 31,
+        "name": "Zeboudja - Benairia",
+        "name_ar": "الزبوجة - بنايرية",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 32,
+        "name": "El Karimia - Beni  Bouattab",
+        "name_ar": "الكريمية - بني بوعتاب",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 33,
+        "name": "Beni Haoua - Beni Haoua",
+        "name_ar": "بني حواء - بني حواء",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 34,
+        "name": "Oued Fodda - Beni Rached",
+        "name_ar": "وادي الفضة - بني راشد",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 35,
+        "name": "Boukadir - Boukadir",
+        "name_ar": "بوقادير - بوقادير",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 36,
+        "name": "Zeboudja - Bouzeghaia",
+        "name_ar": "الزبوجة - بوزغاية",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 37,
+        "name": "Beni Haoua - Breira",
+        "name_ar": "بني حواء - بريرة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 38,
+        "name": "Ouled Fares - Chettia",
+        "name_ar": "أولاد فارس - الشطية",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 39,
+        "name": "Chlef - Chlef",
+        "name_ar": "الشلف - الشلف",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 40,
+        "name": "Taougrit - Dahra",
+        "name_ar": "تاوقريت - الظهرة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 41,
+        "name": "Ouled Ben Abdelkader - El Hadjadj",
+        "name_ar": "أولاد بن عبد القادر - الحجاج",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 42,
+        "name": "El Karimia - El Karimia",
+        "name_ar": "الكريمية - الكريمية",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 43,
+        "name": "El Marsa - El Marsa",
+        "name_ar": "المرسى - المرسى",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 44,
+        "name": "El Karimia - Harchoun",
+        "name_ar": "الكريمية - حرشون",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 45,
+        "name": "Ain Merane - Herenfa",
+        "name_ar": "عين مران - الهرانفة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 46,
+        "name": "Ouled Fares - Labiod Medjadja",
+        "name_ar": "أولاد فارس - الأبيض مجاجة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 47,
+        "name": "El Marsa - Moussadek",
+        "name_ar": "المرسى - مصدق",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 48,
+        "name": "Oued Fodda - Oued Fodda",
+        "name_ar": "وادي الفضة - وادي الفضة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 49,
+        "name": "Beni Haoua - Oued Goussine",
+        "name_ar": "بني حواء - وادي قوسين",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 50,
+        "name": "Boukadir - Oued Sly",
+        "name_ar": "بوقادير - وادي سلي",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 51,
+        "name": "Oued Fodda - Ouled Abbes",
+        "name_ar": "وادي الفضة - أولاد عباس",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 52,
+        "name": "Ouled Ben Abdelkader - Ouled Ben Abdelkader",
+        "name_ar": "أولاد بن عبد القادر - أولاد بن عبد القادر",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 53,
+        "name": "Ouled Fares - Ouled Fares",
+        "name_ar": "أولاد فارس - أولاد فارس",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 54,
+        "name": "Chlef - Oum Drou",
+        "name_ar": "الشلف - أم الدروع",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 55,
+        "name": "Chlef - Sendjas",
+        "name_ar": "الشلف - سنجاس",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 56,
+        "name": "Tenes - Sidi Abderrahmane",
+        "name_ar": "تنس - سيدي عبد الرحمن",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 57,
+        "name": "Tenes - Sidi Akkacha",
+        "name_ar": "تنس - سيدي عكاشة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 58,
+        "name": "Boukadir - Sobha",
+        "name_ar": "بوقادير - الصبحة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 59,
+        "name": "Abou El Hassane - Tadjena",
+        "name_ar": "أبو الحسن - تاجنة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 60,
+        "name": "Abou El Hassane - Talassa",
+        "name_ar": "أبو الحسن - تلعصة",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 61,
+        "name": "Taougrit - Taougrit",
+        "name_ar": "تاوقريت - تاوقريت",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 62,
+        "name": "Tenes - Tenes",
+        "name_ar": "تنس - تنس",
+        "wilaya_code": "02"
+    },
+    {
+        "id": 63,
+        "name": "Zeboudja - Zeboudja",
+        "name_ar": "الزبوجة - الزبوجة",
+        "wilaya_code": "02"
+    }
+]

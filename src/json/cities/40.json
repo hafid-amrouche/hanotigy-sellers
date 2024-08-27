@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1308,
+        "name": "Ain Touila - Ain Touila",
+        "name_ar": "عين الطويلة - عين الطويلة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1309,
+        "name": "Babar - Babar",
+        "name_ar": "بابار - بابار",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1310,
+        "name": "El Hamma - Baghai",
+        "name_ar": "الحامة - بغاي",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1311,
+        "name": "Bouhmama - Bouhmama",
+        "name_ar": "بوحمامة - بوحمامة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1312,
+        "name": "Chechar - Chechar",
+        "name_ar": "ششار - ششار",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1313,
+        "name": "Bouhmama - Chelia",
+        "name_ar": "بوحمامة - شلية",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1314,
+        "name": "Chechar - Djellal",
+        "name_ar": "ششار - جلال",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1315,
+        "name": "El Hamma - El Hamma",
+        "name_ar": "الحامة - الحامة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1316,
+        "name": "Ouled Rechache - El Mahmal",
+        "name_ar": "أولاد رشاش - المحمل",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1317,
+        "name": "Chechar - El Oueldja",
+        "name_ar": "ششار - الولجة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1318,
+        "name": "El Hamma - Ensigha",
+        "name_ar": "الحامة - انسيغة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1319,
+        "name": "Kais - Kais",
+        "name_ar": "قايس - قايس",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1320,
+        "name": "Khenchela - Khenchela",
+        "name_ar": "خنشلة - خنشلة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1321,
+        "name": "Chechar - Khirane",
+        "name_ar": "ششار - خيران",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1322,
+        "name": "Bouhmama - M'sara",
+        "name_ar": "بوحمامة - مصارة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1323,
+        "name": "Ain Touila - M'toussa",
+        "name_ar": "عين الطويلة - متوسة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1324,
+        "name": "Ouled Rechache - Ouled Rechache",
+        "name_ar": "أولاد رشاش - أولاد رشاش",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1325,
+        "name": "Kais - Remila",
+        "name_ar": "قايس - الرميلة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1326,
+        "name": "El Hamma - Tamza",
+        "name_ar": "الحامة - طامزة",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1327,
+        "name": "Kais - Taouzianat",
+        "name_ar": "قايس - تاوزيانت",
+        "wilaya_code": "40"
+    },
+    {
+        "id": 1328,
+        "name": "Bouhmama - Yabous",
+        "name_ar": "بوحمامة - يابوس",
+        "wilaya_code": "40"
+    }
+]

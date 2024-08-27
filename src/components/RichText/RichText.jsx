@@ -62,12 +62,13 @@ const options = {
 
 const RichText = ({ name, onChange, ...props }) => {
   const productId = useContextSelector(AddProductContext, state=>state.productInfo.productId)
-  const handleImageUploadBefore = async (files, info, uploadHandler) => {
-    const image = (await reduceImageQuality(files))[0]
+  const handleImageUploadBefore = async (files) => {
+    const image = (await reduceImageQuality(files, 0.7, 1080, 'webp', false))[0]
     const authToken = localStorage.getItem('token'); // Replace with your actual authentication token
     const formData = new FormData();
     formData.append('image', image);
     formData.append('product_id', productId)
+    formData.append('store_id', localStorage.getItem('storeId'))
 
     await axios({
       method: 'POST',

@@ -1,0 +1,206 @@
+[
+    {
+        "id": 853,
+        "name": "Bouchegouf - Ain Ben Beida",
+        "name_ar": "بوشقوف - عين بن بيضاء",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 854,
+        "name": "Ain Makhlouf - Ain Larbi",
+        "name_ar": "عين مخلوف - عين العربي",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 855,
+        "name": "Ain Makhlouf - Ain Makhlouf",
+        "name_ar": "عين مخلوف - عين مخلوف",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 856,
+        "name": "Oued Zenati - Ain Regada",
+        "name_ar": "وادي الزناتي - عين رقادة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 857,
+        "name": "Khezaras - Ain Sandel",
+        "name_ar": "خزارة - عين صندل",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 858,
+        "name": "Guelaat Bousbaa - Belkheir",
+        "name_ar": "قلعة بوصبع - بلخير",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 859,
+        "name": "Guelma - Bendjarah",
+        "name_ar": "قالمة - بن جراح",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 860,
+        "name": "Guelaat Bousbaa - Beni Mezline",
+        "name_ar": "قلعة بوصبع - بني مزلين",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 861,
+        "name": "Oued Zenati - Bordj Sabath",
+        "name_ar": "وادي الزناتي - برج صباط",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 862,
+        "name": "Khezaras - Bou Hachana",
+        "name_ar": "خزارة - بوحشانة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 863,
+        "name": "Hammam Debagh - Bou Hamdane",
+        "name_ar": "حمام دباغ - بوحمدان",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 864,
+        "name": "Heliopolis - Bouati Mahmoud",
+        "name_ar": "هيليوبوليس - بوعاتي محمود",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 865,
+        "name": "Bouchegouf - Bouchegouf",
+        "name_ar": "بوشقوف - بوشقوف",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 866,
+        "name": "Guelaat Bousbaa - Boumahra Ahmed",
+        "name_ar": "قلعة بوصبع - بومهرة أحمد",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 867,
+        "name": "Hammam N'bails - Dahouara",
+        "name_ar": "حمام النبايل - الدهوارة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 868,
+        "name": "Guelaat Bousbaa - Djeballah Khemissi",
+        "name_ar": "قلعة بوصبع - جبالة الخميسي",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 869,
+        "name": "Heliopolis - El Fedjoudj",
+        "name_ar": "هيليوبوليس - الفجوج",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 870,
+        "name": "Guelaat Bousbaa - Guelaat Bou Sbaa",
+        "name_ar": "قلعة بوصبع - قلعة بوصبع",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 871,
+        "name": "Guelma - Guelma",
+        "name_ar": "قالمة - قالمة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 872,
+        "name": "Hammam Debagh - Hammam Debagh",
+        "name_ar": "حمام دباغ - حمام دباغ",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 873,
+        "name": "Hammam N'bails - Hammam N'bail",
+        "name_ar": "حمام النبايل - حمام النبايل",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 874,
+        "name": "Heliopolis - Heliopolis",
+        "name_ar": "هيليوبوليس - هيليوبوليس",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 875,
+        "name": "Guelaat Bousbaa - Nechmaya",
+        "name_ar": "قلعة بوصبع - نشماية",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 876,
+        "name": "Khezaras - Khezaras",
+        "name_ar": "خزارة - لخزارة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 877,
+        "name": "Ain Hessainia - Medjez Amar",
+        "name_ar": "عين حساينية - مجاز عمار",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 878,
+        "name": "Bouchegouf - Medjez Sfa",
+        "name_ar": "بوشقوف - مجاز الصفاء",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 879,
+        "name": "Ain Hessainia - Houari Boumedienne",
+        "name_ar": "عين حساينية - هواري بومدين",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 880,
+        "name": "Hammam N'bails - Oued Cheham",
+        "name_ar": "حمام النبايل - وادي الشحم",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 881,
+        "name": "Bouchegouf - Oued Ferragha",
+        "name_ar": "بوشقوف - وادي فراغة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 882,
+        "name": "Oued Zenati - Oued Zenati",
+        "name_ar": "وادي الزناتي - وادي الزناتي",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 883,
+        "name": "Ain Hessainia - Ras El Agba",
+        "name_ar": "عين حساينية - رأس العقبة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 884,
+        "name": "Hammam Debagh - Roknia",
+        "name_ar": "حمام دباغ - الركنية",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 885,
+        "name": "Ain Hessainia - Sellaoua Announa",
+        "name_ar": "عين حساينية - سلاوة عنونة",
+        "wilaya_code": "24"
+    },
+    {
+        "id": 886,
+        "name": "Ain Makhlouf - Tamlouka",
+        "name_ar": "عين مخلوف - تاملوكة",
+        "wilaya_code": "24"
+    }
+]

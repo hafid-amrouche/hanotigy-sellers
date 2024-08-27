@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { forwardRef, useRef, useState } from 'react'
 import classes from '../AddProduct.module.css'
 import { deleteImage, fileToBase64, reduceImageQuality, translate } from 'utils/utils'
 import DialogComponent from 'components/tags/Dialog'
@@ -11,7 +11,7 @@ import { useContextSelector } from 'use-context-selector'
 import { useBrowserContext } from 'store/browser-context'
 
 
-const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-variant-image', resolution=1080})=>{
+const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-variant-image', outputFormat='webp', resolution=1080, extraData={}, fixedWidth=true, type, rounded=true})=>{
     const [showModal, setShowModal] =useState(false)
     const modelRef = useRef()
     const productId = useContextSelector(AddProductContext, state=>state.productInfo.productId)
@@ -26,10 +26,14 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
       setTimeout(()=>modelRef.current?.close(), 100)
       try{ 
           const files = event.target.files
-          const file = (await reduceImageQuality(files, 0.7, resolution, "webp"))[0];
+          const file = (await reduceImageQuality(files, 0.7, resolution, outputFormat))[0];
           if (file) {
               const formData = new FormData();
               formData.append('image', file);
+              formData.append('store_id', localStorage.getItem('storeId'));
+              Object.entries(extraData).forEach(([key, value])=>{
+                formData.append(key, value)
+              })
               if (productId) formData.append('product_id', productId)
               const response = await axios({
                   method: 'POST',
@@ -60,7 +64,7 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
     const deleteImageFunction=async()=>{
       setDeleting(true)
       try{
-        const response = await deleteImage(image) 
+        const response = await deleteImage(image, type) 
         if (response){
             imageChangeHandler(null)
             setInnerImage(null)
@@ -73,24 +77,28 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
         
       setDeleting(false)
     }
+    console.log(innerImage)
     return(
       <>
         <input type='file' onChange={changeHandler} 
         accept="image/jpeg, image/png, image/gif, image/bmp, image/webp, image/tiff"
-        style={{display: 'none'}} ref={imageInputRef} />
+          style={{display: 'none'}} ref={imageInputRef} />
         <button 
             style={{
-                backgroundImage: innerImage ? `url('${innerImage}')` : undefined,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
                 width: size,
                 height: size,
+                backgroundColor: innerImage ? 'transparent' : undefined,
+                border: innerImage ? 'none' : undefined,
+                borderRadius : rounded ? undefined : 0
             }}
             className={classes['color-button'] + ' container'}
             onClick={()=> image ? setShowModal(true) : imageInputRef.current?.click()}
         >
             { !innerImage && !loading && <i className='fa-solid fa-cloud-arrow-up color-primary' style={{fontSize: size/2}} />}
-            { loading && <div style={{backgroundColor: 'rgba(var(--containerColor-rgb), 0.5)', width: '100%', height: '100%'}} className='d-f align-center justify-center'><Loader diam={24} /></div> }
+            <div style={{position:'absolute', left: -1, top:0, height: size, minWidth: size}}>
+            {innerImage && <img src={innerImage} id={innerImage} style={{objectFit: 'cover', height: size, width: fixedWidth ? size : undefined, borderRadius:rounded ? 4 : 0}} />}
+              { loading && <div style={{backgroundColor: 'rgba(var(--containerColor-rgb), 0.5)', minWidth: '100%', height: '100%', zIndex: 1, position: 'absolute', top: 0}} className='d-f align-center justify-center'><Loader diam={24} /></div> }
+             </div>
         </button>
         {showModal && <DialogComponent open={showModal} close={()=>setShowModal(false)} backDropPressCloses={true} ref={modelRef}>
           <div 
@@ -110,7 +118,7 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
                         style={{
                           width: 200,
                           height: 200,
-                          borderRadius: 8,
+                          borderRadius: rounded ? 8 : 0,
                           backgroundImage: `url('${innerImage}')`,
                           backgroundSize: 'cover',
                           backgroundPosition: 'center',
@@ -130,9 +138,9 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
                               position: 'absolute'
                             }}
                         >
-                            <IconWithHover style={{backgroundColor: 'rgba(var(--containerColor-rgb), 0.6)', fontSize: 32, padding: 4, borderRadius: 4}} iconClass='fa-solid fa-cloud-arrow-up color-primary' />
+                            <IconWithHover style={{backgroundColor: 'rgba(var(--containerColor-rgb), 0.6)', fontSize: 32, padding: 4, borderRadius: rounded ? 4 : 0}} iconClass='fa-solid fa-cloud-arrow-up color-primary' />
                         </button>
-                        <IconWithHover style={{position: 'absolute', top: 0, right: 0, backgroundColor: 'rgba(var(--containerColor-rgb), 0.6)', padding: 4, borderRadius: 4}} iconClass='fa-solid fa-trash color-red m-2' onClick={deleteImageFunction} />
+                        <IconWithHover style={{position: 'absolute', top: 0, right: 0, backgroundColor: 'rgba(var(--containerColor-rgb), 0.6)', padding: 4, borderRadius: rounded ? 4 : 0}} iconClass='fa-solid fa-trash color-red m-2' onClick={deleteImageFunction} />
                       </div>
                     </div>
                   </div>

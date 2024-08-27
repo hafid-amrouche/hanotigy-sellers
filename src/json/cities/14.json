@@ -1,0 +1,254 @@
+[
+    {
+        "id": 445,
+        "name": "Dahmouni - Ain Bouchekif",
+        "name_ar": "دحموني - عين بوشقيف",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 446,
+        "name": "Ain Deheb - Ain Deheb",
+        "name_ar": "عين الذهب - عين الذهب",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 447,
+        "name": "Mahdia - Ain Dzarit",
+        "name_ar": "مهدية - عين دزاريت",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 448,
+        "name": "Frenda - Ain El Hadid",
+        "name_ar": "فرندة - عين الحديد",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 449,
+        "name": "Ain Kermes - Ain Kermes",
+        "name_ar": "عين كرمس - عين كرمس",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 450,
+        "name": "Hamadia - Bougara",
+        "name_ar": "حمادية - بوقرة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 451,
+        "name": "Ain Deheb - Chehaima",
+        "name_ar": "عين الذهب - شحيمة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 452,
+        "name": "Dahmouni - Dahmouni",
+        "name_ar": "دحموني - دحموني",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 453,
+        "name": "Ain Kermes - Djebilet Rosfa",
+        "name_ar": "عين كرمس - جبيلات الرصفاء",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 454,
+        "name": "Mechraa Sfa - Djillali Ben Amar",
+        "name_ar": "مشرع الصفا - جيلالي بن عمار",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 455,
+        "name": "Sougueur - Faidja",
+        "name_ar": "السوقر - الفايجة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 456,
+        "name": "Frenda - Frenda",
+        "name_ar": "فرندة - فرندة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 457,
+        "name": "Rahouia - Guertoufa",
+        "name_ar": "رحوية - قرطوفة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 458,
+        "name": "Hamadia - Hamadia",
+        "name_ar": "حمادية - حمادية",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 459,
+        "name": "Ksar Chellala - Ksar Chellala",
+        "name_ar": "قصر الشلالة - قصر الشلالة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 460,
+        "name": "Ain Kermes - Madna",
+        "name_ar": "عين كرمس - مادنة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 461,
+        "name": "Mahdia - Mahdia",
+        "name_ar": "مهدية - مهدية",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 462,
+        "name": "Mechraa Sfa - Mechraa Safa",
+        "name_ar": "مشرع الصفا - مشرع الصفا",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 463,
+        "name": "Ain Kermes - Medrissa",
+        "name_ar": "عين كرمس - مدريسة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 464,
+        "name": "Medroussa - Medroussa",
+        "name_ar": "مدروسة - مدروسة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 465,
+        "name": "Meghila - Meghila",
+        "name_ar": "مغيلة - مغيلة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 466,
+        "name": "Medroussa - Mellakou",
+        "name_ar": "مدروسة - ملاكو",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 467,
+        "name": "Mahdia - Nadorah",
+        "name_ar": "مهدية - الناظورة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 468,
+        "name": "Ain Deheb - Naima",
+        "name_ar": "عين الذهب - النعيمة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 469,
+        "name": "Oued Lili - Oued Lilli",
+        "name_ar": "وادي ليلي - وادي ليلي",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 470,
+        "name": "Rahouia - Rahouia",
+        "name_ar": "رحوية - الرحوية",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 471,
+        "name": "Hamadia - Rechaiga",
+        "name_ar": "حمادية - الرشايقة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 472,
+        "name": "Mahdia - Sebaine",
+        "name_ar": "مهدية - السبعين",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 473,
+        "name": "Meghila - Sebt",
+        "name_ar": "مغيلة - السبت",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 474,
+        "name": "Ksar Chellala - Serghine",
+        "name_ar": "قصر الشلالة - سرغين",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 475,
+        "name": "Sougueur - Si Abdelghani",
+        "name_ar": "السوقر - سي عبد الغني",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 476,
+        "name": "Ain Kermes - Sidi Abderrahmane",
+        "name_ar": "عين كرمس - سيدي عبد الرحمن",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 477,
+        "name": "Oued Lili - Sidi Ali Mellal",
+        "name_ar": "وادي ليلي - سيدي علي ملال",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 478,
+        "name": "Medroussa - Sidi Bakhti",
+        "name_ar": "مدروسة - سيدي بختي",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 479,
+        "name": "Meghila - Sidi Hosni",
+        "name_ar": "مغيلة - سيدي حسني",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 480,
+        "name": "Sougueur - Sougueur",
+        "name_ar": "السوقر - السوقر",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 481,
+        "name": "Mechraa Sfa - Tagdempt",
+        "name_ar": "مشرع الصفا - تاقدمت",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 482,
+        "name": "Frenda - Takhemaret",
+        "name_ar": "فرندة - تخمرت",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 483,
+        "name": "Tiaret - Tiaret",
+        "name_ar": "تيارت - تيارت",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 484,
+        "name": "Oued Lili - Tidda",
+        "name_ar": "وادي ليلي - تيدة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 485,
+        "name": "Sougueur - Tousnina",
+        "name_ar": "السوقر - توسنينة",
+        "wilaya_code": "14"
+    },
+    {
+        "id": 486,
+        "name": "Ksar Chellala - Zmalet El Emir Abdelkade",
+        "name_ar": "قصر الشلالة - زمالة  الأمير عبد القادر",
+        "wilaya_code": "14"
+    }
+]

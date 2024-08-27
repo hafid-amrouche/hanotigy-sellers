@@ -42,11 +42,32 @@ export function isAccaptableCharacter(char) {
   // Test the character against the regular expression
   return regex.test(char);
 }
+const getScrollableAncestor = (element) => {
+  let currentNode = element.parentElement;
 
+  while (currentNode && currentNode !== document.body) {
+    const style = window.getComputedStyle(currentNode);
+    const overflow = style.overflow;
+    const overflowY = style.overflowY;
+
+    // Check if the element is scrollable
+    if ( overflow  === 'auto' || overflowY  === 'auto' ) {
+      if (currentNode.scrollHeight > currentNode.clientHeight) {
+        return currentNode;
+      }
+    }
+
+    // Move to the parent node
+    currentNode = currentNode.parentElement;
+  }
+
+  // Default to the body or documentElement if no scrollable ancestor is found
+  return document.scrollingElement || document.documentElement;
+};
 export function adjustScrollPosition(element, delta= 0) {
   // Get the element's bounding box relative to the viewport
   const rect = element.getBoundingClientRect();
-  const scrollingContainer = document.documentElement
+  const scrollingContainer = getScrollableAncestor(element)
   // Calculate the amount of space needed to ensure the dropdown is fully visible
   const spaceBelow = scrollingContainer.clientHeight - rect.bottom + delta;
 
@@ -62,7 +83,7 @@ export function adjustScrollPosition(element, delta= 0) {
 export function adjustScrollToTop(element, delta= 0) {
   // Get the element's bounding box relative to the viewport
   const rect = element.getBoundingClientRect();
-  const scrollingContainer = document.documentElement
+  const scrollingContainer = getScrollableAncestor(element)
   // Calculate the amount of space needed to ensure the dropdown is fully visible
 
   scrollingContainer.scrollBy({
@@ -72,7 +93,7 @@ export function adjustScrollToTop(element, delta= 0) {
 
 }
 
-export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, outputFormat = 'webp') {
+export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, outputFormat = null, fixHeight=true) {
   const filesArray = Array.from(fileList);
   const promises = filesArray.map((inputFile) => {
     return new Promise((resolve, reject) => {
@@ -85,33 +106,56 @@ export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, ou
           const canvas = document.createElement('canvas');
           const ctx = canvas.getContext('2d');
 
-          const MAX_WIDTH = dim;
-          const MAX_HEIGHT = dim;
           let width = imgBitmap.width;
           let height = imgBitmap.height;
 
-          if (width > height) {
-            if (width > MAX_WIDTH) {
-              height *= MAX_WIDTH / width;
-              width = MAX_WIDTH;
+          if (fixHeight){
+            if (width > height) {
+              if (width > dim) {
+                width = dim;
+                height *= dim / width;
+              }
+            } else {
+              if (height > dim) {
+                width *= dim / height;
+                height = dim;
+              }
             }
-          } else {
-            if (height > MAX_HEIGHT) {
-              width *= MAX_HEIGHT / height;
-              height = MAX_HEIGHT;
+          } 
+          else{
+            if (width > dim) {
+              width = dim;
+              height *= dim / width;
             }
-          }
+          } 
 
           canvas.width = width;
           canvas.height = height;
 
           ctx.drawImage(imgBitmap, 0, 0, width, height);
 
-          let mimeType = 'image/jpeg';
-          let extension = 'jpg';
-          if (outputFormat === 'webp') {
-            mimeType = 'image/webp';
-            extension = 'webp';
+          // Determine the output format and mime type based on input or the provided outputFormat
+          let mimeType;
+          let extension;
+
+          if (outputFormat) {
+            if (outputFormat === 'webp') {
+              mimeType = 'image/webp';
+              extension = 'webp';
+            } else if (outputFormat === 'jpeg' || outputFormat === 'jpg') {
+              mimeType = 'image/jpeg';
+              extension = 'jpg';
+            } else if (outputFormat === 'png') {
+              mimeType = 'image/png';
+              extension = 'png';
+            } else {
+              mimeType = inputFile.type; // Fall back to input file type if unknown
+              extension = inputFile.name.split('.').pop();
+            }
+          } else {
+            // Use the original file's type
+            mimeType = inputFile.type;
+            extension = inputFile.name.split('.').pop();
           }
 
           canvas.toBlob((blob) => {
@@ -135,7 +179,6 @@ export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, ou
 
   return Promise.all(promises);
 }
-
 export function trimStart(str, char=' ') {
   let startIndex = 0;
   while (startIndex < str.length && str[startIndex] === char) {
@@ -177,12 +220,14 @@ export async function fileToBase64(file) {
   });
 }
 
-export const deleteImage = async(url)=>{
+export const deleteImage = async(url, type)=>{
   try{
     await axios.post(
         filesUrl + '/delete-image',
         {
-            image: url
+            image: url,
+            type,
+            store_id: localStorage.getItem('storeId')
         },
         {
             headers: {
@@ -322,4 +367,15 @@ export function copyToClipboard(text) {
   }).catch(err => {
       console.error("Failed to copy text: ", err);
   });
+}
+
+export const componentLoader = async(importFunction)=>{
+  const loading = document.getElementById('loading__div')
+  const header = document.getElementById('Header')
+  if (loading) loading.style.display='block'
+  if (header) header.style.marginTop = '4px'
+  await importFunction()
+  if (loading) loading.style.display='none'
+  if (header) header.style.removeProperty('margin-top')
+  return null
 }

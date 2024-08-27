@@ -15,7 +15,7 @@
 }
 
 .order:nth-child(even){
-    background-color: rgba(var(--primaryColor-rgb), 0.2);
+    background-color: rgba(var(--primaryColor-rgb), 0.1);
   }
 .search__container{
     display: flex;
@@ -129,4 +129,10 @@
 .searched-product:hover{
     cursor: pointer;
     background-color: rgba(var(--primaryColor-rgb), 0.2);
+}
+
+.primary-to-success{
+    --primaryColor-rgb : var(--successColor-rgb);
+    --primaryColor : var(--successColor);
+    --primary100Color: #218538;
 }

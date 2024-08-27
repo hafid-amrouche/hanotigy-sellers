@@ -97,7 +97,7 @@ const AddCategoryContent=({setCategories, setSelecetdCategories, close})=>{
             </div>
             <textarea defaultValue={description} onBlur={(e)=>setDescription(e.target.value.trim())} placeholder={'Description for the category'} className='box-input' />
             <div className='d-f  align-center justify-center'>
-                <UploadImageButton image={image} imageChangeHandler={setImage} url='/upload-category-image' size={64} />
+                <UploadImageButton type='category' resolution={480} image={image} imageChangeHandler={setImage} url='/upload-category-image' size={64} />
             </div>
             { !loading && <Button outline className='g-3' disabled={title.trim().length === 0 } onClick={saveCategory}><i className='fa fa-solid fa-bookmark'></i> { translate('Save category') }</Button>}
             { loading && <Button className='g-3'  disabled><Loader diam={20} /> { translate('Saving...') }</Button>}

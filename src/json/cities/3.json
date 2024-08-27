@@ -1,0 +1,146 @@
+[
+    {
+        "id": 64,
+        "name": "Aflou - Aflou",
+        "name_ar": "أفلو - أفلو",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 65,
+        "name": "Ain Madhi - Ain Madhi",
+        "name_ar": "عين ماضي - عين ماضي",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 66,
+        "name": "Gueltat Sidi Saad - Ain Sidi Ali",
+        "name_ar": "قتلة سيدي سعيد - عين سيدي علي",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 67,
+        "name": "Gueltat Sidi Saad - El Beidha",
+        "name_ar": "قتلة سيدي سعيد - البيضاء",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 68,
+        "name": "Ksar El Hirane - Benacer Benchohra",
+        "name_ar": "قصر الحيران - بن ناصر بن شهرة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 69,
+        "name": "Brida - Brida",
+        "name_ar": "بريدة - بريدة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 70,
+        "name": "Sidi Makhlouf - El Assafia",
+        "name_ar": "سيدي مخلوف - العسافية",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 71,
+        "name": "El Ghicha - El Ghicha",
+        "name_ar": "الغيشة - الغيشة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 72,
+        "name": "Ain Madhi - El Haouaita",
+        "name_ar": "عين ماضي - الحويطة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 73,
+        "name": "Gueltat Sidi Saad - Gueltat Sidi Saad",
+        "name_ar": "قتلة سيدي سعيد - قلتة سيدي سعد",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 74,
+        "name": "Brida - Hadj Mechri",
+        "name_ar": "بريدة - الحاج مشري",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 75,
+        "name": "Hassi R'mel - Hassi Delaa",
+        "name_ar": "حاسي الرمل - حاسي الدلاعة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 76,
+        "name": "Hassi R'mel - Hassi R'mel",
+        "name_ar": "حاسي الرمل - حاسي الرمل",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 77,
+        "name": "Ain Madhi - Kheneg",
+        "name_ar": "عين ماضي - الخنق",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 78,
+        "name": "Ksar El Hirane - Ksar El Hirane",
+        "name_ar": "قصر الحيران - قصر الحيران",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 79,
+        "name": "Laghouat - Laghouat",
+        "name_ar": "الأغواط - الأغواط",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 80,
+        "name": "Oued Morra - Oued Morra",
+        "name_ar": "وادي مرة - وادي مرة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 81,
+        "name": "Oued Morra - Oued M'zi",
+        "name_ar": "وادي مرة - وادي مزي",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 82,
+        "name": "Aflou - Sebgag",
+        "name_ar": "أفلو - سبقاق",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 83,
+        "name": "Aflou - Sidi Bouzid",
+        "name_ar": "أفلو - سيدي بوزيد",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 84,
+        "name": "Sidi Makhlouf - Sidi Makhlouf",
+        "name_ar": "سيدي مخلوف - سيدي مخلوف",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 85,
+        "name": "Ain Madhi - Tadjemout",
+        "name_ar": "عين ماضي - تاجموت",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 86,
+        "name": "Ain Madhi - Tadjrouna",
+        "name_ar": "عين ماضي - تاجرونة",
+        "wilaya_code": "03"
+    },
+    {
+        "id": 87,
+        "name": "Brida - Taouiala",
+        "name_ar": "بريدة - تاويالة",
+        "wilaya_code": "03"
+    }
+]

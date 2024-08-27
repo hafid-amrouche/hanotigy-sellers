@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1089,
+        "name": "Sidi Khouiled - Ain Beida",
+        "name_ar": "سيدي خويلد - عين البيضاء",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1093,
+        "name": "El Borma - El Borma",
+        "name_ar": "البرمة - البرمة",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1095,
+        "name": "Sidi Khouiled - Hassi Ben Abdellah",
+        "name_ar": "سيدي خويلد - حاسي بن عبد الله",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1096,
+        "name": "Hassi Messaoud - Hassi Messaoud",
+        "name_ar": "حاسي مسعود - حاسي مسعود",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1100,
+        "name": "N'goussa - N'goussa",
+        "name_ar": "انقوسة - انقوسة",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1101,
+        "name": "Ouargla - Ouargla",
+        "name_ar": "ورقلة - ورقلة",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1102,
+        "name": "Ouargla - Rouissat",
+        "name_ar": "ورقلة - الرويسات",
+        "wilaya_code": "30"
+    },
+    {
+        "id": 1103,
+        "name": "Sidi Khouiled - Sidi Khouiled",
+        "name_ar": "سيدي خويلد - سيدي خويلد",
+        "wilaya_code": "30"
+    }
+]

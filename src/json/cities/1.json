@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Adrar - Adrar",
+        "name_ar": "أدرار - أدرار",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 2,
+        "name": "Aoulef - Akabli",
+        "name_ar": "أولف - اقبلي",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 4,
+        "name": "Aoulef - Aoulef",
+        "name_ar": "أولف - أولف",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 6,
+        "name": "Adrar - Bouda",
+        "name_ar": "أدرار - بودة",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 9,
+        "name": "Fenoughil - Fenoughil",
+        "name_ar": "فنوغيل - فنوغيل",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 10,
+        "name": "Zaouiat Kounta - In Zghmir",
+        "name_ar": "زاوية كنتة - إن زغمير",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 13,
+        "name": "Adrar - Ouled Ahmed Timmi",
+        "name_ar": "أدرار - أولاد أحمد تيمي",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 16,
+        "name": "Reggane - Reggane",
+        "name_ar": "رقان - رقان",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 17,
+        "name": "Reggane - Sali",
+        "name_ar": "رقان - سالي",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 18,
+        "name": "Tsabit - Sebaa",
+        "name_ar": "تسابيت - السبع",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 20,
+        "name": "Fenoughil - Tamantit",
+        "name_ar": "فنوغيل - تامنطيط",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 21,
+        "name": "Fenoughil - Tamest",
+        "name_ar": "فنوغيل - تامست",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 22,
+        "name": "Aoulef - Timekten",
+        "name_ar": "أولف - تيمقتن",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 26,
+        "name": "Aoulef - Tit",
+        "name_ar": "أولف - تيت",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 27,
+        "name": "Tsabit - Tsabit",
+        "name_ar": "تسابيت - تسابيت",
+        "wilaya_code": "01"
+    },
+    {
+        "id": 28,
+        "name": "Zaouiat Kounta - Zaouiet Kounta",
+        "name_ar": "زاوية كنتة - زاوية كنتة",
+        "wilaya_code": "01"
+    }
+]

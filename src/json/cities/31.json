@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1110,
+        "name": "Bethioua - Ain Biya",
+        "name_ar": "بطيوة - عين البية",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1111,
+        "name": "Boutlelis - Ain Kerma",
+        "name_ar": "بوتليليس - عين الكرمة",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1112,
+        "name": "Ain Turk - Ain Turk",
+        "name_ar": "عين الترك - عين الترك",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1113,
+        "name": "Arzew - Arzew",
+        "name_ar": "أرزيو - أرزيو",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1114,
+        "name": "Gdyel - Ben Freha",
+        "name_ar": "قديل - بن فريحة",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1115,
+        "name": "Bethioua - Bethioua",
+        "name_ar": "بطيوة - بطيوة",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1116,
+        "name": "Bir El Djir - Bir El Djir",
+        "name_ar": "بئر الجير - بئر الجير",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1117,
+        "name": "Oued Tlelat - Boufatis",
+        "name_ar": "وادي تليلات - بوفاتيس",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1118,
+        "name": "Ain Turk - Bousfer",
+        "name_ar": "عين الترك - بوسفر",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1119,
+        "name": "Boutlelis - Boutlelis",
+        "name_ar": "بوتليليس - بوتليليس",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1120,
+        "name": "Ain Turk - El Ancor",
+        "name_ar": "عين الترك - العنصر",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1121,
+        "name": "Oued Tlelat - El Braya",
+        "name_ar": "وادي تليلات - البراية",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1122,
+        "name": "Es Senia - El Kerma",
+        "name_ar": "السانية - الكرمة",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1123,
+        "name": "Es Senia - Es Senia",
+        "name_ar": "السانية - السانية",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1124,
+        "name": "Gdyel - Gdyel",
+        "name_ar": "قديل - قديل",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1125,
+        "name": "Bir El Djir - Hassi Ben Okba",
+        "name_ar": "بئر الجير - حاسي بن عقبة",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1126,
+        "name": "Bir El Djir - Hassi Bounif",
+        "name_ar": "بئر الجير - حاسي بونيف",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1127,
+        "name": "Gdyel - Hassi Mefsoukh",
+        "name_ar": "قديل - حاسي مفسوخ",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1128,
+        "name": "Bethioua - Marsat El Hadjadj",
+        "name_ar": "بطيوة - مرسى الحجاج",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1129,
+        "name": "Ain Turk - Mers El Kebir",
+        "name_ar": "عين الترك - المرسى الكبير",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1130,
+        "name": "Boutlelis - Messerghin",
+        "name_ar": "بوتليليس - مسرغين",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1131,
+        "name": "Oran - Oran",
+        "name_ar": "وهران - وهران",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1132,
+        "name": "Oued Tlelat - Oued Tlelat",
+        "name_ar": "وادي تليلات - وادي تليلات",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1133,
+        "name": "Arzew - Sidi Ben Yebka",
+        "name_ar": "أرزيو - سيدي بن يبقى",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1134,
+        "name": "Es Senia - Sidi Chami",
+        "name_ar": "السانية - سيدي الشحمي",
+        "wilaya_code": "31"
+    },
+    {
+        "id": 1135,
+        "name": "Oued Tlelat - Tafraoui",
+        "name_ar": "وادي تليلات - طفراوي",
+        "wilaya_code": "31"
+    }
+]

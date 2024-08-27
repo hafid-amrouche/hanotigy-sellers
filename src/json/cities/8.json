@@ -1,0 +1,74 @@
+[
+    {
+        "id": 263,
+        "name": "Abadla - Abadla",
+        "name_ar": "العبادلة - العبادلة",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 264,
+        "name": "Bechar - Bechar",
+        "name_ar": "بشار - بشار",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 267,
+        "name": "Beni Ounif - Beni-Ounif",
+        "name_ar": "بني ونيف - بني ونيف",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 268,
+        "name": "Lahmar - Boukais",
+        "name_ar": "لحمر - بوكايس",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 270,
+        "name": "Abadla - Erg-Ferradj",
+        "name_ar": "العبادلة - عرق فراج",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 272,
+        "name": "Kenadsa - Kenadsa",
+        "name_ar": "القنادسة - القنادسة",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 275,
+        "name": "Lahmar - Lahmar",
+        "name_ar": "لحمر - لحمر",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 276,
+        "name": "Abadla - Machraa-Houari-Boumediene",
+        "name_ar": "العبادلة - مشرع هواري بومدين",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 277,
+        "name": "Kenadsa - Meridja",
+        "name_ar": "القنادسة - المريجة",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 278,
+        "name": "Lahmar - Mogheul",
+        "name_ar": "لحمر - موغل",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 280,
+        "name": "Tabelbala - Tabelbala",
+        "name_ar": "تبلبالة - تبلبالة",
+        "wilaya_code": "08"
+    },
+    {
+        "id": 281,
+        "name": "Taghit - Taghit",
+        "name_ar": "تاغيت - تاغيت",
+        "wilaya_code": "08"
+    }
+]

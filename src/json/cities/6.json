@@ -1,0 +1,314 @@
+[
+    {
+        "id": 178,
+        "name": "Adekar - Adekar",
+        "name_ar": "أدكار - أدكار",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 179,
+        "name": "Ighil Ali - Ait R'zine",
+        "name_ar": "إغيل علي - أيت رزين",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 180,
+        "name": "Darguina - Ait-Smail",
+        "name_ar": "درقينة - أيت إسماعيل",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 181,
+        "name": "Akbou - Akbou",
+        "name_ar": "أقبو - أقبو",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 182,
+        "name": "Chemini - Akfadou",
+        "name_ar": "شميني - أكفادو",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 183,
+        "name": "Seddouk - Amalou",
+        "name_ar": "صدوق - أمالو",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 184,
+        "name": "Amizour - Amizour",
+        "name_ar": "أميزور - أميزور",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 185,
+        "name": "Aokas - Aokas",
+        "name_ar": "أوقاس - أوقاس",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 186,
+        "name": "Barbacha - Barbacha",
+        "name_ar": "برباشة - برباشة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 187,
+        "name": "Bejaia - Bejaia",
+        "name_ar": "بجاية - بجاية",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 188,
+        "name": "Amizour - Beni Djellil",
+        "name_ar": "أميزور - بني جليل",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 189,
+        "name": "Adekar - Beni K'sila",
+        "name_ar": "أدكار - بني كسيلة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 190,
+        "name": "Tazmalt - Beni-Mallikeche",
+        "name_ar": "تازملت - بني مليكش",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 191,
+        "name": "Beni Maouche - Benimaouche",
+        "name_ar": "بني معوش - بني معوش",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 192,
+        "name": "Tazmalt - Boudjellil",
+        "name_ar": "تازملت - بو جليل",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 193,
+        "name": "Seddouk - Bouhamza",
+        "name_ar": "صدوق - بوحمزة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 194,
+        "name": "Tichy - Boukhelifa",
+        "name_ar": "تيشي - بوخليفة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 195,
+        "name": "Akbou - Chellata",
+        "name_ar": "أقبو - شلاطة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 196,
+        "name": "Chemini - Chemini",
+        "name_ar": "شميني - شميني",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 197,
+        "name": "Darguina - Darguina",
+        "name_ar": "درقينة - درقينة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 198,
+        "name": "Kherrata - Dra El Caid",
+        "name_ar": "خراطة - ذراع القايد",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 199,
+        "name": "Sidi Aich - Leflaye",
+        "name_ar": "سيدي عيش - الفلاي",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 200,
+        "name": "El Kseur - El Kseur",
+        "name_ar": "القصر - القصر",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 201,
+        "name": "El Kseur - Fenaia Il Maten",
+        "name_ar": "القصر - فناية الماثن",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 202,
+        "name": "Amizour - Feraoun",
+        "name_ar": "أميزور - فرعون",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 203,
+        "name": "Ifri Ouzellaguene - Ouzellaguen",
+        "name_ar": "إفري أوزلاقن - أوزلاقن",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 204,
+        "name": "Ighil Ali - Ighil-Ali",
+        "name_ar": "إغيل علي - إغيل علي",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 205,
+        "name": "Akbou - Ighram",
+        "name_ar": "أقبو - اغرم",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 206,
+        "name": "Barbacha - Kendira",
+        "name_ar": "برباشة - كنديرة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 207,
+        "name": "Kherrata - Kherrata",
+        "name_ar": "خراطة - خراطة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 208,
+        "name": "Seddouk - M'cisna",
+        "name_ar": "صدوق - مسيسنة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 209,
+        "name": "Souk El Tenine - Melbou",
+        "name_ar": "سوق الإثنين - مالبو",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 210,
+        "name": "Bejaia - Oued Ghir",
+        "name_ar": "بجاية - وادي غير",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 211,
+        "name": "Seddouk - Seddouk",
+        "name_ar": "صدوق - صدوق",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 212,
+        "name": "Sidi Aich - Sidi Ayad",
+        "name_ar": "سيدي عيش - سيدي عياد",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 213,
+        "name": "Sidi Aich - Sidi-Aich",
+        "name_ar": "سيدي عيش - سيدي عيش",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 214,
+        "name": "Amizour - Smaoun",
+        "name_ar": "أميزور - سمعون",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 215,
+        "name": "Souk El Tenine - Souk El Tenine",
+        "name_ar": "سوق الإثنين - سوق لإثنين",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 216,
+        "name": "Chemini - Souk Oufella",
+        "name_ar": "شميني - سوق اوفلا",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 217,
+        "name": "Tichy - Tala Hamza",
+        "name_ar": "تيشي - تالة حمزة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 218,
+        "name": "Akbou - Tamokra",
+        "name_ar": "أقبو - تامقرة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 219,
+        "name": "Souk El Tenine - Tamridjet",
+        "name_ar": "سوق الإثنين - تامريجت",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 220,
+        "name": "Adekar - Taourit Ighil",
+        "name_ar": "أدكار - تاوريرت إغيل",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 221,
+        "name": "Darguina - Taskriout",
+        "name_ar": "درقينة - تاسكريوت",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 222,
+        "name": "Tazmalt - Tazmalt",
+        "name_ar": "تازملت - تازمالت",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 223,
+        "name": "Chemini - Tibane",
+        "name_ar": "شميني - طيبان",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 224,
+        "name": "Tichy - Tichy",
+        "name_ar": "تيشي - تيشي",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 225,
+        "name": "Sidi Aich - Tifra",
+        "name_ar": "سيدي عيش - تيفرة",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 226,
+        "name": "Timezrit - Timezrit",
+        "name_ar": "تيمزريت - تيمزريت",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 227,
+        "name": "Sidi Aich - Tinebdar",
+        "name_ar": "سيدي عيش - تينبدار",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 228,
+        "name": "Aokas - Tizi-N'berber",
+        "name_ar": "أوقاس - تيزي نبربر",
+        "wilaya_code": "06"
+    },
+    {
+        "id": 229,
+        "name": "El Kseur - Toudja",
+        "name_ar": "القصر - توجة",
+        "wilaya_code": "06"
+    }
+]

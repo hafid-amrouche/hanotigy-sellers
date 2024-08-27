@@ -1,0 +1,344 @@
+[
+    {
+        "id": 554,
+        "name": "Cheraga - Ain Benian",
+        "name_ar": "الشراقة - عين بنيان",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 555,
+        "name": "Dar El Beida - Ain Taya",
+        "name_ar": "الدار البيضاء - عين طاية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 556,
+        "name": "Sidi M'hamed - Alger Centre",
+        "name_ar": "سيدي امحمد - الجزائر الوسطى",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 557,
+        "name": "Bab El Oued - Bab El Oued",
+        "name_ar": "باب الوادي - باب الوادي",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 558,
+        "name": "Dar El Beida - Bab Ezzouar",
+        "name_ar": "الدار البيضاء - باب الزوار",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 559,
+        "name": "Draria - Baba Hassen",
+        "name_ar": "الدرارية - بابا حسن",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 560,
+        "name": "El Harrach - Bachedjerah",
+        "name_ar": "الحراش - باش جراح",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 561,
+        "name": "Baraki - Baraki",
+        "name_ar": "براقي - براقي",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 562,
+        "name": "Bouzareah - Ben Aknoun",
+        "name_ar": "بوزريعة - ابن عكنون",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 563,
+        "name": "Bouzareah - Beni Messous",
+        "name_ar": "بوزريعة - بني مسوس",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 564,
+        "name": "Bir Mourad Rais - Bir Mourad Rais",
+        "name_ar": "بئر مراد رايس - بئر مراد رايس",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 565,
+        "name": "Bir Mourad Rais - Birkhadem",
+        "name_ar": "بئر مراد رايس - بئر خادم",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 566,
+        "name": "Birtouta - Bir Touta",
+        "name_ar": "بئر توتة - بئر توتة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 567,
+        "name": "Bab El Oued - Bologhine Ibnou Ziri",
+        "name_ar": "باب الوادي - بولوغين بن زيري",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 568,
+        "name": "Dar El Beida - Bordj El Bahri",
+        "name_ar": "الدار البيضاء - برج البحري",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 569,
+        "name": "Dar El Beida - Bordj El Kiffan",
+        "name_ar": "الدار البيضاء - برج الكيفان",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 570,
+        "name": "El Harrach - Bourouba",
+        "name_ar": "الحراش - بوروبة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 571,
+        "name": "Bouzareah - Bouzareah",
+        "name_ar": "بوزريعة - بوزريعة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 572,
+        "name": "Bab El Oued - Casbah",
+        "name_ar": "باب الوادي - القصبة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 573,
+        "name": "Cheraga - Cheraga",
+        "name_ar": "الشراقة - الشراقة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 574,
+        "name": "Dar El Beida - Dar El Beida",
+        "name_ar": "الدار البيضاء - الدار البيضاء",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 575,
+        "name": "Cheraga - Dely Ibrahim",
+        "name_ar": "الشراقة - دالي ابراهيم",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 576,
+        "name": "Bir Mourad Rais - Djasr Kasentina",
+        "name_ar": "بئر مراد رايس - جسر قسنطينة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 577,
+        "name": "Draria - Douira",
+        "name_ar": "الدرارية - الدويرة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 578,
+        "name": "Draria - Draria",
+        "name_ar": "الدرارية - الدرارية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 579,
+        "name": "Draria - El Achour",
+        "name_ar": "الدرارية - العاشور",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 580,
+        "name": "Bouzareah - El Biar",
+        "name_ar": "بوزريعة - الابيار",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 581,
+        "name": "El Harrach - El Harrach",
+        "name_ar": "الحراش - الحراش",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 582,
+        "name": "Sidi M'hamed - El Madania",
+        "name_ar": "سيدي امحمد - المدنية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 583,
+        "name": "Hussein Dey - El Magharia",
+        "name_ar": "حسين داي - المغارية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 584,
+        "name": "Dar El Beida - El Marsa",
+        "name_ar": "الدار البيضاء - المرسى",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 585,
+        "name": "Sidi M'hamed - El Mouradia",
+        "name_ar": "سيدي امحمد - المرادية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 586,
+        "name": "Cheraga - Hammamet",
+        "name_ar": "الشراقة - الحمامات",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 587,
+        "name": "Rouiba - Herraoua",
+        "name_ar": "الرويبة - هراوة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 588,
+        "name": "Hussein Dey - Hussein Dey",
+        "name_ar": "حسين داي - حسين داي",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 589,
+        "name": "Bir Mourad Rais - Hydra",
+        "name_ar": "بئر مراد رايس - حيدرة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 590,
+        "name": "Draria - Khraissia",
+        "name_ar": "الدرارية - الخرايسية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 591,
+        "name": "Hussein Dey - Kouba",
+        "name_ar": "حسين داي - القبة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 592,
+        "name": "Baraki - Les Eucalyptus",
+        "name_ar": "براقي - الكاليتوس",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 593,
+        "name": "Zeralda - Maalma",
+        "name_ar": "زرالدة - المعالمة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 594,
+        "name": "Hussein Dey - Mohamed Belouzdad",
+        "name_ar": "حسين داي - محمد بلوزداد",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 595,
+        "name": "Dar El Beida - Mohammadia",
+        "name_ar": "الدار البيضاء - المحمدية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 596,
+        "name": "Bab El Oued - Oued Koriche",
+        "name_ar": "باب الوادي - وادي قريش",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 597,
+        "name": "El Harrach - Oued Smar",
+        "name_ar": "الحراش - وادي السمار",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 598,
+        "name": "Birtouta - Ouled Chebel",
+        "name_ar": "بئر توتة - اولاد شبل",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 599,
+        "name": "Cheraga - Ouled Fayet",
+        "name_ar": "الشراقة - اولاد فايت",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 600,
+        "name": "Zeralda - Rahmania",
+        "name_ar": "زرالدة - الرحمانية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 601,
+        "name": "Bab El Oued - Rais Hamidou",
+        "name_ar": "باب الوادي - الرايس حميدو",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 602,
+        "name": "Rouiba - Reghaia",
+        "name_ar": "الرويبة - رغاية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 603,
+        "name": "Rouiba - Rouiba",
+        "name_ar": "الرويبة - الرويبة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 604,
+        "name": "Bir Mourad Rais - Sehaoula",
+        "name_ar": "بئر مراد رايس - السحاولة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 605,
+        "name": "Sidi M'hamed - Sidi M'hamed",
+        "name_ar": "سيدي امحمد - سيدي امحمد",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 606,
+        "name": "Baraki - Sidi Moussa",
+        "name_ar": "براقي - سيدي موسى",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 607,
+        "name": "Zeralda - Souidania",
+        "name_ar": "زرالدة - سويدانية",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 608,
+        "name": "Zeralda - Staoueli",
+        "name_ar": "زرالدة - سطاوالي",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 609,
+        "name": "Birtouta - Tessala El Merdja",
+        "name_ar": "بئر توتة - تسالة المرجة",
+        "wilaya_code": "16"
+    },
+    {
+        "id": 610,
+        "name": "Zeralda - Zeralda",
+        "name_ar": "زرالدة - زرالدة",
+        "wilaya_code": "16"
+    }
+]

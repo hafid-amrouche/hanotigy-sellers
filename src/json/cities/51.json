@@ -1,0 +1,38 @@
+[
+    {
+        "id": 232,
+        "name": "Sidi Khaled - Besbes",
+        "name_ar": "سيدي  خالد - بسباس",
+        "wilaya_code": "51"
+    },
+    {
+        "id": 237,
+        "name": "Ouled Djellal - Chaiba",
+        "name_ar": "أولاد جلال - الشعيبة",
+        "wilaya_code": "51"
+    },
+    {
+        "id": 240,
+        "name": "Ouled Djellal - Doucen",
+        "name_ar": "أولاد جلال - الدوسن",
+        "wilaya_code": "51"
+    },
+    {
+        "id": 255,
+        "name": "Ouled Djellal - Ouled Djellal",
+        "name_ar": "أولاد جلال - أولاد جلال",
+        "wilaya_code": "51"
+    },
+    {
+        "id": 258,
+        "name": "Sidi Khaled - Ras El Miad",
+        "name_ar": "سيدي  خالد - رأس الميعاد",
+        "wilaya_code": "51"
+    },
+    {
+        "id": 259,
+        "name": "Sidi Khaled - Sidi Khaled",
+        "name_ar": "سيدي  خالد - سيدي  خالد",
+        "wilaya_code": "51"
+    }
+]

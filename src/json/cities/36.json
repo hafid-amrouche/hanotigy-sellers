@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1230,
+        "name": "El Tarf - Ain El Assel",
+        "name_ar": "الطارف - عين العسل",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1231,
+        "name": "Bouhadjar - Ain Kerma",
+        "name_ar": "بوحجار - عين الكرمة",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1232,
+        "name": "Besbes - Asfour",
+        "name_ar": "البسباس - عصفور",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1233,
+        "name": "Ben M'hidi - Ben M Hidi",
+        "name_ar": "بن مهيدي - بن مهيدي",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1234,
+        "name": "Ben M'hidi - Berrihane",
+        "name_ar": "بن مهيدي - بريحان",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1235,
+        "name": "Besbes - Besbes",
+        "name_ar": "البسباس - البسباس",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1236,
+        "name": "El Tarf - Bougous",
+        "name_ar": "الطارف - بوقوس",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1237,
+        "name": "Bouhadjar - Bouhadjar",
+        "name_ar": "بوحجار - بوحجار",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1238,
+        "name": "Bouteldja - Bouteldja",
+        "name_ar": "بوثلجة - بوثلجة",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1239,
+        "name": "Drean - Chebaita Mokhtar",
+        "name_ar": "الذرعان - شبيطة مختار",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1240,
+        "name": "Bouteldja - Chefia",
+        "name_ar": "بوثلجة - الشافية",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1241,
+        "name": "Drean - Chihani",
+        "name_ar": "الذرعان - شحاني",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1242,
+        "name": "Drean - Drean",
+        "name_ar": "الذرعان - الذرعـان",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1243,
+        "name": "Ben M'hidi - Echatt",
+        "name_ar": "بن مهيدي - الشط",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1244,
+        "name": "El Kala - El Aioun",
+        "name_ar": "القالة - العيون",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1245,
+        "name": "El Kala - El Kala",
+        "name_ar": "القالة - القالة",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1246,
+        "name": "El Tarf - El Tarf",
+        "name_ar": "الطارف - الطارف",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1247,
+        "name": "Bouhadjar - Hammam Beni Salah",
+        "name_ar": "بوحجار - حمام بني صالح",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1248,
+        "name": "Bouteldja - Lac Des Oiseaux",
+        "name_ar": "بوثلجة - بحيرة الطيور",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1249,
+        "name": "Bouhadjar - Oued Zitoun",
+        "name_ar": "بوحجار - وادي الزيتون",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1250,
+        "name": "El Kala - Raml Souk",
+        "name_ar": "القالة - رمل السوق",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1251,
+        "name": "El Kala - Souarekh",
+        "name_ar": "القالة - السوارخ",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1252,
+        "name": "Besbes - Zerizer",
+        "name_ar": "البسباس - زريزر",
+        "wilaya_code": "36"
+    },
+    {
+        "id": 1253,
+        "name": "El Tarf - Zitouna",
+        "name_ar": "الطارف - الزيتونة",
+        "wilaya_code": "36"
+    }
+]

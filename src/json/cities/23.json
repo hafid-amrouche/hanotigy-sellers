@@ -1,0 +1,74 @@
+[
+    {
+        "id": 841,
+        "name": "Ain El Berda - Ain El Berda",
+        "name_ar": "عين الباردة - عين الباردة",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 842,
+        "name": "Annaba - Annaba",
+        "name_ar": "عنابة - عنابة",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 843,
+        "name": "Berrahal - Berrahal",
+        "name_ar": "برحال - برحال",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 844,
+        "name": "Chetaibi - Chetaibi",
+        "name_ar": "شطايبي - شطايبي",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 845,
+        "name": "Ain El Berda - Cheurfa",
+        "name_ar": "عين الباردة - الشرفة",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 846,
+        "name": "El Bouni - El Bouni",
+        "name_ar": "البوني - البوني",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 847,
+        "name": "Ain El Berda - El Eulma",
+        "name_ar": "عين الباردة - العلمة",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 848,
+        "name": "El Hadjar - El Hadjar",
+        "name_ar": "الحجار - الحجار",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 849,
+        "name": "Berrahal - Oued El Aneb",
+        "name_ar": "برحال - واد العنب",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 850,
+        "name": "Annaba - Seraidi",
+        "name_ar": "عنابة - سرايدي",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 851,
+        "name": "El Hadjar - Sidi Amar",
+        "name_ar": "الحجار - سيدي عمار",
+        "wilaya_code": "23"
+    },
+    {
+        "id": 852,
+        "name": "Berrahal - Treat",
+        "name_ar": "برحال - التريعات",
+        "wilaya_code": "23"
+    }
+]

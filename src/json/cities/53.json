@@ -1,0 +1,20 @@
+[
+    {
+        "id": 357,
+        "name": "In Salah - Ain Salah",
+        "name_ar": "عين صالح - عين صالح",
+        "wilaya_code": "53"
+    },
+    {
+        "id": 358,
+        "name": "In Salah - Foggaret Ezzoua",
+        "name_ar": "عين صالح - فقارة الزوى",
+        "wilaya_code": "53"
+    },
+    {
+        "id": 360,
+        "name": "In Ghar - Inghar",
+        "name_ar": "إينغر - إينغر",
+        "wilaya_code": "53"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1495,
+        "name": "El Menia - El Meniaa",
+        "name_ar": "المنيعة - المنيعة",
+        "wilaya_code": "58"
+    },
+    {
+        "id": 1498,
+        "name": "Mansourah - Hassi Fehal",
+        "name_ar": "المنصورة - حاسي الفحل",
+        "wilaya_code": "58"
+    },
+    {
+        "id": 1499,
+        "name": "El Menia - Hassi Gara",
+        "name_ar": "المنيعة - حاسي القارة",
+        "wilaya_code": "58"
+    }
+]

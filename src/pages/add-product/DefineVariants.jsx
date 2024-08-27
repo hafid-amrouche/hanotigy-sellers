@@ -68,7 +68,7 @@ const ColorOptionButton=({order, option, setOption, removeOption})=>{
                 />
                 <h4 style={{alignSelf: 'center'}}>{option.label}</h4>
                 { showColorPicker && <DialogComponent open={showColorPicker} backDropPressCloses={false} close={()=>setShoxColorPicker(false)} ref={modalRef} >
-                    <ColorPicker color={option.color} onChange={colorChangeHandler} closeModal={()=>modalRef.current?.close()}  /> 
+                    <ColorPicker color={option.color} onChange={colorChangeHandler}  /> 
                 </DialogComponent>}
             </div>
             <IconWithHover onClick={()=>removeOption(order)} iconClass='fa-solid fa-xmark' />
@@ -187,7 +187,7 @@ const ImageTextOptionButton=({order, option, setOption, removeOption})=>{
         <>
             <div className={'container d-f g-3 color-text'} disabled={deleting} style={{background: 'rgba(var(--primaryColor-rgb), 0.2)', padding: 4}}>
                 <div className='d-f g-2'>
-                    <UploadImageButton image={option.image} url='/upload-variant-image' size={38} resolution={1080} imageChangeHandler={imageChangeHandler} />
+                    <UploadImageButton type='product/variant-image' image={option.image} url='/upload-variant-image' size={38} resolution={1080} imageChangeHandler={imageChangeHandler} />
                     <h4 style={{alignSelf: 'center'}}>{option.label}</h4>
                 </div>
                 <IconWithHover onClick={()=>removeOptionHandler(order)} iconClass='fa-solid fa-xmark' />
@@ -443,7 +443,7 @@ const DefineVariants = memo(forwardRef(({variants, setVariants}, ref) => {
                         ))}
                     </div>
                 }            
-        <Button outline disabled={variantError || variantsNames.includes('')} id='add-variant-button' onClick={clickHandler}>{translate('Add variant')}</Button>
+        <Button disabled={variantError || variantsNames.includes('')} id='add-variant-button' onClick={clickHandler}>{translate('Add variant')}</Button>
     </div>
   )
 }))

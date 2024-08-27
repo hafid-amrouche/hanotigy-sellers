@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1198,
+        "name": "Dellys - Afir",
+        "name_ar": "دلس - أعفير",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1199,
+        "name": "Thenia - Ammal",
+        "name_ar": "الثنية - عمال",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1200,
+        "name": "Baghlia - Baghlia",
+        "name_ar": "بغلية - بغلية",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1201,
+        "name": "Dellys - Ben Choud",
+        "name_ar": "دلس - بن شود",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1202,
+        "name": "Thenia - Beni Amrane",
+        "name_ar": "الثنية - بني عمران",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1203,
+        "name": "Bordj Menaiel - Bordj Menaiel",
+        "name_ar": "برج منايل - برج منايل",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1204,
+        "name": "Boudouaou - Boudouaou",
+        "name_ar": "بودواو - بودواو",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1205,
+        "name": "Boudouaou - Boudouaou El Bahri",
+        "name_ar": "بودواو - بودواو البحري",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1206,
+        "name": "Boumerdes - Boumerdes",
+        "name_ar": "بومرداس - بومرداس",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1207,
+        "name": "Boudouaou - Bouzegza Keddara",
+        "name_ar": "بودواو - بوزقزة قدارة",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1208,
+        "name": "Isser - Chabet El Ameur",
+        "name_ar": "يسر - شعبة العامر",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1209,
+        "name": "Boumerdes - Corso",
+        "name_ar": "بومرداس - قورصو",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1210,
+        "name": "Dellys - Dellys",
+        "name_ar": "دلس - دلس",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1211,
+        "name": "Bordj Menaiel - Djinet",
+        "name_ar": "برج منايل - جنات",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1212,
+        "name": "Boudouaou - El Kharrouba",
+        "name_ar": "بودواو - الخروبة",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1213,
+        "name": "Khemis El Khechna - Hammedi",
+        "name_ar": "خميس الخشنة - حمادي",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1214,
+        "name": "Isser - Isser",
+        "name_ar": "يسر - يسر",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1215,
+        "name": "Khemis El Khechna - Khemis El Khechna",
+        "name_ar": "خميس الخشنة - خميس الخشنة",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1216,
+        "name": "Khemis El Khechna - Larbatache",
+        "name_ar": "خميس الخشنة - الاربعطاش",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1217,
+        "name": "Bordj Menaiel - Leghata",
+        "name_ar": "برج منايل - لقاطة",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1218,
+        "name": "Naciria - Naciria",
+        "name_ar": "الناصرية - الناصرية",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1219,
+        "name": "Naciria - Ouled Aissa",
+        "name_ar": "الناصرية - أولاد عيسى",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1220,
+        "name": "Boudouaou - Ouled Hedadj",
+        "name_ar": "بودواو - أولاد هداج",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1221,
+        "name": "Khemis El Khechna - Ouled Moussa",
+        "name_ar": "خميس الخشنة - أولاد موسى",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1222,
+        "name": "Isser - Si Mustapha",
+        "name_ar": "يسر - سي مصطفى",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1223,
+        "name": "Baghlia - Sidi Daoud",
+        "name_ar": "بغلية - سيدي داود",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1224,
+        "name": "Thenia - Souk El Had",
+        "name_ar": "الثنية - سوق الحد",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1225,
+        "name": "Baghlia - Taourga",
+        "name_ar": "بغلية - تاورقة",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1226,
+        "name": "Thenia - Thenia",
+        "name_ar": "الثنية - الثنية",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1227,
+        "name": "Boumerdes - Tidjelabine",
+        "name_ar": "بومرداس - تيجلابين",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1228,
+        "name": "Isser - Timezrit",
+        "name_ar": "يسر - تيمزريت",
+        "wilaya_code": "35"
+    },
+    {
+        "id": 1229,
+        "name": "Bordj Menaiel - Zemmouri",
+        "name_ar": "برج منايل - زموري",
+        "wilaya_code": "35"
+    }
+]

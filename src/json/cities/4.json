@@ -1,0 +1,176 @@
+[
+    {
+        "id": 88,
+        "name": "Ain Babouche - Ain Babouche",
+        "name_ar": "عين ببوش - عين ببوش",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 89,
+        "name": "Ain Beida - Ain Beida",
+        "name_ar": "عين البيضاء - عين البيضاء",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 90,
+        "name": "Ain Babouche - Ain Diss",
+        "name_ar": "عين ببوش - عين الديس",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 91,
+        "name": "Ain Fekroun - Ain Fekroun",
+        "name_ar": "عين فكرون - عين فكرون",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 92,
+        "name": "Ain Kercha - Ain Kercha",
+        "name_ar": "عين كرشة - عين كرشة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 93,
+        "name": "Ain M'lila - Ain M'lila",
+        "name_ar": "عين مليلة - عين مليلة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 94,
+        "name": "Oum El Bouaghi - Ain Zitoun",
+        "name_ar": "أم البواقي - عين الزيتون",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 95,
+        "name": "Meskiana - Behir Chergui",
+        "name_ar": "مسكيانة - بحير الشرقي",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 96,
+        "name": "Ain Beida - Berriche",
+        "name_ar": "عين البيضاء - بريش",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 97,
+        "name": "Souk Naamane - Bir Chouhada",
+        "name_ar": "سوق نعمان - بئر الشهداء",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 98,
+        "name": "Dhalaa - Dhalaa",
+        "name_ar": "الضلعة - الضلعة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 99,
+        "name": "Sigus - El Amiria",
+        "name_ar": "سيقوس - العامرية",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 100,
+        "name": "Meskiana - El Belala",
+        "name_ar": "مسكيانة - البلالة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 101,
+        "name": "Dhalaa - El Djazia",
+        "name_ar": "الضلعة - الجازية",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 102,
+        "name": "Ain Fekroun - El Fedjoudj Boughrara Sa",
+        "name_ar": "عين فكرون - الفجوج بوغرارة سعودي",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 103,
+        "name": "Ain Kercha - El Harmilia",
+        "name_ar": "عين كرشة - الحرملية",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 104,
+        "name": "F'kirina - Fkirina",
+        "name_ar": "فكيرينة - فكيرينة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 105,
+        "name": "Ain Kercha - Hanchir Toumghani",
+        "name_ar": "عين كرشة - هنشير تومغني",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 106,
+        "name": "Ksar Sbahi - Ksar Sbahi",
+        "name_ar": "قصر الصباحي - قصر الصباحي",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 107,
+        "name": "Meskiana - Meskiana",
+        "name_ar": "مسكيانة - مسكيانة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 108,
+        "name": "F'kirina - Oued Nini",
+        "name_ar": "فكيرينة - وادي نيني",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 109,
+        "name": "Ain M'lila - Ouled Gacem",
+        "name_ar": "عين مليلة - أولاد قاسم",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 110,
+        "name": "Ain M'lila - Ouled Hamla",
+        "name_ar": "عين مليلة - أولاد حملة",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 111,
+        "name": "Souk Naamane - Ouled Zouai",
+        "name_ar": "سوق نعمان - أولاد زواي",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 112,
+        "name": "Oum El Bouaghi - Oum El Bouaghi",
+        "name_ar": "أم البواقي - أم البواقي",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 113,
+        "name": "Meskiana - Rahia",
+        "name_ar": "مسكيانة - الرحية",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 114,
+        "name": "Sigus - Sigus",
+        "name_ar": "سيقوس - سيقوس",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 115,
+        "name": "Souk Naamane - Souk Naamane",
+        "name_ar": "سوق نعمان - سوق نعمان",
+        "wilaya_code": "04"
+    },
+    {
+        "id": 116,
+        "name": "Ain Beida - Zorg",
+        "name_ar": "عين البيضاء - الزرق",
+        "wilaya_code": "04"
+    }
+]

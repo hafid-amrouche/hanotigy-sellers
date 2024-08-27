@@ -1,0 +1,56 @@
+[
+    {
+        "id": 265,
+        "name": "Beni Abbes - Beni-Abbes",
+        "name_ar": "بني عباس - بني عباس",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 266,
+        "name": "Kerzaz - Beni-Ikhlef",
+        "name_ar": "كرزاز - بن يخلف",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 269,
+        "name": "El Ouata - El Ouata",
+        "name_ar": "الواتة - الواتة",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 271,
+        "name": "Igli - Igli",
+        "name_ar": "إقلي - إقلي",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 273,
+        "name": "Kerzaz - Kerzaz",
+        "name_ar": "كرزاز - كرزاز",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 274,
+        "name": "Ouled Khodeir - Ksabi",
+        "name_ar": "أولاد خضير - القصابي",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 279,
+        "name": "Ouled Khodeir - Ouled-Khodeir",
+        "name_ar": "أولاد خضير - أولاد خضير",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 282,
+        "name": "Beni Abbes - Tamtert",
+        "name_ar": "بني عباس - تامترت",
+        "wilaya_code": "52"
+    },
+    {
+        "id": 283,
+        "name": "Kerzaz - Timoudi",
+        "name_ar": "كرزاز - تيمودي",
+        "wilaya_code": "52"
+    }
+]

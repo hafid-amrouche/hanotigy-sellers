@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1451,
+        "name": "Mecheria - Ain Ben Khelil",
+        "name_ar": "المشرية - عين بن خليل",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1452,
+        "name": "Ain Sefra - Ain Sefra",
+        "name_ar": "عين الصفراء - عين الصفراء",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1453,
+        "name": "Asla - Asla",
+        "name_ar": "عسلة - عسلة",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1454,
+        "name": "Moghrar - Djenienne Bourezg",
+        "name_ar": "مغرار - جنين بورزق",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1455,
+        "name": "Mecheria - El Biodh",
+        "name_ar": "المشرية - البيوض",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1456,
+        "name": "Mekmen Ben Amar - Kasdir",
+        "name_ar": "مكمن بن عمار - القصدير",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1457,
+        "name": "Mekmen Ben Amar - Makmen Ben Amar",
+        "name_ar": "مكمن بن عمار - مكمن بن عمار",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1458,
+        "name": "Mecheria - Mecheria",
+        "name_ar": "المشرية - المشرية",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1459,
+        "name": "Moghrar - Moghrar",
+        "name_ar": "مغرار - مغرار",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1460,
+        "name": "Naama - Naama",
+        "name_ar": "النعامة - النعامة",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1461,
+        "name": "Sfissifa - Sfissifa",
+        "name_ar": "سفيسيفة - سفيسيفة",
+        "wilaya_code": "45"
+    },
+    {
+        "id": 1462,
+        "name": "Ain Sefra - Tiout",
+        "name_ar": "عين الصفراء - تيوت",
+        "wilaya_code": "45"
+    }
+]

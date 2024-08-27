@@ -1,0 +1,404 @@
+[
+    {
+        "id": 487,
+        "name": "Ain El Hammam - Abi-Youcef",
+        "name_ar": "عين الحمام - أبي يوسف",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 488,
+        "name": "Azeffoun - Aghribs",
+        "name_ar": "أزفون - أغريب",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 489,
+        "name": "Ouadhias - Agouni-Gueghrane",
+        "name_ar": "واضية - أقني قغران",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 490,
+        "name": "Ain El Hammam - Ain-El-Hammam",
+        "name_ar": "عين الحمام - عين الحمام",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 491,
+        "name": "Draa El Mizan - Ain-Zaouia",
+        "name_ar": "ذراع الميزان - عين الزاوية",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 492,
+        "name": "Larbaa Nath Iraten - Ait Aggouacha",
+        "name_ar": "الأربعاء ناث إيراثن - أيت عقـواشة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 493,
+        "name": "Ouadhias - Ait Bouaddou",
+        "name_ar": "واضية - أيت بــوادو",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 494,
+        "name": "Ouacif - Ait Boumahdi",
+        "name_ar": "واسيف - أيت بومهدي",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 495,
+        "name": "Mekla - Ait Khellili",
+        "name_ar": "مقلع - أيت خليلي",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 496,
+        "name": "Draa El Mizan - Ait Yahia Moussa",
+        "name_ar": "ذراع الميزان - أيت يحي موسى",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 497,
+        "name": "Ouaguenoun - Ait-Aissa-Mimoun",
+        "name_ar": "واقنون - أيت عيسى ميمون",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 498,
+        "name": "Azeffoun - Ait-Chafaa",
+        "name_ar": "أزفون - أيت شافع",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 499,
+        "name": "Beni Douala - Ait-Mahmoud",
+        "name_ar": "بني دوالة - أيت محمود",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 500,
+        "name": "Tizi Rached - Ait-Oumalou",
+        "name_ar": "تيزي راشد - أيت  أومالو",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 501,
+        "name": "Ouacif - Ait-Toudert",
+        "name_ar": "واسيف - أيت تودرت",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 502,
+        "name": "Ain El Hammam - Ait-Yahia",
+        "name_ar": "عين الحمام - أيت يحيى",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 503,
+        "name": "Ain El Hammam - Akbil",
+        "name_ar": "عين الحمام - اقبيل",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 504,
+        "name": "Azeffoun - Akerrou",
+        "name_ar": "أزفون - أقرو",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 505,
+        "name": "Boghni - Assi-Youcef",
+        "name_ar": "بوغني - أسي يوسف",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 506,
+        "name": "Azazga - Azazga",
+        "name_ar": "عزازقة - عزازقة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 507,
+        "name": "Azeffoun - Azeffoun",
+        "name_ar": "أزفون - أزفون",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 508,
+        "name": "Beni Douala - Beni Zmenzer",
+        "name_ar": "بني دوالة - بنــــي زمنزار",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 509,
+        "name": "Beni Douala - Beni-Aissi",
+        "name_ar": "بني دوالة - بني عيسي",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 510,
+        "name": "Beni Douala - Beni-Douala",
+        "name_ar": "بني دوالة - بني دوالة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 511,
+        "name": "Benni Yenni - Beni-Yenni",
+        "name_ar": "بني يني - بني يني",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 512,
+        "name": "Bouzeguene - Beni-Zikki",
+        "name_ar": "بوزقن - بني زيكــي",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 513,
+        "name": "Boghni - Boghni",
+        "name_ar": "بوغني - بوغني",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 514,
+        "name": "Makouda - Boudjima",
+        "name_ar": "ماكودة - بوجيمة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 515,
+        "name": "Boghni - Bounouh",
+        "name_ar": "بوغني - بونوح",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 516,
+        "name": "Bouzeguene - Bouzeguene",
+        "name_ar": "بوزقن - بوزقــن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 517,
+        "name": "Draa Ben Khedda - Draa-Ben-Khedda",
+        "name_ar": "ذراع بن خدة - ذراع بن خدة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 518,
+        "name": "Draa El Mizan - Draa-El-Mizan",
+        "name_ar": "ذراع الميزان - ذراع الميزان",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 519,
+        "name": "Azazga - Freha",
+        "name_ar": "عزازقة - فريحة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 520,
+        "name": "Draa El Mizan - Frikat",
+        "name_ar": "ذراع الميزان - فريقات",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 521,
+        "name": "Benni Yenni - Iboudrarene",
+        "name_ar": "بني يني - إبودرارن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 522,
+        "name": "Bouzeguene - Idjeur",
+        "name_ar": "بوزقن - إيجــار",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 523,
+        "name": "Iferhounene - Iferhounene",
+        "name_ar": "إفرحونان - إفــرحــونان",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 524,
+        "name": "Azazga - Ifigha",
+        "name_ar": "عزازقة - إيفيغاء",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 525,
+        "name": "Tigzirt - Iflissen",
+        "name_ar": "تيقزيرت - إفليـــسن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 526,
+        "name": "Iferhounene - Illilten",
+        "name_ar": "إفرحونان - إيلـيــلتـن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 527,
+        "name": "Bouzeguene - Illoula Oumalou",
+        "name_ar": "بوزقن - إيلولة أومـــالو",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 528,
+        "name": "Iferhounene - Imsouhal",
+        "name_ar": "إفرحونان - إمســوحال",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 529,
+        "name": "Larbaa Nath Iraten - Irdjen",
+        "name_ar": "الأربعاء ناث إيراثن - إيرجـــن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 530,
+        "name": "Larbaa Nath Iraten - Larbaa Nath Irathen",
+        "name_ar": "الأربعاء ناث إيراثن - الأربعــاء ناث إيراثن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 531,
+        "name": "Maatkas - Maatkas",
+        "name_ar": "معاتقة - معـــاتقة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 532,
+        "name": "Makouda - Makouda",
+        "name_ar": "ماكودة - ماكودة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 533,
+        "name": "Boghni - Mechtras",
+        "name_ar": "بوغني - مشطراس",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 534,
+        "name": "Mekla - Mekla",
+        "name_ar": "مقلع - مقــلع",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 535,
+        "name": "Tigzirt - Mizrana",
+        "name_ar": "تيقزيرت - ميزرانـــة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 536,
+        "name": "Tizi-Ghenif - M'kira",
+        "name_ar": "تيزي غنيف - مكيرة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 537,
+        "name": "Ouacif - Ouacif",
+        "name_ar": "واسيف - واسيف",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 538,
+        "name": "Ouadhias - Ouadhias",
+        "name_ar": "واضية - واضية",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 539,
+        "name": "Ouaguenoun - Ouaguenoun",
+        "name_ar": "واقنون - واقنون",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 540,
+        "name": "Draa Ben Khedda - Sidi Namane",
+        "name_ar": "ذراع بن خدة - سيدي نعمان",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 541,
+        "name": "Mekla - Souama",
+        "name_ar": "مقلع - صوامـــع",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 542,
+        "name": "Maatkas - Souk-El-Tenine",
+        "name_ar": "معاتقة - سوق الإثنين",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 543,
+        "name": "Draa Ben Khedda - Tadmait",
+        "name_ar": "ذراع بن خدة - تادمايت",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 544,
+        "name": "Tigzirt - Tigzirt",
+        "name_ar": "تيقزيرت - تيقـزيرت",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 545,
+        "name": "Ouaguenoun - Timizart",
+        "name_ar": "واقنون - تيمـيزار",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 546,
+        "name": "Draa Ben Khedda - Tirmitine",
+        "name_ar": "ذراع بن خدة - تيرمتين",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 547,
+        "name": "Ouadhias - Tizi N'tleta",
+        "name_ar": "واضية - تيزي نثلاثة",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 548,
+        "name": "Tizi-Ghenif - Tizi-Gheniff",
+        "name_ar": "تيزي غنيف - تيزي غنيف",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 549,
+        "name": "Tizi Ouzou - Tizi-Ouzou",
+        "name_ar": "تيزي وزو - تيزي وزو",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 550,
+        "name": "Tizi Rached - Tizi-Rached",
+        "name_ar": "تيزي راشد - تيزي راشد",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 551,
+        "name": "Azazga - Yakourene",
+        "name_ar": "عزازقة - إعــكورن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 552,
+        "name": "Benni Yenni - Yatafene",
+        "name_ar": "بني يني - يطــافن",
+        "wilaya_code": "15"
+    },
+    {
+        "id": 553,
+        "name": "Azazga - Zekri",
+        "name_ar": "عزازقة - زكري",
+        "wilaya_code": "15"
+    }
+]

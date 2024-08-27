@@ -1,0 +1,284 @@
+[
+    {
+        "id": 995,
+        "name": "Ain El Hadjel - Ain El Hadjel",
+        "name_ar": "عين الحجل - عين الحجل",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 996,
+        "name": "Ain El Melh - Ain El Melh",
+        "name_ar": "عين الملح - عين الملح",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 997,
+        "name": "Ain El Melh - Ain Fares",
+        "name_ar": "عين الملح - عين فارس",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 998,
+        "name": "Magra - Ain Khadra",
+        "name_ar": "مقرة - عين الخضراء",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 999,
+        "name": "Ain El Melh - Ain Rich",
+        "name_ar": "عين الملح - عين الريش",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1000,
+        "name": "Magra - Belaiba",
+        "name_ar": "مقرة - بلعايبة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1001,
+        "name": "Ben Srour - Ben Srour",
+        "name_ar": "بن سرور - بن سرور",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1002,
+        "name": "Sidi Aissa - Beni Ilmane",
+        "name_ar": "سيدي عيسى - بني يلمان",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1003,
+        "name": "Ouled Sidi Brahim - Benzouh",
+        "name_ar": "أولاد سيدي ابراهيم - بن زوه",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1004,
+        "name": "Magra - Berhoum",
+        "name_ar": "مقرة - برهوم",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1005,
+        "name": "Ain El Melh - Bir Foda",
+        "name_ar": "عين الملح - بئر فضة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1006,
+        "name": "Bousaada - Bou Saada",
+        "name_ar": "بوسعادة - بوسعادة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1007,
+        "name": "Sidi Aissa - Bouti Sayeh",
+        "name_ar": "سيدي عيسى - بوطي السايح",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1008,
+        "name": "Chellal - Chellal",
+        "name_ar": "شلال - شلال",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1009,
+        "name": "Magra - Dehahna",
+        "name_ar": "مقرة - دهاهنة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1010,
+        "name": "Djebel Messaad - Djebel Messaad",
+        "name_ar": "جبل مساعد - جبل مساعد",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1011,
+        "name": "Bousaada - El Hamel",
+        "name_ar": "بوسعادة - الهامل",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1012,
+        "name": "Khoubana - El Houamed",
+        "name_ar": "خبانة - الحوامد",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1013,
+        "name": "Hammam Dalaa - Hammam Dalaa",
+        "name_ar": "حمام الضلعة - حمام الضلعة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1014,
+        "name": "Chellal - Khettouti Sed-El-Jir",
+        "name_ar": "شلال - خطوطي سد الجير",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1015,
+        "name": "Khoubana - Khoubana",
+        "name_ar": "خبانة - خبانة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1016,
+        "name": "Ouled Derradj - Maadid",
+        "name_ar": "أولاد دراج - المعاضيد",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1017,
+        "name": "Chellal - Maarif",
+        "name_ar": "شلال - معاريف",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1018,
+        "name": "Magra - Magra",
+        "name_ar": "مقرة - مقرة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1019,
+        "name": "Khoubana - M'cif",
+        "name_ar": "خبانة - مسيف",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1020,
+        "name": "Medjedel - Medjedel",
+        "name_ar": "امجدل - امجدل",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1021,
+        "name": "Medjedel - Menaa",
+        "name_ar": "امجدل - مناعة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1022,
+        "name": "Ben Srour - Mohamed Boudiaf",
+        "name_ar": "بن سرور - محمد بوضياف",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1023,
+        "name": "M'sila - M'sila",
+        "name_ar": "المسيلة - المسيلة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1024,
+        "name": "Ouled Derradj - M'tarfa",
+        "name_ar": "أولاد دراج - المطارفة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1025,
+        "name": "Hammam Dalaa - Ouanougha",
+        "name_ar": "حمام الضلعة - ونوغة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1026,
+        "name": "Ouled Derradj - Ouled Addi Guebala",
+        "name_ar": "أولاد دراج - أولاد عدي لقبالة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1027,
+        "name": "Ouled Derradj - Ouled Derradj",
+        "name_ar": "أولاد دراج - أولاد دراج",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1028,
+        "name": "Chellal - Ouled Madhi",
+        "name_ar": "شلال - أولاد ماضي",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1029,
+        "name": "Hammam Dalaa - Ouled Mansour",
+        "name_ar": "حمام الضلعة - أولاد منصور",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1030,
+        "name": "Ouled Sidi Brahim - Ouled Sidi Brahim",
+        "name_ar": "أولاد سيدي ابراهيم - أولاد سيدي ابراهيم",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1031,
+        "name": "Ben Srour - Ouled Slimane",
+        "name_ar": "بن سرور - أولاد سليمان",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1032,
+        "name": "Bousaada - Oulteme",
+        "name_ar": "بوسعادة - ولتام",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1033,
+        "name": "Sidi Aissa - Sidi Aissa",
+        "name_ar": "سيدي عيسى - سيدي عيسى",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1034,
+        "name": "Sidi Ameur - Sidi Ameur",
+        "name_ar": "سيدي عامر - سيدي عامر",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1035,
+        "name": "Ain El Hadjel - Sidi Hadjeres",
+        "name_ar": "عين الحجل - سيدي هجرس",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1036,
+        "name": "Ain El Melh - Sidi M'hamed",
+        "name_ar": "عين الملح - سيدي امحمد",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1037,
+        "name": "Djebel Messaad - Slim",
+        "name_ar": "جبل مساعد - سليم",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1038,
+        "name": "Ouled Derradj - Souamaa",
+        "name_ar": "أولاد دراج - السوامع",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1039,
+        "name": "Sidi Ameur - Tamsa",
+        "name_ar": "سيدي عامر - تامسة",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1040,
+        "name": "Hammam Dalaa - Tarmount",
+        "name_ar": "حمام الضلعة - تارمونت",
+        "wilaya_code": "28"
+    },
+    {
+        "id": 1041,
+        "name": "Ben Srour - Zarzour",
+        "name_ar": "بن سرور - زرزور",
+        "wilaya_code": "28"
+    }
+]

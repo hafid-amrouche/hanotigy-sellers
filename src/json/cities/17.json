@@ -1,0 +1,218 @@
+[
+    {
+        "id": 611,
+        "name": "El Idrissia - Ain Chouhada",
+        "name_ar": "الادريسية - عين الشهداء",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 612,
+        "name": "Ain El Ibel - Ain El Ibel",
+        "name_ar": "عين الإبل - عين الإبل",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 613,
+        "name": "Had Sahary - Ain Fekka",
+        "name_ar": "حد الصحاري - عين فقه",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 614,
+        "name": "Hassi Bahbah - Ain Maabed",
+        "name_ar": "حاسي بحبح - عين معبد",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 615,
+        "name": "Ain Oussera - Ain Oussera",
+        "name_ar": "عين وسارة - عين وسارة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 616,
+        "name": "Faidh El Botma - Amourah",
+        "name_ar": "فيض البطمة - عمورة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 617,
+        "name": "Birine - Benhar",
+        "name_ar": "بيرين - بنهار",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 618,
+        "name": "Charef - Benyagoub",
+        "name_ar": "الشارف - بن يعقوب",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 619,
+        "name": "Birine - Birine",
+        "name_ar": "بيرين - بيرين",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 620,
+        "name": "Had Sahary - Bouira Lahdab",
+        "name_ar": "حد الصحاري - بويرة الأحداب",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 621,
+        "name": "Charef - Charef",
+        "name_ar": "الشارف - الشارف",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 622,
+        "name": "Dar Chioukh - Dar Chioukh",
+        "name_ar": "دار الشيوخ - دار الشيوخ",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 623,
+        "name": "Messaad - Deldoul",
+        "name_ar": "مسعد - دلدول",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 624,
+        "name": "Djelfa - Djelfa",
+        "name_ar": "الجلفة - الجلفة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 625,
+        "name": "El Idrissia - Douis",
+        "name_ar": "الادريسية - دويس",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 626,
+        "name": "Charef - El Guedid",
+        "name_ar": "الشارف - القديد",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 627,
+        "name": "El Idrissia - El Idrissia",
+        "name_ar": "الادريسية - الادريسية",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 628,
+        "name": "Sidi Laadjel - El Khemis",
+        "name_ar": "سيدي لعجال - الخميس",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 629,
+        "name": "Faidh El Botma - Faidh El Botma",
+        "name_ar": "فيض البطمة - فيض البطمة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 630,
+        "name": "Ain Oussera - Guernini",
+        "name_ar": "عين وسارة - قرنيني",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 631,
+        "name": "Messaad - Guettara",
+        "name_ar": "مسعد - قطارة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 632,
+        "name": "Had Sahary - Had Sahary",
+        "name_ar": "حد الصحاري - حد الصحاري",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 633,
+        "name": "Hassi Bahbah - Hassi Bahbah",
+        "name_ar": "حاسي بحبح - حاسي بحبح",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 634,
+        "name": "Hassi Bahbah - Hassi El Euch",
+        "name_ar": "حاسي بحبح - حاسي العش",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 635,
+        "name": "Sidi Laadjel - Hassi Fedoul",
+        "name_ar": "سيدي لعجال - حاسي فدول",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 636,
+        "name": "Messaad - Messaad",
+        "name_ar": "مسعد - مسعد",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 637,
+        "name": "Dar Chioukh - M'liliha",
+        "name_ar": "دار الشيوخ - مليليحة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 638,
+        "name": "Ain El Ibel - Moudjebara",
+        "name_ar": "عين الإبل - مجبارة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 639,
+        "name": "Faidh El Botma - Oum Laadham",
+        "name_ar": "فيض البطمة - أم العظام",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 640,
+        "name": "Messaad - Sed Rahal",
+        "name_ar": "مسعد - سد الرحال",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 641,
+        "name": "Messaad - Selmana",
+        "name_ar": "مسعد - سلمانة",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 642,
+        "name": "Dar Chioukh - Sidi Baizid",
+        "name_ar": "دار الشيوخ - سيدي بايزيد",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 643,
+        "name": "Sidi Laadjel - Sidi Laadjel",
+        "name_ar": "سيدي لعجال - سيدي لعجال",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 644,
+        "name": "Ain El Ibel - Taadmit",
+        "name_ar": "عين الإبل - تعظميت",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 645,
+        "name": "Hassi Bahbah - Zaafrane",
+        "name_ar": "حاسي بحبح - زعفران",
+        "wilaya_code": "17"
+    },
+    {
+        "id": 646,
+        "name": "Ain El Ibel - Zaccar",
+        "name_ar": "عين الإبل - زكار",
+        "wilaya_code": "17"
+    }
+]

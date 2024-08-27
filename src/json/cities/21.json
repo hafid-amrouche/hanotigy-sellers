@@ -1,0 +1,230 @@
+[
+    {
+        "id": 751,
+        "name": "Sidi Mezghiche - Ain Bouziane",
+        "name_ar": "سيدي مزغيش - عين بوزيان",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 752,
+        "name": "Azzaba - Ain Charchar",
+        "name_ar": "عزابة - عين شرشار",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 753,
+        "name": "Ain Kechra - Ain Kechra",
+        "name_ar": "عين قشرة - عين قشرة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 754,
+        "name": "El Hadaiek - Ain Zouit",
+        "name_ar": "الحدائق - عين زويت",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 755,
+        "name": "Azzaba - Azzaba",
+        "name_ar": "عزابة - عزابة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 756,
+        "name": "Ben Azzouz - Bekkouche Lakhdar",
+        "name_ar": "بن عزوز - بكوش لخضر",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 757,
+        "name": "Ben Azzouz - Ben Azzouz",
+        "name_ar": "بن عزوز - بن عزوز",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 758,
+        "name": "Ramdane Djamel - Beni Bechir",
+        "name_ar": "رمضان جمال - بني بشير",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 759,
+        "name": "Sidi Mezghiche - Beni Oulbane",
+        "name_ar": "سيدي مزغيش - بني ولبان",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 760,
+        "name": "Collo - Beni Zid",
+        "name_ar": "القل - بني زيد",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 761,
+        "name": "Tamalous - Bin El Ouiden",
+        "name_ar": "تمالوس - بين الويدان",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 762,
+        "name": "El Hadaiek - Bouchetata",
+        "name_ar": "الحدائق - بوشطاطة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 763,
+        "name": "Collo - Cheraia",
+        "name_ar": "القل - الشرايع",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 764,
+        "name": "Collo - Collo",
+        "name_ar": "القل - القل",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 765,
+        "name": "Azzaba - Djendel Saadi Mohamed",
+        "name_ar": "عزابة - جندل سعدي محمد",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 766,
+        "name": "El Harrouch - El Arrouch",
+        "name_ar": "الحروش - الحروش",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 767,
+        "name": "Azzaba - El Ghedir",
+        "name_ar": "عزابة - الغدير",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 768,
+        "name": "El Hadaiek - El Hadaiek",
+        "name_ar": "الحدائق - الحدائق",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 769,
+        "name": "Ben Azzouz - El Marsa",
+        "name_ar": "بن عزوز - المرسى",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 770,
+        "name": "El Harrouch - Emjez Edchich",
+        "name_ar": "الحروش - مجاز الدشيش",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 771,
+        "name": "Azzaba - Es Sebt",
+        "name_ar": "عزابة - السبت",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 772,
+        "name": "Skikda - Filfila",
+        "name_ar": "سكيكدة - فلفلة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 773,
+        "name": "Skikda - Hammadi Krouma",
+        "name_ar": "سكيكدة - حمادي كرومة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 774,
+        "name": "Zitouna - Kanoua",
+        "name_ar": "الزيتونة - قنواع",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 775,
+        "name": "Tamalous - Kerkara",
+        "name_ar": "تمالوس - الكركرة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 776,
+        "name": "Ouled Attia - Khenag Maoune",
+        "name_ar": "أولاد عطية - خناق مايو",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 777,
+        "name": "Ouled Attia - Oued Zhour",
+        "name_ar": "أولاد عطية - وادي الزهور",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 778,
+        "name": "Ain Kechra - Ouldja Boulbalout",
+        "name_ar": "عين قشرة - الولجة بولبلوط",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 779,
+        "name": "Ouled Attia - Ouled Attia",
+        "name_ar": "أولاد عطية - أولاد عطية",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 780,
+        "name": "El Harrouch - Ouled Habbaba",
+        "name_ar": "الحروش - أولاد حبابة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 781,
+        "name": "Oum Toub - Oum Toub",
+        "name_ar": "أم الطوب - أم الطوب",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 782,
+        "name": "Ramdane Djamel - Ramdane Djamel",
+        "name_ar": "رمضان جمال - رمضان جمال",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 783,
+        "name": "El Harrouch - Salah Bouchaour",
+        "name_ar": "الحروش - صالح بو الشعور",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 784,
+        "name": "Sidi Mezghiche - Sidi Mezghiche",
+        "name_ar": "سيدي مزغيش - سيدي مزغيش",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 785,
+        "name": "Skikda - Skikda",
+        "name_ar": "سكيكدة - سكيكدة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 786,
+        "name": "Tamalous - Tamalous",
+        "name_ar": "تمالوس - تمالوس",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 787,
+        "name": "El Harrouch - Zerdezas",
+        "name_ar": "الحروش - زردازة",
+        "wilaya_code": "21"
+    },
+    {
+        "id": 788,
+        "name": "Zitouna - Zitouna",
+        "name_ar": "الزيتونة - الزيتونة",
+        "wilaya_code": "21"
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 647,
+        "name": "Chekfa - Bordj T'har",
+        "name_ar": "الشقفة - برج الطهر",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 648,
+        "name": "Djimla - Boudria Beniyadjis",
+        "name_ar": "جيملة - بودريعة بني  ياجيس",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 649,
+        "name": "El Ancer - Bouraoui Belhadef",
+        "name_ar": "العنصر - بوراوي بلهادف",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 650,
+        "name": "Taher - Boussif Ouled Askeur",
+        "name_ar": "الطاهير - بوسيف أولاد عسكر",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 651,
+        "name": "Taher - Chahna",
+        "name_ar": "الطاهير - الشحنة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 652,
+        "name": "Chekfa - Chekfa",
+        "name_ar": "الشقفة - الشقفة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 653,
+        "name": "El Ancer - Djemaa Beni Habibi",
+        "name_ar": "العنصر - الجمعة بني حبيبي",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 654,
+        "name": "Djimla - Djimla",
+        "name_ar": "جيملة - جيملة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 655,
+        "name": "El Ancer - El Ancer",
+        "name_ar": "العنصر - العنصر",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 656,
+        "name": "El Aouana - El Aouana",
+        "name_ar": "العوانة - العوانة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 657,
+        "name": "Chekfa - El Kennar Nouchfi",
+        "name_ar": "الشقفة - القنار نشفي",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 658,
+        "name": "El Milia - El Milia",
+        "name_ar": "الميلية - الميلية",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 659,
+        "name": "Taher - Emir Abdelkader",
+        "name_ar": "الطاهير - الامير عبد القادر",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 660,
+        "name": "Ziamah Mansouriah - Erraguene Souissi",
+        "name_ar": "زيامة منصورية - أراقن سويسي",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 661,
+        "name": "Settara - Ghebala",
+        "name_ar": "السطارة - غبالة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 662,
+        "name": "Jijel - Jijel",
+        "name_ar": "جيجل - جيجل",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 663,
+        "name": "Texenna - Kaous",
+        "name_ar": "تاكسنة - قاوس",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 664,
+        "name": "El Ancer - Khiri Oued Adjoul",
+        "name_ar": "العنصر - خيري واد عجول",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 665,
+        "name": "Taher - Oudjana",
+        "name_ar": "الطاهير - وجانة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 666,
+        "name": "Sidi Marouf - Ouled Rabah",
+        "name_ar": "سيدي معروف - أولاد رابح",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 667,
+        "name": "El Milia - Ouled Yahia Khadrouch",
+        "name_ar": "الميلية - أولاد يحيى خدروش",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 668,
+        "name": "El Aouana - Selma Benziada",
+        "name_ar": "العوانة - سلمى بن زيادة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 669,
+        "name": "Settara - Settara",
+        "name_ar": "السطارة - السطارة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 670,
+        "name": "Chekfa - Sidi Abdelaziz",
+        "name_ar": "الشقفة - سيدي عبد العزيز",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 671,
+        "name": "Sidi Marouf - Sidi Marouf",
+        "name_ar": "سيدي معروف - سيدي معروف",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 672,
+        "name": "Taher - Taher",
+        "name_ar": "الطاهير - الطاهير",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 673,
+        "name": "Texenna - Texenna",
+        "name_ar": "تاكسنة - تاكسنة",
+        "wilaya_code": "18"
+    },
+    {
+        "id": 674,
+        "name": "Ziamah Mansouriah - Ziama Mansouriah",
+        "name_ar": "زيامة منصورية - زيامة منصورية",
+        "wilaya_code": "18"
+    }
+]

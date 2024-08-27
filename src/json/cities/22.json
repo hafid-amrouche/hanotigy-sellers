@@ -1,0 +1,314 @@
+[
+    {
+        "id": 789,
+        "name": "Ain El Berd - Ain El Berd",
+        "name_ar": "عين البرد - عين البرد",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 790,
+        "name": "Sidi Ali Boussidi - Ain Kada",
+        "name_ar": "سيدي علي بوسيدي - عين قادة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 791,
+        "name": "Tessala - Ain Thrid",
+        "name_ar": "تسالة - عين الثريد",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 792,
+        "name": "Moulay Slissen - Ain Tindamine",
+        "name_ar": "مولاي سليسن - عين تندمين",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 793,
+        "name": "Sfisef - Ain- Adden",
+        "name_ar": "سفيزف - عين أدن",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 794,
+        "name": "Sidi Lahcene - Amarnas",
+        "name_ar": "سيدي لحسن - العمارنة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 795,
+        "name": "Ben Badis - Bedrabine El Mokrani",
+        "name_ar": "بن باديس - بضرابين المقراني",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 796,
+        "name": "Mostefa  Ben Brahim - Belarbi",
+        "name_ar": "مصطفى بن ابراهيم - بلعربي",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 797,
+        "name": "Ben Badis - Ben Badis",
+        "name_ar": "بن باديس - بن باديس",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 798,
+        "name": "Tenira - Benachiba Chelia",
+        "name_ar": "تنيرة - بن عشيبة شلية",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 799,
+        "name": "Marhoum - Bir El Hammam",
+        "name_ar": "مرحوم - بئر الحمام",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 800,
+        "name": "Sfisef - Boudjebaa El Bordj",
+        "name_ar": "سفيزف - بوجبهة البرج",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 801,
+        "name": "Sidi Ali Ben Youb - Boukhanefis",
+        "name_ar": "سيدي علي بن يوب - بوخنفيس",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 802,
+        "name": "Ben Badis - Chetouane Belaila",
+        "name_ar": "بن باديس - شيطوان البلايلة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 803,
+        "name": "Telagh - Dhaya",
+        "name_ar": "تلاغ - الضاية",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 804,
+        "name": "Moulay Slissen - El Hacaiba",
+        "name_ar": "مولاي سليسن - الحصيبة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 805,
+        "name": "Tenira - Hassi Dahou",
+        "name_ar": "تنيرة - حاسي دحو",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 806,
+        "name": "Ben Badis - Hassi Zahana",
+        "name_ar": "بن باديس - حاسي زهانة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 807,
+        "name": "Sidi Ali Boussidi - Lamtar",
+        "name_ar": "سيدي علي بوسيدي - لمطار",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 808,
+        "name": "Ain El Berd - Makedra",
+        "name_ar": "عين البرد - مكدرة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 809,
+        "name": "Marhoum - Marhoum",
+        "name_ar": "مرحوم - مرحوم",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 810,
+        "name": "Sfisef - M'cid",
+        "name_ar": "سفيزف - مسيد",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 811,
+        "name": "Merine - Merine",
+        "name_ar": "مرين - مرين",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 812,
+        "name": "Telagh - Mezaourou",
+        "name_ar": "تلاغ - مزاورو",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 813,
+        "name": "Mostefa  Ben Brahim - Mostefa  Ben Brahim",
+        "name_ar": "مصطفى بن ابراهيم - مصطفى بن ابراهيم",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 814,
+        "name": "Moulay Slissen - Moulay Slissen",
+        "name_ar": "مولاي سليسن - مولاي سليسن",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 815,
+        "name": "Ras El Ma - Oued Sebaa",
+        "name_ar": "راس الماء - وادي السبع",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 816,
+        "name": "Tenira - Oued Sefioun",
+        "name_ar": "تنيرة - وادي سفيون",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 817,
+        "name": "Merine - Oued Taourira",
+        "name_ar": "مرين - وادي تاوريرة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 818,
+        "name": "Ras El Ma - Ras El Ma",
+        "name_ar": "راس الماء - راس الماء",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 819,
+        "name": "Ras El Ma - Redjem Demouche",
+        "name_ar": "راس الماء - رجم دموش",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 820,
+        "name": "Tessala - Sehala Thaoura",
+        "name_ar": "تسالة - السهالة الثورة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 821,
+        "name": "Sfisef - Sfisef",
+        "name_ar": "سفيزف - سفيزف",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 822,
+        "name": "Sidi Ali Ben Youb - Sidi Ali Benyoub",
+        "name_ar": "سيدي علي بن يوب - سيدي علي بن يوب",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 823,
+        "name": "Sidi Ali Boussidi - Sidi Ali Boussidi",
+        "name_ar": "سيدي علي بوسيدي - سيدي علي بوسيدي",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 824,
+        "name": "Sidi Bel Abbes - Sidi Bel-Abbes",
+        "name_ar": "سيدي بلعباس - سيدي بلعباس",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 825,
+        "name": "Ain El Berd - Sidi Brahim",
+        "name_ar": "عين البرد - سيدي ابراهيم",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 826,
+        "name": "Marhoum - Sidi Chaib",
+        "name_ar": "مرحوم - سيدي شعيب",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 827,
+        "name": "Sidi Ali Boussidi - Sidi Dahou Zairs",
+        "name_ar": "سيدي علي بوسيدي - سيدي دحو الزاير",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 828,
+        "name": "Ain El Berd - Sidi Hamadouche",
+        "name_ar": "عين البرد - سيدي حمادوش",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 829,
+        "name": "Sidi Lahcene - Sidi Khaled",
+        "name_ar": "سيدي لحسن - سيدي خالد",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 830,
+        "name": "Sidi Lahcene - Sidi Lahcene",
+        "name_ar": "سيدي لحسن - سيدي لحسن",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 831,
+        "name": "Sidi Lahcene - Sidi Yacoub",
+        "name_ar": "سيدي لحسن - سيدي يعقوب",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 832,
+        "name": "Sidi Ali Ben Youb - Tabia",
+        "name_ar": "سيدي علي بن يوب - طابية",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 833,
+        "name": "Merine - Taoudmout",
+        "name_ar": "مرين - تاودموت",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 834,
+        "name": "Merine - Tefessour",
+        "name_ar": "مرين - تفسور",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 835,
+        "name": "Telagh - Teghalimet",
+        "name_ar": "تلاغ - تغاليمت",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 836,
+        "name": "Telagh - Telagh",
+        "name_ar": "تلاغ - تلاغ",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 837,
+        "name": "Tenira - Tenira",
+        "name_ar": "تنيرة - تنيرة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 838,
+        "name": "Tessala - Tessala",
+        "name_ar": "تسالة - تسالة",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 839,
+        "name": "Mostefa  Ben Brahim - Tilmouni",
+        "name_ar": "مصطفى بن ابراهيم - تلموني",
+        "wilaya_code": "22"
+    },
+    {
+        "id": 840,
+        "name": "Mostefa  Ben Brahim - Zerouala",
+        "name_ar": "مصطفى بن ابراهيم - زروالة",
+        "wilaya_code": "22"
+    }
+]

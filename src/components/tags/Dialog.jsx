@@ -1,9 +1,14 @@
-import { forwardRef, useEffect, useImperativeHandle, useState } from "react";
+import { createContext, forwardRef, useContext, useEffect, useImperativeHandle, useState } from "react";
 import classes from './Dialog.module.css'
 import { useBlocker } from "react-router-dom";
 
-const DialogComponent = forwardRef(({open, backDropPressCloses=true, close=()=>{}, children}, ref) => {
+const DialogContext = createContext({
+  openDialog: ()=>{},
+  closeDialog: ()=>{},
+  open: false
+})
 
+const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{}, children}, ref)=>{
   useImperativeHandle(ref, () => ({
     close: closeDialog,
     open: openDialog,
@@ -58,17 +63,27 @@ const DialogComponent = forwardRef(({open, backDropPressCloses=true, close=()=>{
   };
 
   }, [open]);
-  return (
-    <>
-      {isOpen && (
-        <div className={`${classes['backdrop']} ${isClosing ? classes['backdrop-fade-out'] : ''}`} onClick={ ()=>{if (backDropPressCloses) closeDialog()} }>
-          <div className={`${classes['dialog']} ${isClosing ? classes['dialog-slide-down'] : ''}`} onClick={e => e.stopPropagation()}>
-            {children}
+
+  const defaultValue={
+    openDialog,
+    closeDialog,
+    open
+  }
+
+  return(
+    <DialogContext.Provider value={defaultValue}>
+      <>
+        {isOpen && (
+          <div className={`${classes['backdrop']} ${isClosing ? classes['backdrop-fade-out'] : ''}`} onClick={ ()=>{if (backDropPressCloses) closeDialog()} }>
+            <div className={`${classes['dialog']} ${isClosing ? classes['dialog-slide-down'] : ''}`} onClick={e => e.stopPropagation()}>
+              {children}
+            </div>
           </div>
-        </div>
-      )}
-    </>
-  );
+        )}
+      </>
+    </DialogContext.Provider>
+  )
 })
 
+export const useDialogContext = ()=>useContext(DialogContext)
 export default DialogComponent;

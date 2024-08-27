@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1256,
+        "name": "Ammari - Ammari",
+        "name_ar": "عماري - عماري",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1257,
+        "name": "Bordj Bounaama - Beni Chaib",
+        "name_ar": "برج بونعامة - بني شعيب",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1258,
+        "name": "Bordj Bounaama - Beni Lahcene",
+        "name_ar": "برج بونعامة - بني لحسن",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1259,
+        "name": "Bordj Bounaama - Bordj Bounaama",
+        "name_ar": "برج بونعامة - برج بونعامة",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1260,
+        "name": "Bordj Emir Abdelkader - Bordj El Emir Abdelkader",
+        "name_ar": "برج الأمير عبد القادر - برج الأمير عبد القادر",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1261,
+        "name": "Lazharia - Boucaid",
+        "name_ar": "الأزهرية - بوقائد",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1262,
+        "name": "Khemisti - Khemisti",
+        "name_ar": "خميستي - خميستي",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1263,
+        "name": "Lazharia - Larbaa",
+        "name_ar": "الأزهرية - الأربعاء",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1264,
+        "name": "Lardjem - Lardjem",
+        "name_ar": "لرجام - لرجام",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1265,
+        "name": "Khemisti - Layoune",
+        "name_ar": "خميستي - العيون",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1266,
+        "name": "Lazharia - Lazharia",
+        "name_ar": "الأزهرية - الأزهرية",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1267,
+        "name": "Ammari - Maacem",
+        "name_ar": "عماري - المعاصم",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1268,
+        "name": "Lardjem - Melaab",
+        "name_ar": "لرجام - الملعب",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1269,
+        "name": "Tissemsilt - Ouled Bessam",
+        "name_ar": "تيسمسيلت - أولاد بسام",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1270,
+        "name": "Ammari - Sidi Abed",
+        "name_ar": "عماري - سيدي عابد",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1271,
+        "name": "Theniet El Had - Sidi Boutouchent",
+        "name_ar": "ثنية الاحد - سيدي بوتوشنت",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1272,
+        "name": "Lardjem - Sidi Lantri",
+        "name_ar": "لرجام - سيدي العنتري",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1273,
+        "name": "Bordj Bounaama - Sidi Slimane",
+        "name_ar": "برج بونعامة - سيدي سليمان",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1274,
+        "name": "Lardjem - Tamellahet",
+        "name_ar": "لرجام - تملاحت",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1275,
+        "name": "Theniet El Had - Theniet El Had",
+        "name_ar": "ثنية الاحد - ثنية الاحد",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1276,
+        "name": "Tissemsilt - Tissemsilt",
+        "name_ar": "تيسمسيلت - تيسمسيلت",
+        "wilaya_code": "38"
+    },
+    {
+        "id": 1277,
+        "name": "Bordj Emir Abdelkader - Youssoufia",
+        "name_ar": "برج الأمير عبد القادر - اليوسفية",
+        "wilaya_code": "38"
+    }
+]

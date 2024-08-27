@@ -4,12 +4,11 @@ import { getCombinations ,translate } from 'utils/utils'
 import UploadImageButton from './UploadImageButton'
 import { useContextSelector } from 'use-context-selector'
 import { AddProductContext } from './store/add-product-context'
-import IconWithHover from 'components/IconWithHover'
 import DialogComponent from 'components/tags/Dialog'
 import Button from 'components/Button'
 import './VariantsPricing.css'
 
-const VariantRow = ({variantObj, index, pricesAndImage, changePricesAndImage})=>{
+const VariantRow = ({variantObj, pricesAndImagesList, index, pricesAndImage, changePricesAndImage})=>{
   const priceChangeHandler=(e)=>{
     changePricesAndImage(index, 'price', Number(e.target.value))
   }
@@ -22,10 +21,8 @@ const VariantRow = ({variantObj, index, pricesAndImage, changePricesAndImage})=>
   const copyToAllOriginalPrices=(value=null, approved=false)=>{
     if (!approved) capyToAllOriginalPricesDialogRef.current?.open()
     if(approved) {
-      changePricesAndImage((pricesAndImagesList)=>{
-        pricesAndImagesList.forEach((row, index)=>{
-          changePricesAndImage(index, 'originalPrice', value)
-        })
+      pricesAndImagesList.forEach((row, index)=>{
+        changePricesAndImage(index, 'originalPrice', value)
       })
       capyToAllOriginalPricesDialogRef.current?.close()
     }
@@ -33,21 +30,19 @@ const VariantRow = ({variantObj, index, pricesAndImage, changePricesAndImage})=>
   const copyToAllPrices=(value=null, approved=false)=>{
     if (!approved) capyToAllPricesDialogRef.current?.open()
     if(approved) {
-      changePricesAndImage((pricesAndImagesList)=>{
         pricesAndImagesList.forEach((row, index)=>{
           changePricesAndImage(index, 'price', value)
         })
-      })
       capyToAllPricesDialogRef.current?.close()
     }
   }
   const capyToAllPricesDialogRef = useRef()
   const capyToAllOriginalPricesDialogRef = useRef()
   return(
-    <div className='table-row'>
+    <div className='table-row mt-3'>
       <div className='table-cell'>
         <div className='d-f f-wrap g-2 container p-2 px-1'>
-          <UploadImageButton image={pricesAndImage.image} imageChangeHandler={imageChangeHandler} />  
+          <UploadImageButton type='product/variant-image' image={pricesAndImage.image} imageChangeHandler={imageChangeHandler} />  
           {
             Object.values(variantObj).map((option, index2)=>{ 
               if (option) return (
@@ -63,15 +58,21 @@ const VariantRow = ({variantObj, index, pricesAndImage, changePricesAndImage})=>
       </div>
       <div className='table-cell flex-1 d-f p-relative'>
         <input min={0} value={pricesAndImage.price} onChange={priceChangeHandler} className='box-input' type='number'  style={{ fontSize: 18, height: 50, padding: '8px 4px'}} />
-        <IconWithHover 
-          style={{
-            position: 'absolute',
-            left: 4,
-            top: -4
-          }}
-          iconClass='fa-solid fa-plus-square color-primary'
-          onClick={()=>copyToAllPrices()}
-        />
+        <button
+            style={{
+                position: 'absolute',
+                alignSelf: 'flex-start',
+                right: 6,
+                top: -26,
+                color: 'var(--primaryColor)',
+                textDecoration: 'underline',
+                scale: 0.8,
+                whiteSpace: 'nowrap'
+            }}
+            onClick={()=>copyToAllPrices()}
+        >  
+            {translate('apply to all')}
+        </button>
         <DialogComponent ref={capyToAllPricesDialogRef} >
             <div className='container p-2 column g-4' style={{maxWidth: '80vw'}}>
                 <h4 style={{textAlign: 'start'}}>{translate('Are you sure you want to copy this value "{price}" to all prices fields ?', {price: pricesAndImage.price})}</h4>
@@ -84,15 +85,22 @@ const VariantRow = ({variantObj, index, pricesAndImage, changePricesAndImage})=>
       </div>
       <div className='table-cell flex-1 d-f p-relative'>
         <input min={0}  value={pricesAndImage.originalPrice} onChange={originaPriceChangeHandler} className='box-input' type='number' style={{textDecoration: pricesAndImage.originalPrice!= 0 ? 'line-through' : undefined, fontFamily: '', fontSize: 18, height:50, padding: '8px 4px'}} />
-        <IconWithHover 
-          style={{
-            position: 'absolute',
-            left: 4,
-            top: -4
-          }}
-          onClick={()=>copyToAllOriginalPrices(Number(pricesAndImage.originalPrice))}
-          iconClass='fa-solid fa-plus-square color-primary'
-        />
+
+        <button
+            style={{
+                position: 'absolute',
+                alignSelf: 'flex-start',
+                right: 6,
+                top: -26,
+                color: 'var(--primaryColor)',
+                textDecoration: 'underline',
+                scale: 0.8,
+                whiteSpace: 'nowrap'
+            }}
+            onClick={()=>copyToAllOriginalPrices(Number(pricesAndImage.originalPrice))}
+            >  
+            {translate('apply to all')}
+        </button>
         <DialogComponent ref={capyToAllOriginalPricesDialogRef} >
             <div className='container p-2 column g-4' style={{maxWidth: '80vw'}}>
                 <h4 style={{textAlign: 'start'}}>{translate('Are you sure you want to copy this value "{price}" to all original prices fields ?', {price: pricesAndImage.originalPrice})}</h4>
@@ -128,16 +136,12 @@ const VariantsPricing = ({variants, pricesAndImagesList, setPricesAndImageList, 
     else firstCicleDone.current = true
   }, [variants])
   
-  const changePricesAndImage=useCallback((indexOrFunction, identifier, value)=>{
-    if (typeof indexOrFunction === 'function'){
-      indexOrFunction(pricesAndImagesList)
-      return;
-    }
-    setPricesAndImageList(state=>{
-      const newState = [...state]
-      newState[indexOrFunction][identifier] = value
-      return newState
-    })
+  const changePricesAndImage=useCallback((index, identifier, value)=>{
+      setPricesAndImageList(state=>{
+        const newState = [...state]
+        newState[index][identifier] = value
+        return newState
+      })
   }, [])
 
   return (
@@ -146,13 +150,14 @@ const VariantsPricing = ({variants, pricesAndImagesList, setPricesAndImageList, 
         <h3 className='color-primary'>{ translate('Varinats Pricing') }</h3>
 
         <div className="table-flex">
-          <div className='table-row header' style={{borderBottom: 'var(--borderColor) 1px solid'}}>
+          <div className='table-row header ' style={{borderBottom: 'var(--borderColor) 1px solid'}}>
               <div className='table-cell'>{translate('Variant')}</div>
               <div className='table-cell'>{translate('Price')}</div>
               <div className='table-cell'>{translate('Original price')}</div>
           </div>
+          <div className='table-row mb-1'></div>
           {variantsCombinations.map((variantObj, index)=>(
-            <VariantRow key={index} index={index} variantObj={variantObj} pricesAndImage={pricesAndImagesList[index]} changePricesAndImage={changePricesAndImage} />
+            <VariantRow key={index} index={index} variantObj={variantObj} pricesAndImage={pricesAndImagesList[index]} pricesAndImagesList={pricesAndImagesList} changePricesAndImage={changePricesAndImage} />
           ))}
           
         </div>

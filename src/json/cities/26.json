@@ -1,0 +1,386 @@
+[
+    {
+        "id": 899,
+        "name": "Ain Boucif - Ain Boucif",
+        "name_ar": "عين بوسيف - عين بوسيف",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 900,
+        "name": "Chellalat El Adhaoura - Ain Ouksir",
+        "name_ar": "شلالة العذاورة - عين اقصير",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 901,
+        "name": "Tablat - Aissaouia",
+        "name_ar": "تابلاط - العيساوية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 902,
+        "name": "Aziz - Aziz",
+        "name_ar": "عزيز - عزيز",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 903,
+        "name": "El Omaria - Baata",
+        "name_ar": "العمارية - بعطة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 904,
+        "name": "Ouzera - Ben Chicao",
+        "name_ar": "وزرة - بن شكاو",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 905,
+        "name": "Beni Slimane - Beni Slimane",
+        "name_ar": "بني سليمان - بني سليمان",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 906,
+        "name": "Berrouaghia - Berrouaghia",
+        "name_ar": "البرواقية - البرواقية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 907,
+        "name": "Guelb El Kebir - Bir Ben Laabed",
+        "name_ar": "القلب الكبير - بئر بن عابد",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 908,
+        "name": "Ouled Antar - Boghar",
+        "name_ar": "أولاد عنتر - بوغار",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 909,
+        "name": "Chahbounia - Bouaiche",
+        "name_ar": "الشهبونية - بوعيش",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 910,
+        "name": "Si Mahdjoub - Bouaichoune",
+        "name_ar": "سي المحجوب - بوعيشون",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 911,
+        "name": "Sidi Naamane - Bouchrahil",
+        "name_ar": "سيدي نعمان - بوشراحيل",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 912,
+        "name": "Chahbounia - Boughzoul",
+        "name_ar": "الشهبونية - بوغزول",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 913,
+        "name": "Beni Slimane - Bouskene",
+        "name_ar": "بني سليمان - بوسكن",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 914,
+        "name": "Chahbounia - Chabounia",
+        "name_ar": "الشهبونية - الشهبونية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 915,
+        "name": "Chellalat El Adhaoura - Chelalet El Adhaoura",
+        "name_ar": "شلالة العذاورة - شلالة العذاورة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 916,
+        "name": "Chellalat El Adhaoura - Cheniguel",
+        "name_ar": "شلالة العذاورة - شنيقل",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 917,
+        "name": "Aziz - Derrag",
+        "name_ar": "عزيز - دراق",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 918,
+        "name": "Souaghi - Djouab",
+        "name_ar": "السواقي - جواب",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 919,
+        "name": "Medea - Draa Esmar",
+        "name_ar": "المدية - ذراع السمار",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 920,
+        "name": "El Azizia - El Azizia",
+        "name_ar": "العزيزية - العزيزية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 921,
+        "name": "Guelb El Kebir - El Guelbelkebir",
+        "name_ar": "القلب الكبير - القلب الكبير",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 922,
+        "name": "Ouzera - El Hamdania",
+        "name_ar": "وزرة - الحمدانية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 923,
+        "name": "Tablat - El Haoudane",
+        "name_ar": "تابلاط - الحوضان",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 924,
+        "name": "El Omaria - El Omaria",
+        "name_ar": "العمارية - العمارية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 925,
+        "name": "Ain Boucif - El Ouinet",
+        "name_ar": "عين بوسيف - العوينات",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 926,
+        "name": "Ouamri - Hannacha",
+        "name_ar": "عوامري - حناشة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 927,
+        "name": "Ain Boucif - Kef Lakhdar",
+        "name_ar": "عين بوسيف - الكاف الاخضر",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 928,
+        "name": "Sidi Naamane - Khams Djouamaa",
+        "name_ar": "سيدي نعمان - خمس جوامع",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 929,
+        "name": "Ksar El Boukhari - Ksar El Boukhari",
+        "name_ar": "قصر البخاري - قصر البخاري",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 930,
+        "name": "El Azizia - Maghraoua",
+        "name_ar": "العزيزية - مغراوة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 931,
+        "name": "Medea - Medea",
+        "name_ar": "المدية - المدية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 932,
+        "name": "Seghouane - Medjebar",
+        "name_ar": "سغوان - مجبر",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 933,
+        "name": "Tablat - Mezerana",
+        "name_ar": "تابلاط - مزغنة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 934,
+        "name": "Ksar El Boukhari - M'fatha",
+        "name_ar": "قصر البخاري - مفاتحة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 935,
+        "name": "El Azizia - Mihoub",
+        "name_ar": "العزيزية - ميهوب",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 936,
+        "name": "Ouamri - Ouamri",
+        "name_ar": "عوامري - عوامري",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 937,
+        "name": "Ouamri - Oued Harbil",
+        "name_ar": "عوامري - وادي حربيل",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 938,
+        "name": "Ouled Antar - Ouled Antar",
+        "name_ar": "أولاد عنتر - أولاد عنتر",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 939,
+        "name": "Si Mahdjoub - Ouled Bouachra",
+        "name_ar": "سي المحجوب - أولاد بوعشرة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 940,
+        "name": "El Omaria - Ouled Brahim",
+        "name_ar": "العمارية - أولاد إبراهيم",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 941,
+        "name": "Berrouaghia - Ouled Deid",
+        "name_ar": "البرواقية - أولاد دايد",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 942,
+        "name": "Ain Boucif - Ouled Emaaraf",
+        "name_ar": "عين بوسيف - أولاد امعرف",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 943,
+        "name": "Ouled Antar - Ouled Hellal",
+        "name_ar": "أولاد عنتر - أولاد هلال",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 944,
+        "name": "Aziz - Oum El Djellil",
+        "name_ar": "عزيز - أم الجليل",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 945,
+        "name": "Ouzera - Ouzera",
+        "name_ar": "وزرة - وزرة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 946,
+        "name": "Berrouaghia - Rebaia",
+        "name_ar": "البرواقية - الربعية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 947,
+        "name": "Ksar El Boukhari - Saneg",
+        "name_ar": "قصر البخاري - السانق",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 948,
+        "name": "Guelb El Kebir - Sedraya",
+        "name_ar": "القلب الكبير - سدراية",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 949,
+        "name": "Seghouane - Seghouane",
+        "name_ar": "سغوان - سغوان",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 950,
+        "name": "Si Mahdjoub - Si Mahdjoub",
+        "name_ar": "سي المحجوب - سي المحجوب",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 951,
+        "name": "Ain Boucif - Sidi Demed",
+        "name_ar": "عين بوسيف - سيدي دامد",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 952,
+        "name": "Sidi Naamane - Sidi Naamane",
+        "name_ar": "سيدي نعمان - سيدي نعمان",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 953,
+        "name": "Beni Slimane - Sidi Rabie",
+        "name_ar": "بني سليمان - سيدي الربيع",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 954,
+        "name": "Souaghi - Sidi Zahar",
+        "name_ar": "السواقي - سيدي زهار",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 955,
+        "name": "Souaghi - Sidi Ziane",
+        "name_ar": "السواقي - سيدي زيان",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 956,
+        "name": "Souaghi - Souagui",
+        "name_ar": "السواقي - السواقي",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 957,
+        "name": "Tablat - Tablat",
+        "name_ar": "تابلاط - تابلاط",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 958,
+        "name": "Chellalat El Adhaoura - Tafraout",
+        "name_ar": "شلالة العذاورة - تفراوت",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 959,
+        "name": "Medea - Tamesguida",
+        "name_ar": "المدية - تمسقيدة",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 960,
+        "name": "Ouzera - Tizi Mahdi",
+        "name_ar": "وزرة - تيزي مهدي",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 961,
+        "name": "Seghouane - Tletat Ed Douair",
+        "name_ar": "سغوان - ثلاث دوائر",
+        "wilaya_code": "26"
+    },
+    {
+        "id": 962,
+        "name": "Seghouane - Zoubiria",
+        "name_ar": "سغوان - الزبيرية",
+        "wilaya_code": "26"
+    }
+]

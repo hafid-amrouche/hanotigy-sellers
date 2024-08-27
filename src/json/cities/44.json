@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1415,
+        "name": "Hammam Righa - Ain-Benian",
+        "name_ar": "حمام ريغة - عين البنيان",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1416,
+        "name": "El Abadia - Ain-Bouyahia",
+        "name_ar": "العبادية - عين بويحيى",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1417,
+        "name": "Ain Defla - Ain-Defla",
+        "name_ar": "عين الدفلى - عين الدفلى",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1418,
+        "name": "Ain Lechiakh - Ain-Lechiakh",
+        "name_ar": "عين الاشياخ - عين الاشياخ",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1419,
+        "name": "Ain Lechiakh - Ain-Soltane",
+        "name_ar": "عين الاشياخ - عين السلطان",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1420,
+        "name": "Hammam Righa - Ain-Torki",
+        "name_ar": "حمام ريغة - عين التركي",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1421,
+        "name": "El Amra - Arib",
+        "name_ar": "العامرة - عريب",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1422,
+        "name": "Djendel - Birbouche",
+        "name_ar": "جندل - بربوش",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1423,
+        "name": "Bathia - Bathia",
+        "name_ar": "بطحية - بطحية",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1424,
+        "name": "Bathia - Belaas",
+        "name_ar": "بطحية - بلعاص",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1425,
+        "name": "Miliana - Ben Allal",
+        "name_ar": "مليانة - بن علال",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1426,
+        "name": "Bordj El Emir Khaled - Bir-Ould-Khelifa",
+        "name_ar": "برج الأمير خالد - بئر ولد خليفة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1427,
+        "name": "Bordj El Emir Khaled - Bordj-Emir-Khaled",
+        "name_ar": "برج الأمير خالد - برج الأمير خالد",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1428,
+        "name": "Boumedfaa - Boumedfaa",
+        "name_ar": "بومدفع - بومدفع",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1429,
+        "name": "Djelida - Bourached",
+        "name_ar": "جليدة - بوراشد",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1430,
+        "name": "Djelida - Djelida",
+        "name_ar": "جليدة - جليدة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1431,
+        "name": "Djelida - Djemaa Ouled Cheikh",
+        "name_ar": "جليدة - جمعة أولاد الشيخ",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1432,
+        "name": "Djendel - Djendel",
+        "name_ar": "جندل - جندل",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1433,
+        "name": "El Abadia - El-Abadia",
+        "name_ar": "العبادية - العبادية",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1434,
+        "name": "El Amra - El-Amra",
+        "name_ar": "العامرة - العامرة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1435,
+        "name": "El Attaf - El-Attaf",
+        "name_ar": "العطاف - العطاف",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1436,
+        "name": "Rouina - El-Maine",
+        "name_ar": "الروينة - الماين",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1437,
+        "name": "Hammam Righa - Hammam-Righa",
+        "name_ar": "حمام ريغة - حمام ريغة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1438,
+        "name": "Bathia - Hassania",
+        "name_ar": "بطحية - الحسانية",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1439,
+        "name": "Boumedfaa - Hoceinia",
+        "name_ar": "بومدفع - الحسينية",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1440,
+        "name": "Khemis - Khemis-Miliana",
+        "name_ar": "خميس - خميس مليانة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1441,
+        "name": "El Amra - Mekhatria",
+        "name_ar": "العامرة - المخاطرية",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1442,
+        "name": "Miliana - Miliana",
+        "name_ar": "مليانة - مليانة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1443,
+        "name": "Djendel - Oued Chorfa",
+        "name_ar": "جندل - وادي الشرفاء",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1444,
+        "name": "Ain Lechiakh - Oued Djemaa",
+        "name_ar": "عين الاشياخ - واد الجمعة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1445,
+        "name": "Rouina - Rouina",
+        "name_ar": "الروينة - الروينة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1446,
+        "name": "Khemis - Sidi-Lakhdar",
+        "name_ar": "خميس - سيدي الأخضر",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1447,
+        "name": "El Abadia - Tacheta Zegagha",
+        "name_ar": "العبادية - تاشتة زقاغة",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1448,
+        "name": "Bordj El Emir Khaled - Tarik-Ibn-Ziad",
+        "name_ar": "برج الأمير خالد - طارق بن زياد",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1449,
+        "name": "El Attaf - Tiberkanine",
+        "name_ar": "العطاف - تبركانين",
+        "wilaya_code": "44"
+    },
+    {
+        "id": 1450,
+        "name": "Rouina - Zeddine",
+        "name_ar": "الروينة - زدين",
+        "wilaya_code": "44"
+    }
+]

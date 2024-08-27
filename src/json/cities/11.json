@@ -1,0 +1,32 @@
+[
+    {
+        "id": 354,
+        "name": "Silet - Abelsa",
+        "name_ar": "سيلت - ابلسة",
+        "wilaya_code": "11"
+    },
+    {
+        "id": 355,
+        "name": "Tamanrasset - Ain Amguel",
+        "name_ar": "تمنراست - عين امقل",
+        "wilaya_code": "11"
+    },
+    {
+        "id": 359,
+        "name": "Tazrouk - Idles",
+        "name_ar": "تاظروك - أدلس",
+        "wilaya_code": "11"
+    },
+    {
+        "id": 361,
+        "name": "Tamanrasset - Tamanrasset",
+        "name_ar": "تمنراست - تمنراست",
+        "wilaya_code": "11"
+    },
+    {
+        "id": 362,
+        "name": "Tazrouk - Tazrouk",
+        "name_ar": "تاظروك - تاظروك",
+        "wilaya_code": "11"
+    }
+]

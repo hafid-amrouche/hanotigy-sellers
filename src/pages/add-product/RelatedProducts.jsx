@@ -52,7 +52,7 @@ const RelatedProducts = forwardRef((props, ref) => {
         try{
             const trimmed = searchText.trim().toLowerCase()
             const response = await axios.get(
-                apiUrl + '/product/get-user-products?search-text=' + trimmed,
+                apiUrl + `/product/get-user-products?search-text=${trimmed}&store_id=${localStorage.getItem('storeId')}` ,
                 {
                     headers: {
                         'Content-Type': 'application/json',

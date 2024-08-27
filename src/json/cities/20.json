@@ -1,0 +1,98 @@
+[
+    {
+        "id": 735,
+        "name": "Ain El Hadjar - Ain El Hadjar",
+        "name_ar": "عين الحجر - عين الحجر",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 736,
+        "name": "El Hassasna - Ain Sekhouna",
+        "name_ar": "الحساسنة - عين السخونة",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 737,
+        "name": "Ouled Brahim - Ain Soltane",
+        "name_ar": "أولاد ابراهيم - عين السلطان",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 738,
+        "name": "Youb - Doui Thabet",
+        "name_ar": "يوب - دوي ثابت",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 739,
+        "name": "El Hassasna - El Hassasna",
+        "name_ar": "الحساسنة - الحساسنة",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 740,
+        "name": "Sidi Boubekeur - Hounet",
+        "name_ar": "سيدي بوبكر - هونت",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 741,
+        "name": "El Hassasna - Maamora",
+        "name_ar": "الحساسنة - المعمورة",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 742,
+        "name": "Ain El Hadjar - Moulay Larbi",
+        "name_ar": "عين الحجر - مولاي العربي",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 743,
+        "name": "Ouled Brahim - Ouled Brahim",
+        "name_ar": "أولاد ابراهيم - أولاد إبراهيم",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 744,
+        "name": "Sidi Boubekeur - Ouled Khaled",
+        "name_ar": "سيدي بوبكر - أولاد خالد",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 745,
+        "name": "Saida - Saida",
+        "name_ar": "سعيدة - سعيدة",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 746,
+        "name": "Ain El Hadjar - Sidi Ahmed",
+        "name_ar": "عين الحجر - سيدي احمد",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 747,
+        "name": "Sidi Boubekeur - Sidi Amar",
+        "name_ar": "سيدي بوبكر - سيدي عمر",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 748,
+        "name": "Sidi Boubekeur - Sidi Boubekeur",
+        "name_ar": "سيدي بوبكر - سيدي بوبكر",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 749,
+        "name": "Ouled Brahim - Tircine",
+        "name_ar": "أولاد ابراهيم - تيرسين",
+        "wilaya_code": "20"
+    },
+    {
+        "id": 750,
+        "name": "Youb - Youb",
+        "name_ar": "يوب - يوب",
+        "wilaya_code": "20"
+    }
+]

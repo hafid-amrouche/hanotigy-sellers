@@ -1,0 +1,284 @@
+[
+    {
+        "id": 1042,
+        "name": "Ain Fares - Ain Fares",
+        "name_ar": "عين فارس - عين فارس",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1043,
+        "name": "Ain Fekan - Ain Fekan",
+        "name_ar": "عين فكان - عين فكان",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1044,
+        "name": "Oued El Abtal - Ain Ferah",
+        "name_ar": "وادي الأبطال - عين فراح",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1045,
+        "name": "Ain Fekan - Ain Frass",
+        "name_ar": "عين فكان - عين أفرص",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1046,
+        "name": "Oggaz - Alaimia",
+        "name_ar": "عقاز - العلايمية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1047,
+        "name": "Aouf - Aouf",
+        "name_ar": "عوف - عوف",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1048,
+        "name": "Aouf - Benian",
+        "name_ar": "عوف - بنيان",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1049,
+        "name": "Sig - Bou Henni",
+        "name_ar": "سيق - بوهني",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1050,
+        "name": "Bouhanifia - Bouhanifia",
+        "name_ar": "بوحنيفية - بوحنيفية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1051,
+        "name": "Sig - Chorfa",
+        "name_ar": "سيق - الشرفاء",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1052,
+        "name": "El Bordj - El Bordj",
+        "name_ar": "البرج - البرج",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1053,
+        "name": "Zahana - El Gaada",
+        "name_ar": "زهانة - القعدة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1054,
+        "name": "Mohammadia - El Ghomri",
+        "name_ar": "المحمدية - الغمري",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1055,
+        "name": "Bouhanifia - El Gueitena",
+        "name_ar": "بوحنيفية - القطنة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1056,
+        "name": "Hachem - El Hachem",
+        "name_ar": "الحشم - الحشم",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1057,
+        "name": "Tizi - El Keurt",
+        "name_ar": "تيزي - القرط",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1058,
+        "name": "Ain Fares - El Mamounia",
+        "name_ar": "عين فارس - المأمونية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1059,
+        "name": "El Bordj - El Menaouer",
+        "name_ar": "البرج - المنور",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1060,
+        "name": "Mohammadia - Ferraguig",
+        "name_ar": "المحمدية - فراقيق",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1061,
+        "name": "Tizi - Froha",
+        "name_ar": "تيزي - فروحة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1062,
+        "name": "Aouf - Gharrous",
+        "name_ar": "عوف - غروس",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1063,
+        "name": "Ghriss - Ghriss",
+        "name_ar": "غريس - غريس",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1064,
+        "name": "Oued Taria - Guerdjoum",
+        "name_ar": "وادي التاغية - قرجوم",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1065,
+        "name": "Bouhanifia - Hacine",
+        "name_ar": "بوحنيفية - حسين",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1066,
+        "name": "El Bordj - Khalouia",
+        "name_ar": "البرج - خلوية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1067,
+        "name": "Ghriss - Makhda",
+        "name_ar": "غريس - ماقضة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1068,
+        "name": "Ghriss - Maoussa",
+        "name_ar": "غريس - ماوسة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1069,
+        "name": "Mascara - Mascara",
+        "name_ar": "معسكر - معسكر",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1070,
+        "name": "Ghriss - Matemore",
+        "name_ar": "غريس - المطمور",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1071,
+        "name": "Mohammadia - Mocta-Douz",
+        "name_ar": "المحمدية - مقطع الدوز",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1072,
+        "name": "Mohammadia - Mohammadia",
+        "name_ar": "المحمدية - المحمدية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1073,
+        "name": "Hachem - Nesmot",
+        "name_ar": "الحشم - نسمط",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1074,
+        "name": "Oggaz - Oggaz",
+        "name_ar": "عقاز - عقاز",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1075,
+        "name": "Oued El Abtal - Oued El Abtal",
+        "name_ar": "وادي الأبطال - وادي الأبطال",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1076,
+        "name": "Oued Taria - Oued Taria",
+        "name_ar": "وادي التاغية - وادي التاغية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1077,
+        "name": "Oggaz - Ras El Ain Amirouche",
+        "name_ar": "عقاز - رأس عين عميروش",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1078,
+        "name": "Mohammadia - Sedjerara",
+        "name_ar": "المحمدية - سجرارة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1079,
+        "name": "Tighennif - Sehailia",
+        "name_ar": "تيغنيف - السهايلية",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1080,
+        "name": "Oued El Abtal - Sidi Abdeldjebar",
+        "name_ar": "وادي الأبطال - سيدي عبد الجبار",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1081,
+        "name": "Mohammadia - Sidi Abdelmoumene",
+        "name_ar": "المحمدية - سيدي عبد المومن",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1082,
+        "name": "Ghriss - Sidi Boussaid",
+        "name_ar": "غريس - سيدي بوسعيد",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1083,
+        "name": "Tighennif - Sidi Kada",
+        "name_ar": "تيغنيف - سيدي قادة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1084,
+        "name": "Sig - Sig",
+        "name_ar": "سيق - سيق",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1085,
+        "name": "Tighennif - Tighennif",
+        "name_ar": "تيغنيف - تيغنيف",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1086,
+        "name": "Tizi - Tizi",
+        "name_ar": "تيزي - تيزي",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1087,
+        "name": "Zahana - Zahana",
+        "name_ar": "زهانة - زهانة",
+        "wilaya_code": "29"
+    },
+    {
+        "id": 1088,
+        "name": "Hachem - Zelamta",
+        "name_ar": "الحشم - زلامطة",
+        "wilaya_code": "29"
+    }
+]

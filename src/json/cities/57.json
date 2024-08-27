@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1281,
+        "name": "Djamaa - Djamaa",
+        "name_ar": "جامعة - جامعة",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1284,
+        "name": "El Meghaier - El-M'ghaier",
+        "name_ar": "المغير - المغير",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1293,
+        "name": "Djamaa - M'rara",
+        "name_ar": "جامعة - المرارة",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1296,
+        "name": "El Meghaier - Oum Touyour",
+        "name_ar": "المغير - أم الطيور",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1300,
+        "name": "Djamaa - Sidi Amrane",
+        "name_ar": "جامعة - سيدي عمران",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1302,
+        "name": "El Meghaier - Sidi Khelil",
+        "name_ar": "المغير - سيدي خليل",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1303,
+        "name": "El Meghaier - Still",
+        "name_ar": "المغير - سطيل",
+        "wilaya_code": "57"
+    },
+    {
+        "id": 1306,
+        "name": "Djamaa - Tenedla",
+        "name_ar": "جامعة - تندلة",
+        "wilaya_code": "57"
+    }
+]

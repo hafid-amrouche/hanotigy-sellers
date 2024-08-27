@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1159,
+        "name": "In Amenas - Bordj Omar Driss",
+        "name_ar": "إن أمناس - برج عمر إدريس",
+        "wilaya_code": "33"
+    },
+    {
+        "id": 1160,
+        "name": "In Amenas - Debdeb",
+        "name_ar": "إن أمناس - دبداب",
+        "wilaya_code": "33"
+    },
+    {
+        "id": 1162,
+        "name": "Illizi - Illizi",
+        "name_ar": "إيليزي - إيليزي",
+        "wilaya_code": "33"
+    },
+    {
+        "id": 1163,
+        "name": "In Amenas - In Amenas",
+        "name_ar": "إن أمناس - إن أمناس",
+        "wilaya_code": "33"
+    }
+]

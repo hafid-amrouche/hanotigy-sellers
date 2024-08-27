@@ -1,0 +1,272 @@
+[
+    {
+        "id": 309,
+        "name": "M'chedallah - Aghbalou",
+        "name_ar": "مشد الله - أغبالو",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 310,
+        "name": "Bechloul - Ahl El Ksar",
+        "name_ar": "بشلول - أهل القصر",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 311,
+        "name": "Ain Bessem - Ain El Hadjar",
+        "name_ar": "عين بسام - عين الحجر",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 312,
+        "name": "Ain Bessem - Ain Laloui",
+        "name_ar": "عين بسام - عين العلوي",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 313,
+        "name": "Bouira - Ain Turk",
+        "name_ar": "البويرة - عين الترك",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 314,
+        "name": "Ain Bessem - Ain-Bessem",
+        "name_ar": "عين بسام - عين بسام",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 315,
+        "name": "Bouira - Ait Laaziz",
+        "name_ar": "البويرة - أيت لعزيز",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 316,
+        "name": "Kadiria - Aomar",
+        "name_ar": "القادرية - أعمر",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 317,
+        "name": "Bechloul - Bechloul",
+        "name_ar": "بشلول - بشلول",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 318,
+        "name": "Bir Ghbalou - Bir Ghbalou",
+        "name_ar": "بئر غبالو - بئر غبالو",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 319,
+        "name": "Bordj Okhriss - Bordj Okhriss",
+        "name_ar": "برج أوخريص - برج أوخريص",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 320,
+        "name": "Lakhdaria - Bouderbala",
+        "name_ar": "الأخضرية - بودربالة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 321,
+        "name": "Bouira - Bouira",
+        "name_ar": "البويرة - البويرة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 322,
+        "name": "Lakhdaria - Boukram",
+        "name_ar": "الأخضرية - بوكرم",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 323,
+        "name": "M'chedallah - Chorfa",
+        "name_ar": "مشد الله - شرفة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 324,
+        "name": "Sour El Ghozlane - Dechmia",
+        "name_ar": "سور الغزلان - الدشمية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 325,
+        "name": "Sour El Ghozlane - Dirah",
+        "name_ar": "سور الغزلان - ديرة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 326,
+        "name": "Kadiria - Djebahia",
+        "name_ar": "القادرية - جباحية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 327,
+        "name": "Bechloul - El Adjiba",
+        "name_ar": "بشلول - العجيبة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 328,
+        "name": "Bechloul - El Asnam",
+        "name_ar": "بشلول - الأسنام",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 329,
+        "name": "El Hachimia - El Hachimia",
+        "name_ar": "الهاشمية - الهاشمية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 330,
+        "name": "Bir Ghbalou - El Khabouzia",
+        "name_ar": "بئر غبالو - الخبوزية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 331,
+        "name": "Sour El Ghozlane - El-Hakimia",
+        "name_ar": "سور الغزلان - الحاكمية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 332,
+        "name": "Souk El Khemis - El-Mokrani",
+        "name_ar": "سوق الخميس - المقراني",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 333,
+        "name": "Lakhdaria - Guerrouma",
+        "name_ar": "الأخضرية - قرومة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 334,
+        "name": "Bordj Okhriss - Hadjera Zerga",
+        "name_ar": "برج أوخريص - الحجرة الزرقاء",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 335,
+        "name": "Haizer - Haizer",
+        "name_ar": "الحيزر - حيزر",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 336,
+        "name": "M'chedallah - Hanif",
+        "name_ar": "مشد الله - حنيف",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 337,
+        "name": "Kadiria - Kadiria",
+        "name_ar": "القادرية - قادرية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 338,
+        "name": "Lakhdaria - Lakhdaria",
+        "name_ar": "الأخضرية - الأخضرية",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 339,
+        "name": "M'chedallah - M Chedallah",
+        "name_ar": "مشد الله - أمشدالة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 340,
+        "name": "Lakhdaria - Maala",
+        "name_ar": "الأخضرية - معلة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 341,
+        "name": "Sour El Ghozlane - Maamora",
+        "name_ar": "سور الغزلان - المعمورة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 342,
+        "name": "Bordj Okhriss - Mezdour",
+        "name_ar": "برج أوخريص - مزدور",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 343,
+        "name": "El Hachimia - Oued El Berdi",
+        "name_ar": "الهاشمية - وادي البردي",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 344,
+        "name": "Bechloul - Ouled Rached",
+        "name_ar": "بشلول - أولاد راشد",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 345,
+        "name": "Bir Ghbalou - Raouraoua",
+        "name_ar": "بئر غبالو - روراوة",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 346,
+        "name": "Sour El Ghozlane - Ridane",
+        "name_ar": "سور الغزلان - ريدان",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 347,
+        "name": "M'chedallah - Saharidj",
+        "name_ar": "مشد الله - سحاريج",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 348,
+        "name": "Souk El Khemis - Souk El Khemis",
+        "name_ar": "سوق الخميس - سوق الخميس",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 349,
+        "name": "Sour El Ghozlane - Sour El Ghozlane",
+        "name_ar": "سور الغزلان - سور الغزلان",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 350,
+        "name": "Haizer - Taghzout",
+        "name_ar": "الحيزر - تاغزوت",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 351,
+        "name": "Bordj Okhriss - Taguedite",
+        "name_ar": "برج أوخريص - تاقديت",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 352,
+        "name": "M'chedallah - Ath Mansour",
+        "name_ar": "مشد الله - آث  منصور",
+        "wilaya_code": "10"
+    },
+    {
+        "id": 353,
+        "name": "Lakhdaria - Z'barbar (El Isseri )",
+        "name_ar": "الأخضرية - زبربر",
+        "wilaya_code": "10"
+    }
+]

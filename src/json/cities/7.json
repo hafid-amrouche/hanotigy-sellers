@@ -1,0 +1,164 @@
+[
+    {
+        "id": 230,
+        "name": "Sidi Okba - Ain Naga",
+        "name_ar": "سيدي عقبة - عين الناقة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 231,
+        "name": "El Kantara - Ain Zaatout",
+        "name_ar": "القنطرة - عين زعطوط",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 233,
+        "name": "Biskra - Biskra",
+        "name_ar": "بسكرة - بسكرة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 234,
+        "name": "Tolga - Bordj Ben Azzouz",
+        "name_ar": "طولقة - برج بن عزوز",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 235,
+        "name": "Tolga - Bouchakroun",
+        "name_ar": "طولقة - بوشقرون",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 236,
+        "name": "Djemorah - Branis",
+        "name_ar": "جمورة - برانيس",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 238,
+        "name": "Sidi Okba - Chetma",
+        "name_ar": "سيدي عقبة - شتمة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 239,
+        "name": "Djemorah - Djemorah",
+        "name_ar": "جمورة - جمورة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 241,
+        "name": "Zeribet El Oued - El Feidh",
+        "name_ar": "زريبة الوادي - الفيض",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 242,
+        "name": "Foughala - El Ghrous",
+        "name_ar": "فوغالة - الغروس",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 243,
+        "name": "Biskra - El Hadjab",
+        "name_ar": "بسكرة - الحاجب",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 244,
+        "name": "Sidi Okba - El Haouch",
+        "name_ar": "سيدي عقبة - الحوش",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 245,
+        "name": "El Kantara - El Kantara",
+        "name_ar": "القنطرة - القنطرة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 246,
+        "name": "El Outaya - El Outaya",
+        "name_ar": "الوطاية - الوطاية",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 247,
+        "name": "Foughala - Foughala",
+        "name_ar": "فوغالة - فوغالة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 248,
+        "name": "Zeribet El Oued - Khenguet Sidi Nadji",
+        "name_ar": "زريبة الوادي - خنقة سيدي ناجي",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 249,
+        "name": "Tolga - Lichana",
+        "name_ar": "طولقة - ليشانة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 250,
+        "name": "Ourlal - Lioua",
+        "name_ar": "أورلال - ليوة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 251,
+        "name": "Mechouneche - M'chouneche",
+        "name_ar": "مشونش - مشونش",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 252,
+        "name": "Ourlal - Mekhadma",
+        "name_ar": "أورلال - مخادمة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 253,
+        "name": "Zeribet El Oued - Meziraa",
+        "name_ar": "زريبة الوادي - المزيرعة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 254,
+        "name": "Ourlal - M'lili",
+        "name_ar": "أورلال - مليلي",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 256,
+        "name": "Ourlal - Oumache",
+        "name_ar": "أورلال - أوماش",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 257,
+        "name": "Ourlal - Ourlal",
+        "name_ar": "أورلال - أورلال",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 260,
+        "name": "Sidi Okba - Sidi Okba",
+        "name_ar": "سيدي عقبة - سيدي عقبة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 261,
+        "name": "Tolga - Tolga",
+        "name_ar": "طولقة - طولقة",
+        "wilaya_code": "07"
+    },
+    {
+        "id": 262,
+        "name": "Zeribet El Oued - Zeribet El Oued",
+        "name_ar": "زريبة الوادي - زريبة الوادي",
+        "wilaya_code": "07"
+    }
+]

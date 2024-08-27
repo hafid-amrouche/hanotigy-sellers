@@ -1,0 +1,74 @@
+[
+    {
+        "id": 887,
+        "name": "Ain Abid - Ain Abid",
+        "name_ar": "عين عبيد - عين عبيد",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 888,
+        "name": "El Khroub - Ain Smara",
+        "name_ar": "الخروب - عين السمارة",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 889,
+        "name": "Ain Abid - Ben Badis",
+        "name_ar": "عين عبيد - أبن باديس الهرية",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 890,
+        "name": "Zighoud Youcef - Beni Hamidane",
+        "name_ar": "زيغود يوسف - بني حميدان",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 891,
+        "name": "Constantine - Constantine",
+        "name_ar": "قسنطينة - قسنطينة",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 892,
+        "name": "Hamma Bouziane - Didouche Mourad",
+        "name_ar": "حامة بوزيان - ديدوش مراد",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 893,
+        "name": "El Khroub - El Khroub",
+        "name_ar": "الخروب - الخروب",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 894,
+        "name": "Hamma Bouziane - Hamma Bouziane",
+        "name_ar": "حامة بوزيان - حامة بوزيان",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 895,
+        "name": "Ibn Ziad - Ibn Ziad",
+        "name_ar": "ابن زياد - ابن زياد",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 896,
+        "name": "Ibn Ziad - Messaoud Boudjeriou",
+        "name_ar": "ابن زياد - بوجريو مسعود",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 897,
+        "name": "El Khroub - Ouled Rahmoun",
+        "name_ar": "الخروب - أولاد رحمون",
+        "wilaya_code": "25"
+    },
+    {
+        "id": 898,
+        "name": "Zighoud Youcef - Zighoud Youcef",
+        "name_ar": "زيغود يوسف - زيغود يوسف",
+        "wilaya_code": "25"
+    }
+]

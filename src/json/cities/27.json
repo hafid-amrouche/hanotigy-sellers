@@ -1,0 +1,194 @@
+[
+    {
+        "id": 963,
+        "name": "Achaacha - Achaacha",
+        "name_ar": "عشعاشة - عشعاشة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 964,
+        "name": "Kheir Eddine - Ain-Boudinar",
+        "name_ar": "خير الدين - عين بودينار",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 965,
+        "name": "Ain Nouicy - Ain-Nouissy",
+        "name_ar": "عين نويسي - عين نويسي",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 966,
+        "name": "Mesra - Ain-Sidi Cherif",
+        "name_ar": "ماسرة - عين سيدي الشريف",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 967,
+        "name": "Ain Tedeles - Ain-Tedles",
+        "name_ar": "عين تادلس - عين تادلس",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 968,
+        "name": "Sidi Lakhdar - Benabdelmalek Ramdane",
+        "name_ar": "سيدي لخضر - بن عبد المالك رمضان",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 969,
+        "name": "Bouguirat - Bouguirat",
+        "name_ar": "بوقيراط - بوقيراط",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 970,
+        "name": "Ain Nouicy - Fornaka",
+        "name_ar": "عين نويسي - فرناقة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 971,
+        "name": "Sidi Lakhdar - Hadjadj",
+        "name_ar": "سيدي لخضر - حجاج",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 972,
+        "name": "Hassi Mameche - Hassi Mameche",
+        "name_ar": "حاسي ماماش - حاسي ماماش",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 973,
+        "name": "Ain Nouicy - Hassiane",
+        "name_ar": "عين نويسي - الحسيان (بني ياحي",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 974,
+        "name": "Achaacha - Khadra",
+        "name_ar": "عشعاشة - خضرة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 975,
+        "name": "Kheir Eddine - Kheir-Eddine",
+        "name_ar": "خير الدين - خير الدين",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 976,
+        "name": "Mesra - Mansourah",
+        "name_ar": "ماسرة - منصورة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 977,
+        "name": "Hassi Mameche - Mazagran",
+        "name_ar": "حاسي ماماش - مزغران",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 978,
+        "name": "Mesra - Mesra",
+        "name_ar": "ماسرة - ماسرة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 979,
+        "name": "Mostaganem - Mostaganem",
+        "name_ar": "مستغانم - مستغانم",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 980,
+        "name": "Achaacha - Nekmaria",
+        "name_ar": "عشعاشة - نكمارية",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 981,
+        "name": "Ain Tedeles - Oued El Kheir",
+        "name_ar": "عين تادلس - وادي الخير",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 982,
+        "name": "Achaacha - Ouled Boughalem",
+        "name_ar": "عشعاشة - أولاد بوغالم",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 983,
+        "name": "Sidi Ali - Ouled-Maalah",
+        "name_ar": "سيدي علي - أولاد مع الله",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 984,
+        "name": "Bouguirat - Safsaf",
+        "name_ar": "بوقيراط - صفصاف",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 985,
+        "name": "Kheir Eddine - Sayada",
+        "name_ar": "خير الدين - صيادة",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 986,
+        "name": "Sidi Ali - Sidi Ali",
+        "name_ar": "سيدي علي - سيدي علي",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 987,
+        "name": "Ain Tedeles - Sidi Belaattar",
+        "name_ar": "عين تادلس - سيدي بلعطار",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 988,
+        "name": "Sidi Lakhdar - Sidi-Lakhdar",
+        "name_ar": "سيدي لخضر - سيدي لخضر",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 989,
+        "name": "Bouguirat - Sirat",
+        "name_ar": "بوقيراط - سيرات",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 990,
+        "name": "Bouguirat - Souaflia",
+        "name_ar": "بوقيراط - السوافلية",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 991,
+        "name": "Ain Tedeles - Sour",
+        "name_ar": "عين تادلس - سور",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 992,
+        "name": "Hassi Mameche - Stidia",
+        "name_ar": "حاسي ماماش - ستيدية",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 993,
+        "name": "Sidi Ali - Tazgait",
+        "name_ar": "سيدي علي - تزقايت",
+        "wilaya_code": "27"
+    },
+    {
+        "id": 994,
+        "name": "Mesra - Touahria",
+        "name_ar": "ماسرة - الطواهرية",
+        "wilaya_code": "27"
+    }
+]

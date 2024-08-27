@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1463,
+        "name": "Ain Kihel - Aghlal",
+        "name_ar": "عين الكيحل - أغلال",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1464,
+        "name": "Ain Larbaa - Ain El Arbaa",
+        "name_ar": "عين الأربعاء - عين الأربعاء",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1465,
+        "name": "Ain Kihel - Ain Kihal",
+        "name_ar": "عين الكيحل - عين الكيحل",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1466,
+        "name": "Ain Temouchent - Ain Temouchent",
+        "name_ar": "عين تموشنت - عين تموشنت",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1467,
+        "name": "Ain Kihel - Ain Tolba",
+        "name_ar": "عين الكيحل - عين الطلبة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1468,
+        "name": "Ain Kihel - Aoubellil",
+        "name_ar": "عين الكيحل - عقب الليل",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1469,
+        "name": "Beni Saf - Beni Saf",
+        "name_ar": "بني صاف - بني صاف",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1470,
+        "name": "El Amria - Bouzedjar",
+        "name_ar": "العامرية - بوزجار",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1471,
+        "name": "El Maleh - Chaabat El Ham",
+        "name_ar": "المالح - شعبة اللحم",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1472,
+        "name": "Hammam Bou Hadjar - Chentouf",
+        "name_ar": "حمام بوحجر - شنتوف",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1473,
+        "name": "El Amria - El Amria",
+        "name_ar": "العامرية - العامرية",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1474,
+        "name": "El Maleh - El Maleh",
+        "name_ar": "المالح - المالح",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1475,
+        "name": "El Amria - El Messaid",
+        "name_ar": "العامرية - المساعيد",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1476,
+        "name": "Beni Saf - Emir Abdelkader",
+        "name_ar": "بني صاف - الأمير عبد القادر",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1477,
+        "name": "Hammam Bou Hadjar - Hammam Bou Hadjar",
+        "name_ar": "حمام بوحجر - حمام بوحجر",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1478,
+        "name": "Hammam Bou Hadjar - Hassasna",
+        "name_ar": "حمام بوحجر - الحساسنة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1479,
+        "name": "El Amria - Hassi El Ghella",
+        "name_ar": "العامرية - حاسي الغلة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1480,
+        "name": "Hammam Bou Hadjar - Oued Berkeche",
+        "name_ar": "حمام بوحجر - وادي برقش",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1481,
+        "name": "Ain Larbaa - Oued Sebbah",
+        "name_ar": "عين الأربعاء - وادي الصباح",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1482,
+        "name": "El Amria - Ouled Boudjemaa",
+        "name_ar": "العامرية - أولاد بوجمعة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1483,
+        "name": "El Maleh - Ouled Kihal",
+        "name_ar": "المالح - أولاد الكيحل",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1484,
+        "name": "Oulhassa Gheraba - Oulhaca El Gheraba",
+        "name_ar": "ولهاصة الغرابة - ولهاصة الغرابة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1485,
+        "name": "Ain Temouchent - Sidi Ben Adda",
+        "name_ar": "عين تموشنت - سيدي بن عدة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1486,
+        "name": "Ain Larbaa - Sidi Boumediene",
+        "name_ar": "عين الأربعاء - سيدي بومدين",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1487,
+        "name": "Oulhassa Gheraba - Sidi Ouriache",
+        "name_ar": "ولهاصة الغرابة - سيدي ورياش",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1488,
+        "name": "Beni Saf - Sidi Safi",
+        "name_ar": "بني صاف - سيدي صافي",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1489,
+        "name": "Ain Larbaa - Tamzoura",
+        "name_ar": "عين الأربعاء - تامزورة",
+        "wilaya_code": "46"
+    },
+    {
+        "id": 1490,
+        "name": "El Maleh - Terga",
+        "name_ar": "المالح - تارقة",
+        "wilaya_code": "46"
+    }
+]

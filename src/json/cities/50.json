@@ -1,0 +1,14 @@
+[
+    {
+        "id": 5,
+        "name": "Bordj Badji Mokhtar - Bordj Badji Mokhtar",
+        "name_ar": "برج باجي مختار - برج باجي مختار",
+        "wilaya_code": "50"
+    },
+    {
+        "id": 23,
+        "name": "Bordj Badji Mokhtar - Timiaouine",
+        "name_ar": "برج باجي مختار - تيمياوين",
+        "wilaya_code": "50"
+    }
+]

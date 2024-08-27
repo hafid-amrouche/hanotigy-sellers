@@ -61,7 +61,7 @@ const Input = forwardRef(({
           <input value={inputValue} style={{padding: '20px 8px 4px 8px', ...style}} onChange={(e)=>changeHandler(e.target.value)} placeholder={placeholder} onFocus={focusHandler} onBlur={blueHandler} type={innerType} className={ `  ${type==='password' ? classes['password'] : ''} box-input ${error ? 'error' : ''} ${placeholder ? classes['placeholder-exist'] : ''} ${className || ''}`} ref={inputRef} {...props} />
           { !placeholder && <label style={{width: `calc(100% - 16px)`, top: !raiseLabel ? 12 : undefined}} onClick={()=>inputRef.current.focus() } className={`${classes['label']} ${error ? 'error ' : ''} ${ raiseLabel ? classes['label-on-top'] : ''} cut-text  ${type==='password' ? classes['password'] : ''}`}>{(raiseLabel ||  !placeholderLabel) ? label : placeholderLabel}</label>}
         </div>
-        {type == 'password' && <i onClick={clickHandler} className={'fa-solid fa-eye' + (innerType === 'password' ? ' ' : '-slash ' ) + classes['eye']} />}
+        {type == 'password' && <i style={{top: 16}} onClick={clickHandler} className={'fa-solid fa-eye' + (innerType === 'password' ? ' ' : '-slash ' ) + classes['eye']} />}
       </div>
       { error && <h4 className='error mt-2'>{error}</h4>}
     </div>

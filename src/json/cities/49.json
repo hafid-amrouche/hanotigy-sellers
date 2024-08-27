@@ -1,0 +1,62 @@
+[
+    {
+        "id": 3,
+        "name": "Aougrout - Aougrout",
+        "name_ar": "أوقروت - أوقروت",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 7,
+        "name": "Charouine - Charouine",
+        "name_ar": "شروين - شروين",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 8,
+        "name": "Aougrout - Deldoul",
+        "name_ar": "أوقروت - دلدول",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 11,
+        "name": "Tinerkouk - Ksar Kaddour",
+        "name_ar": "تنركوك - قصر قدور",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 12,
+        "name": "Aougrout - Metarfa",
+        "name_ar": "أوقروت - المطارفة",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 14,
+        "name": "Charouine - Ouled Aissa",
+        "name_ar": "شروين - أولاد عيسى",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 15,
+        "name": "Timimoun - Ouled Said",
+        "name_ar": "تيميمون - أولاد السعيد",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 19,
+        "name": "Charouine - Talmine",
+        "name_ar": "شروين - طالمين",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 24,
+        "name": "Timimoun - Timimoun",
+        "name_ar": "تيميمون - تيميمون",
+        "wilaya_code": "49"
+    },
+    {
+        "id": 25,
+        "name": "Tinerkouk - Tinerkouk",
+        "name_ar": "تنركوك - تنركوك",
+        "wilaya_code": "49"
+    }
+]

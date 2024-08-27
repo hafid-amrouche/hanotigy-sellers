@@ -13,7 +13,9 @@
     justify-content: center;
     gap: 4px;
     fill: var(--primaryColor);
-    transition: scale 300ms ease-in;
+}
+.background{
+    background-color: var(--containerColor);
 }
 .btn.red{
     color: red;
@@ -34,7 +36,7 @@
     background-color: var(--primaryColor);
     color: var(--containerColor);
     cursor: pointer;
-    scale: 1.01;
+    
 }
 .btn.red:hover:not([disabled]){
     background-color: red;
@@ -82,3 +84,4 @@
 .btn.dark.outline:hover:not([disabled]){
     background-color: rgba( var(--textColor-rgb), 0.9);
 }
+

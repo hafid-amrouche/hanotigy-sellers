@@ -53,27 +53,34 @@ const StateShippingCostsCard=({state, setStates})=>{
     const copyToAllOfficeFieldsRef = useRef()
 
     return(
-        <div className="d-f g-3 column container p-2 px-1">
-            <div  className="d-f align-center g-2">
-                <h4 className="px-1 cut-text" style={{width: 120}}>{`${state.code} - ${state.name}`}</h4>
+        <div className="d-f g-1 column container p-2 px-1">
+            <div  className="d-f align-center g-2 p-relative mb-1" style={{height: 30}}>
+                <h4 className="px-1 cut-text" style={{width: '100%', position:'absolute'}}>{`${state.code} - ${state.name}`}</h4>
             </div>
             
-            <div className="d-f align-center g-3 p-relative mt-2">
+            <div className="d-f align-center g-3 p-relative mb-2 mt-3">
                 <CustomCheckbox checked={costToHomeChecked}  onChange={e=>{
                     if (e.target.checked) toHomeblurHndler(0, state)
                     else toHomeblurHndler('', state)
                     setCostToHomeChecked(e.target.checked)
                 }} />
-                <input disabled={!costToHomeChecked}  className="box-input" onChange={(e)=>toHomeblurHndler(e.target.value, state)} value={ (state.costToHome === null) ? '' : state.costToHome } style={{ width: 120}} type='number' min={0} placeholder={translate('Home')} />
-                { costToHomeChecked && <IconWithHover
-                    style={{
-                        position: 'absolute',
-                        left: 30,
-                        top: -12
-                    }}
-                    onClick={()=>copyToAllHomeFields()}
-                    iconClass='fa-solid fa-plus-square color-primary'
-                />}
+                <input onClick={()=>setCostToHomeChecked(true)} className={"box-input " +( costToHomeChecked ? 'border-primary' : '')} onChange={(e)=>toHomeblurHndler(e.target.value, state)} value={ (state.costToHome === null) ? '' : state.costToHome } style={{ width: 120}} type='number' min={0} placeholder={translate('Home')} />
+                { costToHomeChecked && 
+                    <button
+                        style={{
+                            position: 'absolute',
+                            alignSelf: 'flex-start',
+                            right: 6,
+                            top: -28,
+                            color: 'var(--primaryColor)',
+                            textDecoration: 'underline',
+                            scale: 0.8
+                        }}
+                        onClick={()=>copyToAllHomeFields()}
+                    >  
+                        {translate('apply to all')}
+                    </button>
+                }
                 <DialogComponent ref={copyToAllHomeFieldsRef} >
                     <div className='container p-2 column g-4' style={{maxWidth: '80vw'}}>
                         <h4 style={{textAlign: 'start'}}>{translate('Are you sure you want to copy this value "{cost}" to all home shipping cost fields ?', {cost: state.costToHome})}</h4>
@@ -84,7 +91,7 @@ const StateShippingCostsCard=({state, setStates})=>{
                     </div>
                 </DialogComponent>
             </div>
-            <div className="d-f align-center g-3 p-relative mt-2">
+            <div className="d-f align-center g-3 p-relative mt-3">
                 <CustomCheckbox checked={costChecked} onChange={(e)=>{
                     if (e.target.checked) {
                         blurHndler(0, state)
@@ -92,16 +99,21 @@ const StateShippingCostsCard=({state, setStates})=>{
                     else blurHndler('', state)
                     setCostChecked(e.target.checked)
                 }} />
-                <input disabled={!costChecked} className="box-input" onChange={(e)=>blurHndler(e.target.value, state)} value={ (state.cost === null) ? '' : state.cost } style={{ width: 120}} type='number' min={0} placeholder={translate('Office')} />
-                { costChecked && <IconWithHover
-                    style={{
-                        position: 'absolute',
-                        left: 30,
-                        top: -12
-                    }}
-                    onClick={()=>copyToAllOfficeFields()}
-                    iconClass='fa-solid fa-plus-square color-primary'
-                />}
+                <input onClick={()=>setCostChecked(true)} className={"box-input " +( costChecked ? 'border-primary' : '')} onChange={(e)=>blurHndler(e.target.value, state)} value={ (state.cost === null) ? '' : state.cost } style={{ width: 120}} type='number' min={0} placeholder={translate('Office')} />
+                { costChecked &&  <button
+                        style={{
+                            position: 'absolute',
+                            alignSelf: 'flex-start',
+                            right: 6,
+                            top: -28,
+                            color: 'var(--primaryColor)',
+                            textDecoration: 'underline',
+                            scale: 0.8
+                        }}
+                        onClick={()=>copyToAllOfficeFields()}
+                    >  
+                        {translate('apply to all')}
+                    </button>}
                 <DialogComponent ref={copyToAllOfficeFieldsRef} >
                     <div className='container p-2 column g-4' style={{maxWidth: '80vw'}}>
                         <h4 style={{textAlign: 'start'}}>{translate('Are you sure you want to copy this value "{cost}" to all office shipping cost ?', {cost: state.cost})}</h4>

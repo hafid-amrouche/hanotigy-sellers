@@ -1,0 +1,368 @@
+[
+    {
+        "id": 117,
+        "name": "Ain Djasser - Ain Djasser",
+        "name_ar": "عين جاسر - عين جاسر",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 118,
+        "name": "Ain Touta - Ain Touta",
+        "name_ar": "عين التوتة - عين التوتة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 119,
+        "name": "El Madher - Ain Yagout",
+        "name_ar": "المعذر - عين ياقوت",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 120,
+        "name": "Arris - Arris",
+        "name_ar": "أريس - أريس",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 121,
+        "name": "Djezzar - Azil Abedelkader",
+        "name_ar": "الجزار - عزيل عبد القادر",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 122,
+        "name": "Barika - Barika",
+        "name_ar": "بريكة - بريكة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 123,
+        "name": "Batna - Batna",
+        "name_ar": "باتنة - باتنة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 124,
+        "name": "Ain Touta - Beni Foudhala El Hakania",
+        "name_ar": "عين التوتة - بني فضالة الحقانية",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 125,
+        "name": "Barika - Bitam",
+        "name_ar": "بريكة - بيطام",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 126,
+        "name": "Chemora - Boulhilat",
+        "name_ar": "الشمرة - بولهيلات",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 127,
+        "name": "N'gaous - Boumagueur",
+        "name_ar": "نقاوس - بومقر",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 128,
+        "name": "El Madher - Boumia",
+        "name_ar": "المعذر - بومية",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 129,
+        "name": "Bouzina - Bouzina",
+        "name_ar": "بوزينة - بوزينة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 130,
+        "name": "Chemora - Chemora",
+        "name_ar": "الشمرة - الشمرة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 131,
+        "name": "Theniet El Abed - Chir",
+        "name_ar": "ثنية العابد - شير",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 132,
+        "name": "El Madher - Djerma",
+        "name_ar": "المعذر - جرمة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 133,
+        "name": "Djezzar - Djezzar",
+        "name_ar": "الجزار - الجزار",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 134,
+        "name": "Ain Djasser - El Hassi",
+        "name_ar": "عين جاسر - الحاسي",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 135,
+        "name": "El Madher - El Madher",
+        "name_ar": "المعذر - المعذر",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 136,
+        "name": "Batna - Fesdis",
+        "name_ar": "باتنة - فسديس",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 137,
+        "name": "Ichemoul - Foum Toub",
+        "name_ar": "إشمول - فم الطوب",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 138,
+        "name": "Tkout - Ghassira",
+        "name_ar": "تكوت - غسيرة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 139,
+        "name": "Ras El Aioun - Gosbat",
+        "name_ar": "رأس العيون - القصبات",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 140,
+        "name": "Ras El Aioun - Guigba",
+        "name_ar": "رأس العيون - القيقبة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 141,
+        "name": "Merouana - Hidoussa",
+        "name_ar": "مروانة - حيدوسة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 142,
+        "name": "Ichemoul - Ichemoul",
+        "name_ar": "إشمول - إشمول",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 143,
+        "name": "Ichemoul - Inoughissen",
+        "name_ar": "إشمول - إينوغيسن",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 144,
+        "name": "Tkout - Kimmel",
+        "name_ar": "تكوت - كيمل",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 145,
+        "name": "Merouana - Ksar Bellezma",
+        "name_ar": "مروانة - قصر بلزمة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 146,
+        "name": "Bouzina - Larbaa",
+        "name_ar": "بوزينة - لارباع",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 147,
+        "name": "Seriana - Lazrou",
+        "name_ar": "سريانة - لازرو",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 148,
+        "name": "Ouled Si Slimane - Lemcene",
+        "name_ar": "أولاد سي سليمان - لمسان",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 149,
+        "name": "Barika - M Doukal",
+        "name_ar": "بريكة - إمدوكل",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 150,
+        "name": "Ain Touta - Maafa",
+        "name_ar": "عين التوتة - معافة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 151,
+        "name": "Menaa - Menaa",
+        "name_ar": "منعة - منعة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 152,
+        "name": "Merouana - Merouana",
+        "name_ar": "مروانة - مروانة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 153,
+        "name": "N'gaous - N Gaous",
+        "name_ar": "نقاوس - نقاوس",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 154,
+        "name": "Batna - Oued Chaaba",
+        "name_ar": "باتنة - وادي الشعبة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 155,
+        "name": "Merouana - Oued El Ma",
+        "name_ar": "مروانة - وادي الماء",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 156,
+        "name": "Theniet El Abed - Oued Taga",
+        "name_ar": "ثنية العابد - وادي الطاقة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 157,
+        "name": "Djezzar - Ouled Ammar",
+        "name_ar": "الجزار - أولاد عمار",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 158,
+        "name": "Ain Touta - Ouled Aouf",
+        "name_ar": "عين التوتة - أولاد عوف",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 159,
+        "name": "Timgad - Ouled Fadel",
+        "name_ar": "تيمقاد - أولاد فاضل",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 160,
+        "name": "Ras El Aioun - Ouled Sellem",
+        "name_ar": "رأس العيون - أولاد سلام",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 161,
+        "name": "Ouled Si Slimane - Ouled Si Slimane",
+        "name_ar": "أولاد سي سليمان - أولاد سي سليمان",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 162,
+        "name": "Tazoult - Ouyoun El Assafir",
+        "name_ar": "تازولت - عيون العصافير",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 163,
+        "name": "Ras El Aioun - Rahbat",
+        "name_ar": "رأس العيون - الرحبات",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 164,
+        "name": "Ras El Aioun - Ras El Aioun",
+        "name_ar": "رأس العيون - رأس العيون",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 165,
+        "name": "N'gaous - Sefiane",
+        "name_ar": "نقاوس - سفيان",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 166,
+        "name": "Seggana - Seggana",
+        "name_ar": "سقانة - سقانة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 167,
+        "name": "Seriana - Seriana",
+        "name_ar": "سريانة - سريانة",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 168,
+        "name": "Tkout - T Kout",
+        "name_ar": "تكوت - تكوت",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 169,
+        "name": "Ras El Aioun - Talkhamt",
+        "name_ar": "رأس العيون - تالخمت",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 170,
+        "name": "Ouled Si Slimane - Taxlent",
+        "name_ar": "أولاد سي سليمان - تاكسلانت",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 171,
+        "name": "Tazoult - Tazoult",
+        "name_ar": "تازولت - تازولت",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 172,
+        "name": "Theniet El Abed - Teniet El Abed",
+        "name_ar": "ثنية العابد - ثنية العابد",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 173,
+        "name": "Arris - Tighanimine",
+        "name_ar": "أريس - تيغانمين",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 174,
+        "name": "Menaa - Tigharghar",
+        "name_ar": "منعة - تغرغار",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 175,
+        "name": "Seggana - Tilatou",
+        "name_ar": "سقانة - تيلاطو",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 176,
+        "name": "Timgad - Timgad",
+        "name_ar": "تيمقاد - تيمقاد",
+        "wilaya_code": "05"
+    },
+    {
+        "id": 177,
+        "name": "Seriana - Zanet El Beida",
+        "name_ar": "سريانة - زانة البيضاء",
+        "wilaya_code": "05"
+    }
+]

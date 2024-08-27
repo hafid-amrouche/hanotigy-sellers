@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1136,
+        "name": "Labiodh Sidi Cheikh - Ain El Orak",
+        "name_ar": "الأبيض سيدي الشيخ - عين العراك",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1137,
+        "name": "Labiodh Sidi Cheikh - Arbaouat",
+        "name_ar": "الأبيض سيدي الشيخ - اربوات",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1138,
+        "name": "Boualem - Boualem",
+        "name_ar": "بوعلام - بوعلام",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1139,
+        "name": "Bougtoub - Bougtoub",
+        "name_ar": "بوقطب - بوقطب",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1140,
+        "name": "Boussemghoun - Boussemghoun",
+        "name_ar": "بوسمغون - بوسمغون",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1141,
+        "name": "Brezina - Brezina",
+        "name_ar": "بريزينة - بريزينة",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1142,
+        "name": "Rogassa - Cheguig",
+        "name_ar": "رقاصة - الشقيق",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1143,
+        "name": "Chellala - Chellala",
+        "name_ar": "شلالة - شلالة",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1144,
+        "name": "El Bayadh - El Bayadh",
+        "name_ar": "البيض - البيض",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1145,
+        "name": "Labiodh Sidi Cheikh - Labiodh Sidi Cheikh",
+        "name_ar": "الأبيض سيدي الشيخ - الأبيض سيدي الشيخ",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1146,
+        "name": "Labiodh Sidi Cheikh - El Bnoud",
+        "name_ar": "الأبيض سيدي الشيخ - البنود",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1147,
+        "name": "Bougtoub - El Kheiter",
+        "name_ar": "بوقطب - الخيثر",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1148,
+        "name": "Chellala - El Mehara",
+        "name_ar": "شلالة - المحرة",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1149,
+        "name": "Brezina - Ghassoul",
+        "name_ar": "بريزينة - الغاسول",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1150,
+        "name": "Rogassa - Kef El Ahmar",
+        "name_ar": "رقاصة - الكاف الأحمر",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1151,
+        "name": "Brezina - Krakda",
+        "name_ar": "بريزينة - كراكدة",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1152,
+        "name": "Rogassa - Rogassa",
+        "name_ar": "رقاصة - رقاصة",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1153,
+        "name": "Boualem - Sidi Ameur",
+        "name_ar": "بوعلام - سيدي عامر",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1154,
+        "name": "Boualem - Sidi Slimane",
+        "name_ar": "بوعلام - سيدي سليمان",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1155,
+        "name": "Boualem - Sidi Tiffour",
+        "name_ar": "بوعلام - سيدي طيفور",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1156,
+        "name": "Boualem - Stitten",
+        "name_ar": "بوعلام - ستيتن",
+        "wilaya_code": "32"
+    },
+    {
+        "id": 1157,
+        "name": "Bougtoub - Tousmouline",
+        "name_ar": "بوقطب - توسمولين",
+        "wilaya_code": "32"
+    }
+]

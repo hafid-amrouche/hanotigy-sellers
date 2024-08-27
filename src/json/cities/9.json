@@ -1,0 +1,152 @@
+[
+    {
+        "id": 284,
+        "name": "Mouzaia - Ain Romana",
+        "name_ar": "موزاية - عين الرمانة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 285,
+        "name": "Ouled Yaich - Beni Mered",
+        "name_ar": "أولاد يعيش - بني مراد",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 286,
+        "name": "Oued El Alleug - Beni-Tamou",
+        "name_ar": "وادي العلايق - بني تامو",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 287,
+        "name": "Oued El Alleug - Benkhelil",
+        "name_ar": "وادي العلايق - بن خليل",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 288,
+        "name": "Blida - Blida",
+        "name_ar": "البليدة - البليدة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 289,
+        "name": "Blida - Bouarfa",
+        "name_ar": "البليدة - بوعرفة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 290,
+        "name": "Boufarik - Boufarik",
+        "name_ar": "بوفاريك - بوفاريك",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 291,
+        "name": "Bougara - Bougara",
+        "name_ar": "بوقرة - بوقرة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 292,
+        "name": "Bouinan - Bouinan",
+        "name_ar": "بوعينان - بوعينان",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 293,
+        "name": "Bouinan - Chebli",
+        "name_ar": "بوعينان - الشبلي",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 294,
+        "name": "Mouzaia - Chiffa",
+        "name_ar": "موزاية - الشفة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 295,
+        "name": "Ouled Yaich - Chrea",
+        "name_ar": "أولاد يعيش - الشريعة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 296,
+        "name": "Meftah - Djebabra",
+        "name_ar": "مفتاح - جبابرة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 297,
+        "name": "El Affroun - El-Affroun",
+        "name_ar": "العفرون - العفرون",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 298,
+        "name": "Boufarik - Guerrouaou",
+        "name_ar": "بوفاريك - قرواو",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 299,
+        "name": "Bougara - Hammam Elouane",
+        "name_ar": "بوقرة - حمام ملوان",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 300,
+        "name": "Larbaa - Larbaa",
+        "name_ar": "الأربعاء - الأربعاء",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 301,
+        "name": "Meftah - Meftah",
+        "name_ar": "مفتاح - مفتاح",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 302,
+        "name": "Mouzaia - Mouzaia",
+        "name_ar": "موزاية - موزاية",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 303,
+        "name": "El Affroun - Oued  Djer",
+        "name_ar": "العفرون - وادي جر",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 304,
+        "name": "Oued El Alleug - Oued El Alleug",
+        "name_ar": "وادي العلايق - وادي العلايق",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 305,
+        "name": "Bougara - Ouled Slama",
+        "name_ar": "بوقرة - اولاد سلامة",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 306,
+        "name": "Ouled Yaich - Ouled Yaich",
+        "name_ar": "أولاد يعيش - أولاد يعيش",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 307,
+        "name": "Larbaa - Souhane",
+        "name_ar": "الأربعاء - صوحان",
+        "wilaya_code": "09"
+    },
+    {
+        "id": 308,
+        "name": "Boufarik - Soumaa",
+        "name_ar": "بوفاريك - الصومعة",
+        "wilaya_code": "09"
+    }
+]

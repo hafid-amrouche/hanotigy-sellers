@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1164,
+        "name": "Ain Taghrout - Ain Taghrout",
+        "name_ar": "عين تاغروت - عين تاغروت",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1165,
+        "name": "Ras El Oued - Ain Tesra",
+        "name_ar": "رأس الوادي - عين تسرة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1166,
+        "name": "Bordj Bou Arreridj - B. B. Arreridj",
+        "name_ar": "برج بوعريريج - برج بوعريرج",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1167,
+        "name": "Bordj Ghedir - Belimour",
+        "name_ar": "برج الغدير - بليمور",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1168,
+        "name": "Mansourah - Ben Daoud",
+        "name_ar": "المنصورة - بن داود",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1169,
+        "name": "Bir Kasdali - Bir Kasdali",
+        "name_ar": "بئر قاصد علي - بئر قاصد علي",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1170,
+        "name": "Bordj Ghedir - Bordj Ghedir",
+        "name_ar": "برج الغدير - برج الغدير",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1171,
+        "name": "Bordj Zemmoura - Bordj Zemmoura",
+        "name_ar": "برج زمورة - برج زمورة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1172,
+        "name": "Djaafra - Colla",
+        "name_ar": "جعافرة - القلة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1173,
+        "name": "Djaafra - Djaafra",
+        "name_ar": "جعافرة - جعافرة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1174,
+        "name": "El Hamadia - El Euch",
+        "name_ar": "الحمادية - العش",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1175,
+        "name": "Medjana - El Achir",
+        "name_ar": "مجانة - الياشير",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1176,
+        "name": "Bordj Ghedir - El Annasseur",
+        "name_ar": "برج الغدير - العناصر",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1177,
+        "name": "El Hamadia - Elhammadia",
+        "name_ar": "الحمادية - الحمادية",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1178,
+        "name": "Djaafra - El Main",
+        "name_ar": "جعافرة - الماين",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1179,
+        "name": "Mansourah - El M'hir",
+        "name_ar": "المنصورة - المهير",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1180,
+        "name": "Bordj Ghedir - Ghailasa",
+        "name_ar": "برج الغدير - غيلاسة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1181,
+        "name": "Mansourah - Haraza",
+        "name_ar": "المنصورة - حرازة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1182,
+        "name": "Medjana - Hasnaoua",
+        "name_ar": "مجانة - حسناوة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1183,
+        "name": "Bir Kasdali - Khelil",
+        "name_ar": "بئر قاصد علي - خليل",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1184,
+        "name": "El Hamadia - Ksour",
+        "name_ar": "الحمادية - القصور",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1185,
+        "name": "Mansourah - Mansoura",
+        "name_ar": "المنصورة - المنصورة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1186,
+        "name": "Medjana - Medjana",
+        "name_ar": "مجانة - مجانة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1187,
+        "name": "Ras El Oued - Ouled Brahem",
+        "name_ar": "رأس الوادي - أولاد أبراهم",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1188,
+        "name": "Bordj Zemmoura - Ouled Dahmane",
+        "name_ar": "برج زمورة - أولاد دحمان",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1189,
+        "name": "Mansourah - Ouled Sidi-Brahim",
+        "name_ar": "المنصورة - أولاد سيدي ابراهيم",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1190,
+        "name": "El Hamadia - Rabta",
+        "name_ar": "الحمادية - الرابطة",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1191,
+        "name": "Ras El Oued - Ras El Oued",
+        "name_ar": "رأس الوادي - رأس الوادي",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1192,
+        "name": "Bir Kasdali - Sidi-Embarek",
+        "name_ar": "بئر قاصد علي - سيدي أمبارك",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1193,
+        "name": "Djaafra - Tefreg",
+        "name_ar": "جعافرة - تفرق",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1194,
+        "name": "Bordj Ghedir - Taglait",
+        "name_ar": "برج الغدير - تقلعيت",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1195,
+        "name": "Bordj Zemmoura - Tassamert",
+        "name_ar": "برج زمورة - تسامرت",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1196,
+        "name": "Medjana - Teniet En Nasr",
+        "name_ar": "مجانة - ثنية النصر",
+        "wilaya_code": "34"
+    },
+    {
+        "id": 1197,
+        "name": "Ain Taghrout - Tixter",
+        "name_ar": "عين تاغروت - تيكستار",
+        "wilaya_code": "34"
+    }
+]

@@ -14,6 +14,12 @@ import Redirect from 'pages/Redirect';
 import Shipping from 'pages/settings/Shipping';
 import Products from 'pages/Products';
 import GoogleSheets from 'pages/apps/GoogleSheets';
+import Settings from 'pages/Settings';
+import Store from 'pages/Store';
+import Apps from 'pages/Apps';
+import FacebookPixel from 'pages/apps/FacebookPixel';
+
+//LAZY LOAD PAGES
 
 
 
@@ -51,11 +57,11 @@ const AppWithoutProviding = () => {
           children:[
             {
               index: true,
-              element: <Orders/>,
+              element: <Orders key={false}/>,
             },
             {
               path: 'abandoned-orders',
-              element: <AbandonedOrders/>,
+              element: <Orders key={true} abandoned/>,
             }
           ]
         },
@@ -75,7 +81,7 @@ const AppWithoutProviding = () => {
         },
         {
           path: "store",
-          element: <div />,
+          element: <Store />,
         },
         {
           path: "stats",
@@ -87,15 +93,23 @@ const AppWithoutProviding = () => {
         },
         {
           path: "settings",
-          element: <div />,
+          element: <Settings />,
         },
         {
           path: "settings/shipping",
           element: <Shipping />,
         },
         {
+          path: "apps",
+          element: <Apps/>,
+        },
+        {
           path: "apps/google-sheets",
           element: <GoogleSheets />,
+        },
+        {
+          path: "apps/facebook-pixel",
+          element: <FacebookPixel />,
         },
         {
           path: "support",

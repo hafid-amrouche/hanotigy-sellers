@@ -10,7 +10,7 @@ import OptionsContainer from 'components/OptionsContainer'
 import Button from 'components/Button'
 import Loader from 'components/Loader'
 import { useBrowserContext } from 'store/browser-context'
-import OrdersContextProvider, { OrdersContext } from './orders/pages/store/order-context'
+import OrdersContextProvider, { OrdersContext } from './orders/store/order-context'
 import { useContextSelector } from 'use-context-selector'
 import { AnimatePresence } from 'framer-motion'
 import MotionItem from 'components/Motionitem'
@@ -18,12 +18,13 @@ import CustomCheckbox from 'components/CustomCheckBox'
 import Img from 'components/Img'
 import DialogComponent from 'components/tags/Dialog'
 import { Link } from 'react-router-dom'
+import AddOrder from './orders/components/AddOrder'
 
 export const TableHead = ()=>(
     <>
-        <div  className={'table-cell ' + classes['never-vanish']}>Product</div>
-        <div  className={'table-cell ' + classes['never-vanish']}>Number</div>
-        <div   className={'table-cell ' + classes['never-vanish']}>Status</div>
+        <div className={'table-cell ' + classes['never-vanish']}>Product</div>
+        <div className={'table-cell ' + classes['never-vanish']}>Number</div>
+        <div className={'table-cell ' + classes['never-vanish']}>Status</div>
         <div className={classes['td-third'] + ' table-cell'}>{translate('Total')} ({ translate('DA') })</div>
         <div className={classes['td-forth'] + ' table-cell'}>Full name</div>
         <div className={classes['td-second'] + ' table-cell'}>State</div>
@@ -36,19 +37,17 @@ export const TableHead = ()=>(
 )
 
 
-const OrderTr=({order: ORD})=>{
+const OrderTr=({order, abandoned})=>{
     const blockedVisitors = useContextSelector(OrdersContext, state=>state.blockedVisitors)
     const statusList = useContextSelector(OrdersContext, state=>state.statusList)
     const setBlockedVisitors = useContextSelector(OrdersContext, state=>state.setBlockedVisitors)
     const changeOrderStatusBluk = useContextSelector(OrdersContext, state=>state.changeOrderStatusBluk) 
 
-    const [order, setOrder] = useState(ORD)
+    const [visitor, setVisitor] = useState(null)
+
     const [showContainer, setShowContainer] = useState(false)
     const [showDetails, setShowDetails] = useState(false)
     const [status, setStatus] = useState(order.status)
-    useEffect(()=>{
-        setStatus(ORD.status)
-    }, [ORD.status])
 
     const [loadingStatus, setloadingStatus] = useState(false)
     const changeOrderStatus=async(status)=>{
@@ -63,18 +62,13 @@ const OrderTr=({order: ORD})=>{
     const fetchOrderDetails=async()=>{
         setLoadingDetails(true)
         try{
-            const {data} = await axios.get(apiUrl + `/orders/get-order?id=${order.id}&store_id=${localStorage.getItem('storeId')}`,  
+            const {data} = await axios.get(apiUrl + `/orders/${ abandoned ? 'get-abandoned-order' :  'get-order'}?id=${order.id}&store_id=${localStorage.getItem('storeId')}`,  
             {
                 headers: {
                     'Authorization': 'Bearer ' + localStorage.getItem('token')
                 }
             })
-
-            setOrder(order=>({
-                ...order,
-                ...data.order
-            }))
-
+            setVisitor(data.order.visitor)
             setVisitorBlocked(data.order.visitor.blocked)
             setLoadingDetails(false)
         }catch(err){
@@ -96,28 +90,28 @@ const OrderTr=({order: ORD})=>{
 
     const {setGlobalMessageA} = useBrowserContext()
 
-    const [blockingVisitor, setBlockingVisitor] = useState(order.visitor?.blocked)
+    const [blockingVisitor, setBlockingVisitor] = useState(visitor?.blocked)
     const [visitorBlocked, setVisitorBlocked] = useState(false)
     useEffect(()=>{
         if (visitorBlocked){
-            if (!blockedVisitors.includes(order.visitor?.id)) {
+            if (!blockedVisitors.includes(visitor?.id)) {
                 setBlockedVisitors(trackers=>{
                     const newTrackers = [...trackers]
-                    newTrackers.push(order.visitor.id)
+                    newTrackers.push(visitor.id)
                     return newTrackers
                 })
             }
         }    
         else {
-            if (blockedVisitors.includes(order.visitor?.id)) {
-                setBlockedVisitors(trackers=>trackers.filter(elem =>elem !== order.visitor.id))
+            if (blockedVisitors.includes(visitor?.id)) {
+                setBlockedVisitors(trackers=>trackers.filter(elem =>elem !== visitor.id))
             }
                 
         }   
     }, [visitorBlocked]) 
 
     useEffect(()=>{
-        if (blockedVisitors.includes(order.visitor?.id)) {
+        if (blockedVisitors.includes(visitor?.id)) {
             if (!visitorBlocked) setVisitorBlocked(true)
         }
         else {
@@ -131,7 +125,7 @@ const OrderTr=({order: ORD})=>{
             apiUrl + (visitorBlocked ? '/store/unblock-visitor' :  '/store/block-visitor'),
             {
                 store_id: localStorage.getItem('storeId'),
-                id: order.visitor.id
+                id: visitor.id
             },
             {
                 headers: {
@@ -145,7 +139,7 @@ const OrderTr=({order: ORD})=>{
             setVisitorBlocked(blocked)
             setBlockingVisitor(false)
             setGlobalMessageA({
-                children: blocked ? translate('Visitor with token "{tracker}" is blocked', {tracker: order.visitor.tracker.slice(0, 10) + '...'}) : translate('Visitor with token "{tracker}" is not blocked anymore', {tracker: order.visitor.tracker.slice(0, 10) + '...'}),
+                children: blocked ? translate('Visitor with token "{tracker}" is blocked', {tracker: visitor.tracker.slice(0, 10) + '...'}) : translate('Visitor with token "{tracker}" is not blocked anymore', {tracker: visitor.tracker.slice(0, 10) + '...'}),
                 color: 'var(--successColor)',
                 time: 2000
             })
@@ -156,7 +150,7 @@ const OrderTr=({order: ORD})=>{
         })
     }
 
-    const shippingCost = (order.shipping_to_home ? order.product['shipping_home_cost'] : order.product['shipping_office_cost']) || 0
+    const shippingCost = order.product.shipping_cost || 0
     const totalPrice = order.product.price * order.product_quantity + shippingCost
 
     const  toggleOrder  = useContextSelector(OrdersContext, state=>state.toggleOrder)
@@ -186,6 +180,56 @@ const OrderTr=({order: ORD})=>{
     }
     const [show, setShow] = useState(false)
     const deletingSelectedOrders  = useContextSelector(OrdersContext, state=>state.deletingSelectedOrders)
+
+    const [showAdd, setShowAdd] = useState(false)
+
+    const setRenderedOrders  = useContextSelector(OrdersContext, state=>state.setRenderedOrders)
+    const [loadingPhoneNumber, setloadingPhoneNumber] = useState(false)
+    const revelPhoneNumber=()=>{
+        setloadingPhoneNumber(true)
+        axios.post(
+            apiUrl + '/orders/reveal-phone-number',
+            {
+                order_id: order.id,
+                store_id: localStorage.getItem('storeId')
+            },
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                }
+            }
+        ).then(response=>{
+            // decrease points
+            setRenderedOrders((renderedOrders)=>{
+                const  newState = [...renderedOrders]
+                let selectedOrder = newState.find(elem=>elem.id === order.id)
+                selectedOrder.phone_number = response.data.phone_number
+                return newState
+            })
+            setloadingPhoneNumber(false)
+        }).catch(err=>{
+            setloadingPhoneNumber(false)
+            setGlobalMessageA({
+                color: 'red',
+                time: 3000,
+                children: translate('Erro while getting the phone number')
+            })
+        })
+    }
+
+    const phoneNumberContent= <>{
+        order.phone_number ==='locked' ?
+            <button disabled={loadingPhoneNumber} className='color-primary p-relative' onClick={revelPhoneNumber}>
+                <h4 className='blur-3'>0000000000</h4>
+                <IconWithHover style={{position: 'absolute'}} iconClass='fa-solid fa-lock' />
+            </button>:
+            <Link to={'tel:' + order.phone_number} className='color-primary'>
+                <h4>{ order.phone_number }</h4>
+            </Link>
+    }</>
+    
+    // if (order.id == 137) console.log(order)
     return(
         <div className={((deletingSelectedOrders && selectedOrders.includes(order.id)) ? ' blur' : '')}>
             <div className='table-row'>
@@ -196,9 +240,7 @@ const OrderTr=({order: ORD})=>{
                     <Img src={order.product.image} style={{objectFit: 'cover', borderRadius: 4}} height={36} width={36} />
                 </div>
                 <div className={'table-cell ' + classes['never-vanish']}>
-                    <Link to={'tel:' + order.phone_number} className='color-primary'>
-                        <h4>{ order.phone_number }</h4>
-                    </Link>
+                    {phoneNumberContent}
                 </div>
                 <div className={classes['td-fifth']+' table-cell ' + classes['never-vanish']}>
                     <div className='d-f align-center justify-center'>
@@ -258,18 +300,24 @@ const OrderTr=({order: ORD})=>{
                         <OptionsContainer show={show} setShow={setShow} alwaysShown={
                                 <IconWithHover iconClass='fa-solid fa-edit' onClick={()=>setShow(!show)} />
                             }>
-                                <div className='d-f g-2 align-items-center px-3 p-2'>
+                                <div className='d-f g-2 align-items-center px-3 p-2' onClick={()=>{setShowAdd(true); setShow(false)}}>
                                     <i className='fa-solid fa-edit' />
                                     <h4>{ translate('Edit') }</h4>
                                 </div>
                                 <div className='d-f g-2 align-items-center justify-content-between px-3 p-2' onClick={()=>dialogRef.current.open()}>
-                                    <div  className='d-f g-2 align-items-center'>
+                                    <div className='d-f g-2 align-items-center'>
                                         <i className='fa-solid fa-trash' />
                                         <h4>{ translate('Delete') }</h4>
                                     </div>
                                 { deleting &&  <Loader diam={22} />}
                                 </div>
                         </OptionsContainer>
+                        <div  style={{textAlign: 'start'}} >
+                            <DialogComponent  open={showAdd} close={()=>{setShowAdd(false)}} backDropPressCloses={false} >
+                                <AddOrder order={order} />
+                            </DialogComponent>
+                        </div>
+                            
                     </div>
                     <Accordiant size={10} style={{ backgroundColor: 'var(--primaryColor)', padding: 4, borderRadius: 16, color: 'var(--backgroundColor)' }} checked={showDetails} setChecked={setShowDetails} />
                     <DialogComponent
@@ -285,7 +333,7 @@ const OrderTr=({order: ORD})=>{
                     </DialogComponent>
                 </div>
             </div>
-            { showDetails &&<div className='col-12' >
+            { showDetails && <div className='col-12' >
                 <>
                     <hr className='container' />
                     <div className=' p-2 column'>
@@ -354,28 +402,35 @@ const OrderTr=({order: ORD})=>{
                                     </div>
                                     <div className='px-1 d-f g-3 justify-space-between align-items-center' >
                                         <h4>{ translate('Phone number') }:</h4>
-                                        <Button onClick={()=>window.location = 'tel:' + order.phone_number} outline style={{borderRadius: 22}}>
-                                            { order.phone_number }
-                                        </Button>
+                                        {phoneNumberContent}
+
                                     </div>
-                                    <div className='px-1 d-f g-3 column' >
+                                    <div className='px-1' >
                                         <h4>{ translate('Address') }:</h4>
-                                        <div style={{position: 'relative', height: 74 }} className='container'>
-                                            <h4 style={{ position: 'absolute' }} className='p-1 w-100 color-primary break-line'>{ order.shippingState }, {order.shippingCity}{ order.shipping_address ? `, ${order.shipping_address}`: '' }</h4>
-                                        </div>
+                                        <h4 className='p-1 color-primary break-line container'>{ order.shippingState }, {order.shippingCity}{ order.shipping_address ? `, ${order.shipping_address}`: '' }</h4>
                                         
                                     </div>  
-                                    {order.visitor && <div className='column g-3 p-1'>
-                                        <h4>{ translate('Visitor Token') }:</h4>
-                                        <h4 
-                                            className='color-primary p-1 break-line w-100 container'
-                                        >
-                                            { order.visitor.tracker }
-                                        </h4>
+                                    { order.client_note && <div className='px-1' >
+                                        <h4>{ translate('Client note') }:</h4>
+
+                                        <h4 className='p-1 color-primary break-line container'>{ order.client_note }</h4>
+                                        
+                                    </div> }
+                                    { order.seller_note && <div className='px-1' >
+                                        <h4>{ translate('Seller note') }:</h4>
+                                        <h4 className='p-1 color-primary break-line container'>{ order.seller_note }</h4>
+                                        
+                                    </div> }
+                                    {visitor && visitor.tracker && <div className='column g-3 p-1'>
+                                        <h4>{ translate('Client Token') }:</h4>
+                                        <div className='p-relative' style={{height: 68}}>
+                                            <h4 style={{position: 'absolute'}} className='color-primary p-1 break-line w-100 container' > { visitor.tracker } </h4>
+                                        </div>
+
                                         
                                         <h4>{ translate('IP Addresses') }:</h4>
                                         <div className='d-flex flex-wrap gap-3'>
-                                            { order.visitor.ip_adresses.map((address, index)=>(
+                                            { visitor.ip_adresses.map((address, index)=>(
                                                 <h4 className='container px-2' key={index}>{ address.ip_address }</h4>
                                             ))}
                                         </div>
@@ -394,14 +449,15 @@ const OrderTr=({order: ORD})=>{
     )
 }
 
-const InnerOrders = () => {
+const InnerOrders = ({abandoned}) => {
     const renderedOrders = useContextSelector(OrdersContext, state=>state.renderedOrders)
+    console.log(renderedOrders[0])
     return (
-        <AnimatePresence>
+        <AnimatePresence >
             {
                 renderedOrders && renderedOrders.map(order=>(
-                    <MotionItem className={classes['order']} key={order.id}>
-                        <OrderTr order={order} />
+                    <MotionItem className={classes['order'] + (order.made_by_seller ? ` ${classes['primary-to-success']}` : '')} key={order.id}>
+                        <OrderTr abandoned={abandoned} order={order} />
                     </MotionItem>
                         
                 ))
@@ -410,11 +466,11 @@ const InnerOrders = () => {
     )
 }
 
-const Orders  = ()=>{
+const Orders  = ({abandoned})=>{
 
     return(
-        <OrdersContextProvider>
-            <InnerOrders/>
+        <OrdersContextProvider abandoned={abandoned}>
+            <InnerOrders abandoned={abandoned}/>
         </OrdersContextProvider>
     )
 }

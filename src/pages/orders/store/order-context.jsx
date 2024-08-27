@@ -2,9 +2,9 @@ import axios from 'axios'
 import { apiUrl, filesUrl } from 'constants/urls'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {createContext, useContextSelector} from 'use-context-selector'
-import classes from '../../../Orders.module.css'
+import classes from '../../Orders.module.css'
 import Input from 'components/tags/Input'
-import { downloadCsv, formatDate, objectToCsv, slugify, translate } from 'utils/utils'
+import {downloadCsv, formatDate, objectToCsv, slugify, translate } from 'utils/utils'
 import { TableHead } from 'pages/Orders'
 import Button from 'components/Button'
 import { useBrowserContext } from 'store/browser-context'
@@ -13,110 +13,8 @@ import Select from 'components/tags/Select'
 import DialogComponent from 'components/tags/Dialog'
 import OptionsContainer from 'components/OptionsContainer'
 import IconWithHover from 'components/IconWithHover'
-import Loader from 'components/Loader copy'
-import Img from 'components/Img'
-import Accordiant from 'components/Accordiant'
-
-const AddOrder=()=>{
-    const setRenderedOrders= useContextSelector(OrdersContext, state=>state.setRenderedOrders)
-    const [show, setShow] = useState(true)
-    const [loading, setLoading] = useState(false)
-    const [searchedProducts, setSearchedPRoducts] = useState({
-        '': []
-    }) 
-    const [searchText, setSearchText] = useState('')
-    const [disabled, setDisabled] = useState(true)
-    const trimmed = useMemo(()=>searchText.trim(), [searchText])
-    useMemo(()=>setDisabled(false), [trimmed])
-    const searchedProductsBySearch = searchedProducts[trimmed]
-
-    const searchProducts = async(e)=>{
-        e?.preventDefault()
-        setLoading(true)
-        try{
-            const trimmed = searchText.trim().toLowerCase()
-            const response = await axios.get(
-                apiUrl + '/product/get-user-products?search-text=' + trimmed,
-                {
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer ' + localStorage.getItem('token')
-                    }
-                }
-            )
-            setSearchedPRoducts(searchedProducts=>{
-                const newSearchedProcts = {...searchedProducts}
-                newSearchedProcts[searchText] = response.data 
-                return newSearchedProcts
-            })
-            setDisabled(true)
-        }catch(err){
-            console.log(err)
-            setDisabled(false)
-        }
-        setLoading(false)
-    }
-    const [selectedProduct, setSelectedProduct] = useState(null)
-    useEffect(()=>{
-        searchProducts()
-    }, [])
-    const [showSearch, setShowSearch] = useState(true)
-    return( 
-        <>
-            <Button style={{whiteSpace: 'nowrap'}} onClick={()=>setShow(true)}>{ translate('Add order') }</Button>
-            <DialogComponent open={show} close={()=>setShow(false)} >
-                <div className='p-2 container' style={{maxWidth: '90vw', width:400, height: '80vh'}}>
-                    <div className='column g-3'>
-                        <h4 className='color-primary'>{ translate('Select Product') }</h4>
-                        <div className='p-relative'>
-                            { !selectedProduct &&
-                                <>
-                                    <form onSubmit={searchProducts} className='d-f g-2 align-items-center mb-2'>
-                                        <button><IconWithHover disabled={disabled} className='fa-solid fa-search px-1 color-primary' /></button>
-                                        <input className='box-input' value={searchText} onChange={e=>setSearchText(e.target.value)} />
-                                        <Accordiant checked={showSearch} setChecked={setShowSearch} />
-                                    </form>
-                                    { showSearch && <div style={{position:'absolute', width: '100%'}}>
-                                        { searchedProductsBySearch.length > 0 && <div className='container' style={{maxHeight: '40vh', overflowY: 'auto'}}>
-                                            <div className='column g-3'>
-                                                {
-                                                    !loading && searchedProductsBySearch.map(product=>(
-                                                        <div key={product.id} className={ classes['searched-product'] + ' d-f align-center g-3 p-1'} onClick={()=>setSelectedProduct(product)}>
-                                                            <Img src={product.image} style={{objectFit: 'cover', height:40, width: 40, flexShrink: 0}} />
-                                                            <h4 className='cut-text'>{ product.title }</h4>
-                                                        </div>
-                                                    ))
-                                                }
-                                            </div>
-                                            {!loading && (searchedProductsBySearch.length === 0) && trimmed && !loading && <div  className='p-3 d-f justify-center'>
-                                                    <h3>{translate('No product was found')}</h3>
-                                                </div>} 
-                                        </div>}
-                                        {loading && (
-                                            <div className='p-3 d-f justify-content-center align-items-center container'  style={{height: '40vh'}}>
-                                                <Loader diam={100} />
-                                            </div>
-                                        )} 
-                                    </div>}
-                                </>
-                            }
-                            {
-                                selectedProduct && <div className={' d-f align-center g-3 p-1'} >
-                                    <Img src={selectedProduct.image} style={{objectFit: 'cover', height:40, width: 40, flexShrink: 0}} />
-                                    <h4 className='cut-text flex-1'>{ selectedProduct.title }</h4> 
-                                    <IconWithHover onClick={()=>setSelectedProduct(null)} iconClass='fa-solid fa-xmark' />
-                                    
-                                </div>
-                            }
-
-                        </div>
-                    </div>
-                </div>
-            </DialogComponent>
-        </>
-        
-    )
-}
+import Loader from 'components/Loader'
+import AddOrder from '../components/AddOrder'
 
 const SearchBox=()=>{
     const searchText = useContextSelector(OrdersContext, state=>state.searchText)
@@ -238,31 +136,6 @@ const Filtration=()=>{
     )
 }
 
-const ordersOptions = [
-    {
-        id: 1,
-        label: translate('Select'),
-        disabled: true
-    },
-    {
-        id: 2,
-        label: translate('Delete selected')
-    },
-    {
-        id: 3,
-        label: translate('Update status')
-    },
-    {
-        id: 4,
-        label: translate('Download as CSV')
-    },
-    {
-        id: 5,
-        label: translate('Send to shipping company')
-    }
-
-]
-
 const OrdersContext = createContext({
     renderedOrders: [], 
     setRenderedOrders: ()=>{},
@@ -281,7 +154,33 @@ const defaultOrdersParameters = {
     selectedDate:  dateList[0]
 }
 
-const OrdersContextProvider = ({children})=>{
+const fixedOrdersOptions=[
+    {
+        id: 1,
+        label: translate('Select'),
+        disabled: true
+    },
+    {
+        id: 2,
+        label: translate('Delete selected')
+    },
+    {
+        id: 3,
+        label: translate('Update status')
+    },
+    {
+        id: 4,
+        label: translate('Download as CSV')
+    },
+]
+const OrdersContextProvider = ({children, abandoned})=>{
+    const ordersOptions = useMemo(()=>{
+        const list = abandoned ? fixedOrdersOptions : [...fixedOrdersOptions, {
+            id: 5,
+            label: translate('Send to shipping company')
+        }]
+        return list
+    }, [])
     useEffect(()=>{
         document.documentElement.style.overflowY = 'scroll'
         return ()=>{
@@ -315,13 +214,14 @@ const OrdersContextProvider = ({children})=>{
         if(searchTextTrimmed) linkExtention+= '&search_text=' + searchTextTrimmed
         if (ordersParameters.selectedDate.label) linkExtention += '&date=' + slugify(ordersParameters.selectedDate.label)
         try{
-            const {data} = await axios.get(apiUrl + `/orders/get-orders?page=${ page }&store_id=${localStorage.getItem('storeId')}&status_list_fetched=${!!statusList}${linkExtention}`,  
+            const {data} = await axios.get(apiUrl + `/orders/${ abandoned ? 'get-abandoned-orders' : 'get-orders' }?page=${ page }&store_id=${localStorage.getItem('storeId')}&status_list_fetched=${!!statusList}${linkExtention}`,  
             {
                 headers: {
                     'Authorization': 'Bearer ' + localStorage.getItem('token')
                 }
             })
             setOrders(data['orders'])
+            console.log(data['orders'])
             setNumPages(data.numPages)
             setHasNext(data.hasNext)
             setHasPrev(data.hasPrev)
@@ -335,9 +235,7 @@ const OrdersContextProvider = ({children})=>{
             setError(true)
             setloading(false)
             return false
-        }
-       
-            
+        }   
     }
 
     useEffect(()=>{
@@ -444,7 +342,7 @@ const OrdersContextProvider = ({children})=>{
                     })
                 }
                 variants = variants || '/'
-                const shippingCost = (order.shipping_to_home ? order.product['shipping_home_cost'] : order.product['shipping_office_cost']) || 0
+                const shippingCost = order.product.shipping_cost || 0
                 return{
                     [translate('ID')]: order.id,
                     [translate('Client name')]: order.full_name,
@@ -456,7 +354,7 @@ const OrdersContextProvider = ({children})=>{
                     [translate('Shipping city')]: order.shipping_to_home ? order.shippingCity : '/',
                     [translate('Status')]: order.status.text,
                     [translate('Quantity')]: order.product_quantity,
-                    [translate('Total price')]: order.product.price * order.product_quantity + shippingCost,
+                    [translate('Total price')]: order.product.price * order.product_quantity + Number(shippingCost),
                     [translate('Variants')]: variants
                 }})
             const csvData = objectToCsv(serializedData)
@@ -505,6 +403,7 @@ const OrdersContextProvider = ({children})=>{
         }))
         setSelectedOrders([])
     }
+    const [show, setShow] = useState(false)
     const [showFilteration, setShowFiltration] = useState(false)
     const defaultValue={
         renderedOrders, setRenderedOrders,
@@ -535,7 +434,15 @@ const OrdersContextProvider = ({children})=>{
                     <div className='py-2'>
                         <div className='w-100 d-f g-3'>
                             <Select  disabled={selectedOrders.length === 0} options={ordersOptions} selectedOption={selectedOption} onChange={orderSelectChangeHandler} containerStyle={{maxWidth: 380}} />
-                            <AddOrder/>
+                            { !abandoned && <Button style={{whiteSpace: 'nowrap'}} className='d-f g-3 px-2' onClick={()=>setShow(true)}>
+                                <i className='fa-solid fa-plus-square align-items-center' style={{fontSize: 24}} />
+                                { translate('Add order') }
+                            </Button>}
+                            { show && 
+                            <DialogComponent open={show} close={()=>setShow(false)} backDropPressCloses={false}>
+                                <AddOrder/>
+                            </DialogComponent>
+                            }
                         </div>
                         
                         <DialogComponent
@@ -568,7 +475,7 @@ const OrdersContextProvider = ({children})=>{
                             </div>
                         </DialogComponent>
                     </div>
-                    <div className={"table-flex container"}>
+                    <div className={"table-flex container p-relative"}>
                         <div>
                             <div className='table-row header'>
                                 <div className='d-f table-cell'>
@@ -577,10 +484,14 @@ const OrdersContextProvider = ({children})=>{
                                 {<TableHead />}
                             </div>        
                         </div>
-                            {!loading && children}
-                            {loading && <div style={{height: 400}} className='d-f align-items-center justify-content-center'>
-                            <Loader diam={200}  />
-                    </div>}
+                        <div className={loading ? 'blur': undefined } style={{minHeight: 400}}>
+                            {children}        
+                        </div>  
+                        {loading && 
+                            <div style={{height: '100%', width: '100%', position: 'absolute', top:0, left:0}} className='d-f align-items-center justify-content-center'>
+                                    <Loader diam={200}  />
+                            </div>
+                        }
                     </div>
                     { (hasNext || hasPrev) && 
                         <div disabled={loading} className='p-2 d-f g-3 justify-center' style={{alignItems: 'start'}}>

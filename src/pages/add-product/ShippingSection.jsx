@@ -60,17 +60,14 @@ const ShippingSection=forwardRef((props, ref)=>{
                 cost: elem.cost, 
                 costToHome: elem.costToHome
             })),
-            askForCity: askForCity || undefined,
             askForAddress: askForAddress || undefined
         }
     }))
 
-    const defaultAskForCity = useContextSelector(AddProductContext, state=>state.productInfo.askForCity)
-    const [askForCity, setAskForCity] = useState(defaultAskForCity)
     const defaultAskForAddress = useContextSelector(AddProductContext, state=>state.productInfo.askForAddress)
     const [askForAddress, setAskForAddress] = useState(defaultAskForAddress)
     return(
-            <div className={ 'g-1 container column m-3'}>
+            <div className={ 'g-1 container column m-3 m-sm-0'}>
                 <div className='mt-2'>
                     <div className='g-2 d-f align-center'>
                         <input type='checkbox' checked={askForAddress} onChange={(e)=>setAskForAddress(e.target.checked)} style={{scale: '0.8'}} />

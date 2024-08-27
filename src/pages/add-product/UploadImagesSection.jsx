@@ -21,6 +21,7 @@ const uploadImage =async(file)=>{
     const formData = new FormData();
     formData.append('image', image);
     formData.append('product_id', localStorage.getItem('productId'));
+    formData.append('store_id', localStorage.getItem('storeId'));
     const response = await axios({
         method: 'POST',
         url: filesUrl + '/upload-gallery-image', // Replace with your actual upload URL
@@ -109,7 +110,7 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
       return newFiles
     })
 
-    const response =await deleteImage(url)
+    const response =await deleteImage(url, 'product/gallery-image')
     if (!response){
       setFiles64Base(files=>{
         const newFiles=  [...files]

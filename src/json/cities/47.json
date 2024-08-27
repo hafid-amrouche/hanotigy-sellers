@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1491,
+        "name": "Berriane - Berriane",
+        "name_ar": "بريان - بريان",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1492,
+        "name": "Bounoura - Bounoura",
+        "name_ar": "بونورة - بونورة",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1493,
+        "name": "Dhayet Ben Dhahoua - Dhayet Bendhahoua",
+        "name_ar": "ضاية بن ضحوة - ضاية بن ضحوة",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1494,
+        "name": "Bounoura - El Atteuf",
+        "name_ar": "بونورة - العطف",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1496,
+        "name": "Ghardaia - Ghardaia",
+        "name_ar": "غرداية - غرداية",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1497,
+        "name": "El Guerrara - El Guerrara",
+        "name_ar": "القرارة - القرارة",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1500,
+        "name": "Mansourah - Mansoura",
+        "name_ar": "المنصورة - المنصورة",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1501,
+        "name": "Metlili - Metlili",
+        "name_ar": "متليلي - متليلي",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1502,
+        "name": "Metlili - Sebseb",
+        "name_ar": "متليلي - سبسب",
+        "wilaya_code": "47"
+    },
+    {
+        "id": 1503,
+        "name": "Zelfana - Zelfana",
+        "name_ar": "زلفانة - زلفانة",
+        "wilaya_code": "47"
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 364,
+        "name": "Ouenza - Ain Zerga",
+        "name_ar": "الونزة - عين الزرقاء",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 365,
+        "name": "El Ogla - Bedjene",
+        "name_ar": "العقلة - بجن",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 366,
+        "name": "El Kouif - Bekkaria",
+        "name_ar": "الكويف - بكارية",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 367,
+        "name": "Morsott - Bir Dheheb",
+        "name_ar": "مرسط - بئر الذهب",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 368,
+        "name": "Bir Mokadem - Bir Mokkadem",
+        "name_ar": "بئر مقدم - بئر مقدم",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 369,
+        "name": "Bir El Ater - Bir-El-Ater",
+        "name_ar": "بئر العاتر - بئر العاتر",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 370,
+        "name": "El Aouinet - Boukhadra",
+        "name_ar": "العوينات - بوخضرة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 371,
+        "name": "El Kouif - Boulhaf Dyr",
+        "name_ar": "الكويف - بولحاف الدير",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 372,
+        "name": "Cheria - Cheria",
+        "name_ar": "الشريعة - الشريعة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 373,
+        "name": "El Kouif - El Kouif",
+        "name_ar": "الكويف - الكويف",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 374,
+        "name": "El Malabiod - El Malabiod",
+        "name_ar": "الماء الابيض - الماء الابيض",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 375,
+        "name": "Ouenza - El Meridj",
+        "name_ar": "الونزة - المريج",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 376,
+        "name": "El Ogla - El Mezeraa",
+        "name_ar": "العقلة - المزرعة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 377,
+        "name": "El Ogla - El Ogla",
+        "name_ar": "العقلة - العقلة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 378,
+        "name": "Bir El Ater - El Ogla El Malha",
+        "name_ar": "بئر العاتر - العقلة المالحة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 379,
+        "name": "El Aouinet - El-Aouinet",
+        "name_ar": "العوينات - العوينات",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 380,
+        "name": "El Malabiod - El-Houidjbet",
+        "name_ar": "الماء الابيض - الحويجبات",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 381,
+        "name": "Negrine - Ferkane",
+        "name_ar": "نقرين - فركان",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 382,
+        "name": "Bir Mokadem - Guorriguer",
+        "name_ar": "بئر مقدم - قريقر",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 383,
+        "name": "Bir Mokadem - Hammamet",
+        "name_ar": "بئر مقدم - الحمامات",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 384,
+        "name": "Morsott - Morsott",
+        "name_ar": "مرسط - مرسط",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 385,
+        "name": "Negrine - Negrine",
+        "name_ar": "نقرين - نقرين",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 386,
+        "name": "Ouenza - Ouenza",
+        "name_ar": "الونزة - الونزة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 387,
+        "name": "Oum Ali - Oum Ali",
+        "name_ar": "أم علي - أم علي",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 388,
+        "name": "Oum Ali - Saf Saf El Ouesra",
+        "name_ar": "أم علي - صفصاف الوسرى",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 389,
+        "name": "El Ogla - Stah Guentis",
+        "name_ar": "العقلة - سطح قنطيس",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 390,
+        "name": "Tebessa - Tebessa",
+        "name_ar": "تبسة - تبسة",
+        "wilaya_code": "12"
+    },
+    {
+        "id": 391,
+        "name": "Cheria - Telidjen",
+        "name_ar": "الشريعة - ثليجان",
+        "wilaya_code": "12"
+    }
+]

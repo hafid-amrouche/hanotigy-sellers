@@ -56,15 +56,18 @@ const Shipping = () => {
   return (
     <div className='container m-2 column p-1'>
         <h3 className='color-primary p-2'>{translate('Shipping ')} ({translate('DA')})</h3>
-        <div className='column g-3'>
+        <div className='column g-3' style={{marginBottom: 100}}>
           <ShippingByStateSection {...{states, setStates}} />
-          <div className='p-1' style={{width: '100%'}}>
-            <Button onClick={updateShippingCosts} style={{width: '100%'}}>
-              { loading && <Loader diam={22} />}
-              <h3>
-                { translate('Save') }
-              </h3>
-            </Button>
+          <div style={{position: 'fixed', bottom: 0, width: '100%', left: 0}}>
+           <div className='p-2'>
+            <Button className='g-3' outline onClick={updateShippingCosts} background style={{width: '100%'}}>
+                <i className='fa-solid fa-bookmark'/>
+                <h3>
+                  { translate('Save') }
+                </h3>
+                { loading && <Loader diam={22} />}
+              </Button>
+           </div>
           </div>
         </div>
     </div>

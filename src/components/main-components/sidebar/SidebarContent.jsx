@@ -50,6 +50,11 @@ const sidebarElemnts =[
       link: 'store',
   },
   {
+    label: translate("Apps"),
+    iconClass: "fa-solid fa-puzzle-piece",
+    link: 'apps',
+  },
+  {
       label: translate("Statistics"),
       iconClass: "fa-solid fa-chart-line",
       link: 'stats',

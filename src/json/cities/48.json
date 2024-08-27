@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1504,
+        "name": "Yellel - Ain Rahma",
+        "name_ar": "يلل - عين الرحمة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1505,
+        "name": "Ain Tarek - Ain-Tarek",
+        "name_ar": "عين طارق - عين طارق",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1506,
+        "name": "Ammi Moussa - Ammi Moussa",
+        "name_ar": "عمي موسى - عمي موسى",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1507,
+        "name": "El Matmar - Belaassel Bouzagza",
+        "name_ar": "المطمر - بلعسل بوزقزة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1508,
+        "name": "Relizane - Bendaoud",
+        "name_ar": "غليزان - بن داود",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1509,
+        "name": "Zemmoura - Beni Dergoun",
+        "name_ar": "زمورة - بني درقن",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1510,
+        "name": "Sidi M'hamed Ben Ali - Beni Zentis",
+        "name_ar": "سيدي أمحمد بن علي - بني زنطيس",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1511,
+        "name": "Zemmoura - Dar Ben Abdelah",
+        "name_ar": "زمورة - دار بن عبد الله",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1512,
+        "name": "Djidiouia - Djidiouia",
+        "name_ar": "جديوية - جديوية",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1513,
+        "name": "Ammi Moussa - El Hassi",
+        "name_ar": "عمي موسى - الحاسي",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1514,
+        "name": "El H'madna - El H'madna",
+        "name_ar": "الحمادنة - الحمادنة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1515,
+        "name": "Ammi Moussa - El Ouldja",
+        "name_ar": "عمي موسى - الولجة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1516,
+        "name": "Mazouna - El-Guettar",
+        "name_ar": "مازونة - القطار",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1517,
+        "name": "El Matmar - El-Matmar",
+        "name_ar": "المطمر - المطمر",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1518,
+        "name": "Ain Tarek - Had Echkalla",
+        "name_ar": "عين طارق - حد الشكالة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1519,
+        "name": "Djidiouia - Hamri",
+        "name_ar": "جديوية - حمري",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1520,
+        "name": "Yellel - Kalaa",
+        "name_ar": "يلل - القلعة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1521,
+        "name": "Oued Rhiou - Lahlef",
+        "name_ar": "وادي رهيو - لحلاف",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1522,
+        "name": "Mazouna - Mazouna",
+        "name_ar": "مازونة - مازونة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1523,
+        "name": "Sidi M'hamed Ben Ali - Mediouna",
+        "name_ar": "سيدي أمحمد بن علي - مديونة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1524,
+        "name": "Mendes - Mendes",
+        "name_ar": "منداس - منداس",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1525,
+        "name": "Oued Rhiou - Merdja Sidi Abed",
+        "name_ar": "وادي رهيو - مرجة سيدي عابد",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1526,
+        "name": "Oued Rhiou - Ouarizane",
+        "name_ar": "وادي رهيو - واريزان",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1527,
+        "name": "El H'madna - Oued El Djemaa",
+        "name_ar": "الحمادنة - وادي الجمعة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1528,
+        "name": "Mendes - Oued Essalem",
+        "name_ar": "منداس - وادي السلام",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1529,
+        "name": "Oued Rhiou - Oued-Rhiou",
+        "name_ar": "وادي رهيو - وادي رهيو",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1530,
+        "name": "Ammi Moussa - Ouled Aiche",
+        "name_ar": "عمي موسى - أولاد يعيش",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1531,
+        "name": "Djidiouia - Ouled Sidi Mihoub",
+        "name_ar": "جديوية - أولاد سيدي الميهوب",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1532,
+        "name": "Ramka - Ramka",
+        "name_ar": "الرمكة - الرمكة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1533,
+        "name": "Relizane - Relizane",
+        "name_ar": "غليزان - غليزان",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1534,
+        "name": "El Matmar - Sidi Khettab",
+        "name_ar": "المطمر - سيدي  خطاب",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1535,
+        "name": "Mendes - Sidi Lazreg",
+        "name_ar": "منداس - سيدي لزرق",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1536,
+        "name": "Sidi M'hamed Ben Ali - Sidi M'hamed Benali",
+        "name_ar": "سيدي أمحمد بن علي - سيدي أمحمد بن علي",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1537,
+        "name": "El Matmar - Sidi M'hamed Benaouda",
+        "name_ar": "المطمر - سيدي امحمد بن عودة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1538,
+        "name": "Yellel - Sidi Saada",
+        "name_ar": "يلل - سيدي سعادة",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1539,
+        "name": "Ramka - Souk El Had",
+        "name_ar": "الرمكة - سوق الحد",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1540,
+        "name": "Yellel - Yellel",
+        "name_ar": "يلل - يلل",
+        "wilaya_code": "48"
+    },
+    {
+        "id": 1541,
+        "name": "Zemmoura - Zemmoura",
+        "name_ar": "زمورة - زمورة",
+        "wilaya_code": "48"
+    }
+]

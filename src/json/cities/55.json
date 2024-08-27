@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1090,
+        "name": "Taibet - Benaceur",
+        "name_ar": "الطيبات - بن ناصر",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1091,
+        "name": "Temacine - Blidet Amor",
+        "name_ar": "تماسين - بلدة اعمر",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1092,
+        "name": "El-Hadjira - El Alia",
+        "name_ar": "الحجيرة - العالية",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1094,
+        "name": "El-Hadjira - El-Hadjira",
+        "name_ar": "الحجيرة - الحجيرة",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1097,
+        "name": "Megarine - Megarine",
+        "name_ar": "المقارين - المقارين",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1098,
+        "name": "Taibet - M'naguer",
+        "name_ar": "الطيبات - المنقر",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1099,
+        "name": "Touggourt - Nezla",
+        "name_ar": "تقرت - النزلة",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1104,
+        "name": "Megarine - Sidi Slimane",
+        "name_ar": "المقارين - سيدي سليمان",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1105,
+        "name": "Taibet - Taibet",
+        "name_ar": "الطيبات - الطيبات",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1106,
+        "name": "Touggourt - Tebesbest",
+        "name_ar": "تقرت - تبسبست",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1107,
+        "name": "Temacine - Temacine",
+        "name_ar": "تماسين - تماسين",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1108,
+        "name": "Touggourt - Touggourt",
+        "name_ar": "تقرت - تقرت",
+        "wilaya_code": "55"
+    },
+    {
+        "id": 1109,
+        "name": "Touggourt - Zaouia El Abidia",
+        "name_ar": "تقرت - الزاوية العابدية",
+        "wilaya_code": "55"
+    }
+]
