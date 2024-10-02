@@ -1,12 +1,12 @@
 import React, { useCallback, useEffect, useRef} from 'react'
 import classes from '../AddProduct.module.css'
 import { getCombinations ,translate } from 'utils/utils'
-import UploadImageButton from './UploadImageButton'
 import { useContextSelector } from 'use-context-selector'
 import { AddProductContext } from './store/add-product-context'
 import DialogComponent from 'components/tags/Dialog'
 import Button from 'components/Button'
 import './VariantsPricing.css'
+import UploadImageButton from 'components/UploadImageButton'
 
 const VariantRow = ({variantObj, pricesAndImagesList, index, pricesAndImage, changePricesAndImage})=>{
   const priceChangeHandler=(e)=>{

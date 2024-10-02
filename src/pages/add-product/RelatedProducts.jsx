@@ -52,7 +52,7 @@ const RelatedProducts = forwardRef((props, ref) => {
         try{
             const trimmed = searchText.trim().toLowerCase()
             const response = await axios.get(
-                apiUrl + `/product/get-user-products?search-text=${trimmed}&store_id=${localStorage.getItem('storeId')}` ,
+                apiUrl + `/product/get-user-products?search-text=${trimmed}&store_id=${localStorage.getItem('storeId')}&exclude=${localStorage.productId}` ,
                 {
                     headers: {
                         'Content-Type': 'application/json',
@@ -88,8 +88,8 @@ const RelatedProducts = forwardRef((props, ref) => {
     const {userData} = useUserContext()
   return (
     <div  className='column g-3 container m-3 p-2'  id='related-products-section'>
-        <div className='d-f g-3 align-center'>
-            <Accordiant checked={show} setChecked={setShow} />
+        <div className='d-f g-3 align-center cursor-pointer' onClick={()=>setShow(!show)}>
+            <Accordiant checked={show} setChecked={()=>{}} />
             <h3 className='color-primary'>{ translate('Related products') }</h3>
         </div>
         { show &&
@@ -115,7 +115,7 @@ const RelatedProducts = forwardRef((props, ref) => {
                                     <Reorder.Group axis="y" onReorder={setSelecetdProducts} values={selectedProducts}>
                                         {selectedProducts.map(product=>
                                             <ReorderItem item={product} key={product.id}  >
-                                                <div className={ classes['searched-item'] + ' d-f align-center g-3 p-2 ' + classes['selected']}>
+                                                <div className={ classes['searched-item'] + ' d-f align-center g-3 p-2 cursor-move ' + classes['selected']}>
                                                     <div 
                                                         className={classes['search-product__image'] + ' container'} 
                                                         style={{
@@ -143,7 +143,7 @@ const RelatedProducts = forwardRef((props, ref) => {
                                             <>
                                                 <hr className='mt-2'/>
                                                 <div className='d-f g-3 color-primary'>
-                                                    <i className='fa-solid fa-hand-pointer' style={{fontSize: 22}}></i>
+                                                    <i className='fa-solid fa-hand' style={{fontSize: 22}}></i>
                                                     <h4>{ translate('Click to add products') }</h4> 
                                                 </div>
                                             </>   

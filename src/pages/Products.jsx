@@ -12,6 +12,7 @@ import { useBrowserContext } from 'store/browser-context'
 import OptionsContainer from 'components/OptionsContainer'
 import Loader from 'components/Loader'
 import DialogComponent from 'components/tags/Dialog'
+import {inDev} from 'constants/Values'
 
 const ProductCard = ({product, setProducts})=>{
     const {userData} = useUserContext()
@@ -96,16 +97,16 @@ const ProductCard = ({product, setProducts})=>{
                     <OptionsContainer show={show} setShow={setShow} 
                         alwaysShown={ <IconWithHover iconClass='fa-solid fa-ellipsis px-2' size={28} onClick={()=>setShow(show=>!show)}/> }
                     >
-                        <div className='d-f g-3 color-red px-4 p-3 scale-on-hover' onClick={()=>dialogRef.current.open()} >
+                        <div className='d-f g-3 color-red px-4 p-3' onClick={()=>dialogRef.current.open()} >
                             <i className='fa-solid fa-trash' style={{fontSize: 22}} />
                             <h4 className='flex-1'>{ translate('Delete') }</h4>
                             { deleting && <Loader color='red'  diam={22} />}
                         </div>
-                        <Link to={String(product.id)} className='color-primary d-f g-3 color-primary p-3 scale-on-hover'>
+                        <Link to={String(product.id)} className='color-primary d-f g-3 color-primary p-3'>
                             <i className='fa-solid fa-edit' style={{fontSize: 22}} /> 
                             <h4>{ translate('Edit') }</h4> 
                         </Link>
-                            <Link target='_blank' onClick={()=>setShow(false)} to={`http://${userData.storeDomain}/products/${product.slug}/${product.id}`}  className='scale-on-hover color-primary d-f g-3 p-3'>{/* after developement */}
+                            <Link target='_blank' onClick={()=>setShow(false)} to={`http${ inDev ? '' : 's'}://${userData.domain}/products/${product.slug}/${product.id}`}  className='color-primary d-f g-3 p-3'>{/* after developement */}
                             <i className='fa-solid fa-eye' style={{fontSize: 22}} />
                             <h4>{ translate('View') }</h4>
                         </Link>
@@ -183,7 +184,7 @@ const Products = () => {
                 <Link to={'add'} className='flex-1 d-f px-1'>
                     <Button className='flex-1'>
                         <i className='fa-solid fa-plus-square' style={{fontSize: 22}} />
-                        <h4>{ translate('Add product') }</h4>
+                        { translate('Add product') }
                     </Button>
                 </Link>
                 {<div className={'column g-2 ' + classes2['font-family'] }>

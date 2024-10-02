@@ -221,7 +221,6 @@ const OrdersContextProvider = ({children, abandoned})=>{
                 }
             })
             setOrders(data['orders'])
-            console.log(data['orders'])
             setNumPages(data.numPages)
             setHasNext(data.hasNext)
             setHasPrev(data.hasPrev)

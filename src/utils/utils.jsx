@@ -93,7 +93,7 @@ export function adjustScrollToTop(element, delta= 0) {
 
 }
 
-export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, outputFormat = null, fixHeight=true) {
+export async function reduceImageQuality(fileList, quality = 0.7, resolution = 1080, outputFormat = null, fixHeight=true) {
   const filesArray = Array.from(fileList);
   const promises = filesArray.map((inputFile) => {
     return new Promise((resolve, reject) => {
@@ -111,21 +111,22 @@ export async function reduceImageQuality(fileList, quality = 0.7, dim = 1080, ou
 
           if (fixHeight){
             if (width > height) {
-              if (width > dim) {
-                width = dim;
-                height *= dim / width;
+              if (width > resolution) {
+                height = height * (resolution / width);
+                width = resolution;
+                console.log(height, width)
               }
             } else {
-              if (height > dim) {
-                width *= dim / height;
-                height = dim;
+              if (height > resolution) {
+                width = width * (resolution / height);
+                height = resolution;
               }
             }
           } 
           else{
-            if (width > dim) {
-              width = dim;
-              height *= dim / width;
+            if (width > resolution) {
+              width = resolution;
+              height *= resolution / width;
             }
           } 
 
@@ -378,4 +379,99 @@ export const componentLoader = async(importFunction)=>{
   if (loading) loading.style.display='none'
   if (header) header.style.removeProperty('margin-top')
   return null
+}
+
+export function extractImageUrls(htmlString) {
+  // Create a temporary DOM element to parse the HTML string
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = htmlString;
+
+  // Select all image elements within the HTML
+  const imgTags = tempDiv.getElementsByTagName('img');
+
+  // Extract the src attribute from each image tag
+  const imgUrls = Array.from(imgTags).map(img => img.src);
+
+  return imgUrls;
+}
+export function addLazyLoadingToImages(htmlString) {
+  // Step 1: Create a template element to hold the HTML string
+  const template = document.createElement('template');
+  
+  // Step 2: Assign the HTML string to the template's innerHTML
+  template.innerHTML = htmlString;
+
+  // Step 3: Select all <img> tags inside the template
+  const imgTags = template.content.querySelectorAll('img');
+
+  // Step 4: Loop through all <img> tags and add loading="lazy" if not already present
+  imgTags.forEach(img => {
+    if (!img.hasAttribute('loading')) {
+      img.setAttribute('loading', 'lazy');
+    }
+  });
+
+  // Step 5: Return the updated HTML as a string
+  return template.innerHTML;
+}
+
+export function cleanHtml(htmlString) {
+  // Create a temporary DOM element to parse the HTML string
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = htmlString;
+
+  // Function to recursively check if a node is empty
+  function checkNode(node) {
+      // Skip <img> tag check - it should be considered as content
+      if (node.tagName === 'IMG') return false;
+
+      // Check if the node contains non-empty text content
+      if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== '') {
+          return false;
+      }
+
+      // Recursively check child nodes
+      for (let child of node.childNodes) {
+          if (!checkNode(child)) {
+              return false;
+          }
+      }
+
+      return true;
+  }
+
+  // Start checking from the body of the parsed HTML
+  return checkNode(tempDiv) ? '' : htmlString;
+}
+
+export function createArray(n) {
+  return Array.from({ length: n }, (v, i) => i);
+}
+
+export const scrollToTop=(elem)=>{
+  elem.scrollIntoView({
+    behavior: 'smooth',  // Optional: Add smooth scrolling
+    block: 'start',      // Align the element to the top of the scrollable container
+    inline: 'nearest'    // For horizontal scroll (if needed)
+  });
+}
+
+export function numberToHex(number) {
+  if (number < 0 || number > 99) {
+      throw new Error("Number must be between 0 and 99");
+  }
+  // Convert the number to a value between 0 and 255
+  const hexValue = Math.round(number * 255 / 99);
+  // Convert to hexadecimal and pad with '0' if necessary
+  return hexValue.toString(16).padStart(2, '0').toUpperCase();
+}
+
+export function hexToNumber(hex) {
+  if (!/^[0-9A-Fa-f]{2}$/.test(hex)) {
+      throw new Error("Input must be a valid two-digit hexadecimal string (00 to FF)");
+  }
+  // Convert the hex to an integer
+  const decimalValue = parseInt(hex, 16);
+  // Scale the value back to 0-99 range
+  return Math.round(decimalValue * 99 / 255);
 }

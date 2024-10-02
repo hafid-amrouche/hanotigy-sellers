@@ -8,7 +8,7 @@ const DialogContext = createContext({
   open: false
 })
 
-const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{}, children}, ref)=>{
+const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{}, children, darkness=0.8}, ref)=>{
   useImperativeHandle(ref, () => ({
     close: closeDialog,
     open: openDialog,
@@ -19,13 +19,13 @@ const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{},
   const [isClosing, setIsClosing] = useState(false);
 
   const openDialog = () => {
-    document.documentElement.classList.add('no-scroll');
+    // document.documentElement.classList.add('no-scroll');
     setIsOpen(true);
     setIsClosing(false);
   };
 
   const closeDialog = () => {
-    document.documentElement.classList.remove('no-scroll');
+    // document.documentElement.classList.remove('no-scroll');
     setIsClosing(true);
     setTimeout(() => {
       setIsOpen(false);
@@ -41,13 +41,13 @@ const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{},
 
 
 
-  // esc and back tab to close the dialog
-  useBlocker(() =>{
-      if (!isOpen) return false
-      closeDialog()
-      return true
-    }
-  );
+  // // esc and back tab to close the dialog
+  // useBlocker(() =>{
+  //     if (!isOpen) return false
+  //     closeDialog()
+  //     return true
+  //   }
+  // );
 
 
   useEffect(() => {
@@ -74,7 +74,11 @@ const DialogComponent=forwardRef(({open, backDropPressCloses=true, close=()=>{},
     <DialogContext.Provider value={defaultValue}>
       <>
         {isOpen && (
-          <div className={`${classes['backdrop']} ${isClosing ? classes['backdrop-fade-out'] : ''}`} onClick={ ()=>{if (backDropPressCloses) closeDialog()} }>
+          <div className={`${classes['backdrop'] } ${isClosing ? classes['backdrop-fade-out'] : ''}`}
+            style={{
+              backgroundColor: `rgba(var(--textColor-rgb), ${darkness})`
+            }}
+            onClick={ ()=>{if (backDropPressCloses) closeDialog()} }>
             <div className={`${classes['dialog']} ${isClosing ? classes['dialog-slide-down'] : ''}`} onClick={e => e.stopPropagation()}>
               {children}
             </div>

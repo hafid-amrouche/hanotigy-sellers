@@ -14,16 +14,16 @@
                 "successColor": "#28a745"
             },
             "dark": {
-                "primaryColor" :  "#5825b8",
-                "primary100Color" :  "#672dd7",
-                "textColor": "#ffffff",
-                "textFadingColor": "#ffffff10",
-                "containerColor": "#11181C",
-                "backgroundColor": "#171717",
-                "background200Color": "#373737",
-                "greyColor": "#8f8f8f",
-                "borderColor": "#7f7f7f60",
-                "successColor": "#28a745"
+                "primaryColor": "#3e1a85",
+                "primary100Color": "#371776",    
+                "containerColor": "#1e1e1e",    
+                "backgroundColor": "#121212",  
+                "background200Color": "#2c2c2c", 
+                "textColor": "#e0e0e0",       
+                "textFadingColor": "#e0e0e015", 
+                "greyColor": "#505050",          
+                "borderColor": "#50505080",    
+                "successColor": "#1e7e34"   
             }
         }
     }

@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useRef, useState } from 'react'
 import './Orders.css'
 import classes from './Orders.module.css'
 import IconWithHover from '../components/IconWithHover'
-import { capitalizeFirstLetter, TimeElapsed, translate } from '../utils/utils'
+import { TimeElapsed, translate } from '../utils/utils'
 import axios from 'axios'
 import {apiUrl, filesUrl} from '../constants/urls'
 import Accordiant from 'components/Accordiant'
@@ -12,13 +12,14 @@ import Loader from 'components/Loader'
 import { useBrowserContext } from 'store/browser-context'
 import OrdersContextProvider, { OrdersContext } from './orders/store/order-context'
 import { useContextSelector } from 'use-context-selector'
-import { AnimatePresence } from 'framer-motion'
+import { AnimatePresence, color } from 'framer-motion'
 import MotionItem from 'components/Motionitem'
 import CustomCheckbox from 'components/CustomCheckBox'
 import Img from 'components/Img'
 import DialogComponent from 'components/tags/Dialog'
 import { Link } from 'react-router-dom'
 import AddOrder from './orders/components/AddOrder'
+import DateFormatter from 'components/DateFormatter'
 
 export const TableHead = ()=>(
     <>
@@ -88,7 +89,7 @@ const OrderTr=({order, abandoned})=>{
         if (showDetails && loadingDetails) fetchOrderDetails()
     }, [showDetails])
 
-    const {setGlobalMessageA} = useBrowserContext()
+    const {setGlobalMessageA, browserData} = useBrowserContext()
 
     const [blockingVisitor, setBlockingVisitor] = useState(visitor?.blocked)
     const [visitorBlocked, setVisitorBlocked] = useState(false)
@@ -282,12 +283,12 @@ const OrderTr=({order, abandoned})=>{
                 </div>
                 <div className={classes['td-first'] + ' text-center table-cell'}>{ order.product_quantity }</div>
                 <div className={classes['td-zero'] + ' table-cell ' + classes['smaller']}>{ TimeElapsed(order.created_at) }</div>
-                <div className={classes['td-variants'] + ' table-cell d-f f-wrap g-3 flex-1'} style={{marginInlineEnd: 12}}>{
+                <div className={classes['td-variants'] + ' table-cell d-f f-wrap g-3 flex-1'} style={{marginInlineEnd: 12, marginInlineStart: 12}}>{
                     order.product.combination && Object.entries(order.product.combination).map(([key, value], index)=>(
                         <Fragment key={index}>
                                 { index !== 0  && <strong>|</strong>}
                                 <div className='d-f g-2'>
-                                    <h4>{ capitalizeFirstLetter(key) }:</h4>
+                                    <h4 className='flex-shrink-0'>{ key }</h4>
                                     <h4 className='color-primary'>{ value }</h4>
                                 </div>
                         </Fragment>
@@ -313,13 +314,13 @@ const OrderTr=({order, abandoned})=>{
                                 </div>
                         </OptionsContainer>
                         <div  style={{textAlign: 'start'}} >
-                            <DialogComponent  open={showAdd} close={()=>{setShowAdd(false)}} backDropPressCloses={false} >
+                            <DialogComponent  open={showAdd} close={()=>{setShowAdd(false)}} >
                                 <AddOrder order={order} />
                             </DialogComponent>
                         </div>
                             
                     </div>
-                    <Accordiant size={10} style={{ backgroundColor: 'var(--primaryColor)', padding: 4, borderRadius: 16, color: 'var(--backgroundColor)' }} checked={showDetails} setChecked={setShowDetails} />
+                    <Accordiant size={10} style={{ backgroundColor: 'var(--primaryColor)', borderRadius: 16, color: 'var(--backgroundColor)' }} checked={showDetails} setChecked={setShowDetails} />
                     <DialogComponent
                         ref={dialogRef}
                     >
@@ -335,16 +336,12 @@ const OrderTr=({order, abandoned})=>{
             </div>
             { showDetails && <div className='col-12' >
                 <>
-                    <hr className='container' />
                     <div className=' p-2 column'>
-                        <div className='d-f align-items-center justify-content-between'>
-                            <h3 className='p-1'>{ translate('Order details') }:</h3>    
-                            <IconWithHover size={24} onClick={()=>setShowDetails(false)}  iconClass='fa-solid fa-xmark' />
-                        </div>
                         <div className='d-flex flex-wrap'>
                             <div className='col-12 col-md-6 g-3 column p-1'>
                                 <div>
-                                    <div className='container p-2 py-0'>
+                                    <div className='border p-2 py-0' >
+                                        <h4 style={{textAlign: 'end'}}><DateFormatter date={new Date(order.created_at)} lang={browserData.lang} style={{opacity: '0.9'}} /> </h4>
                                         <h4 className='mb-2'>{ translate('Order id') }: <span className='color-primary'>#{ order.id }</span></h4>
                                         <div className='d-f g-3  align-center mb-2'>
                                             <Img src={order.product.image} alt='' className='flex-shrink-0' style={{objectFit: 'cover', borderRadius: 4}} height={36} width={36} />
@@ -356,7 +353,7 @@ const OrderTr=({order, abandoned})=>{
                                             order.product.combination && Object.entries(order.product.combination).map(([key, value], index)=>(
                                                 <Fragment key={index}>
                                                     <div className='px-1 d-f g-3 justify-space-between'  >
-                                                        <h4>{ capitalizeFirstLetter(key) }:</h4>
+                                                        <h4>{ key }</h4>
                                                         <h4 className='color-primary'>{ value }</h4>
                                                     </div>
                                                 </Fragment>
@@ -365,7 +362,7 @@ const OrderTr=({order, abandoned})=>{
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='container p-1 h-100'>
+                                    <div className='border p-1 h-100'>
                                         <div className='px-1 d-f g-3 justify-space-between' >
                                             <h4>{ translate('Shipping') }:</h4>
                                             <h4 className='color-primary'>{ order.shipping_to_home ? 
@@ -395,7 +392,7 @@ const OrderTr=({order, abandoned})=>{
                                 </div>
                             </div>
                             <div className='col-12 col-md-6 p-1'>
-                                <div className='container p-1 h-100'>
+                                <div className='border p-1 h-100'>
                                     <div className='px-1 d-f g-3 justify-space-between' >
                                             <h4>{ translate('Full  name') }:</h4>
                                             <h4 className='color-primary'>{ order.full_name}</h4>
@@ -407,35 +404,35 @@ const OrderTr=({order, abandoned})=>{
                                     </div>
                                     <div className='px-1' >
                                         <h4>{ translate('Address') }:</h4>
-                                        <h4 className='p-1 color-primary break-line container'>{ order.shippingState }, {order.shippingCity}{ order.shipping_address ? `, ${order.shipping_address}`: '' }</h4>
+                                        <h4 className='p-1 color-primary break-line border'>{ order.shippingState }, {order.shippingCity}{ order.shipping_address ? `, ${order.shipping_address}`: '' }</h4>
                                         
                                     </div>  
                                     { order.client_note && <div className='px-1' >
                                         <h4>{ translate('Client note') }:</h4>
 
-                                        <h4 className='p-1 color-primary break-line container'>{ order.client_note }</h4>
+                                        <h4 className='p-1 color-primary break-line border'>{ order.client_note }</h4>
                                         
                                     </div> }
                                     { order.seller_note && <div className='px-1' >
                                         <h4>{ translate('Seller note') }:</h4>
-                                        <h4 className='p-1 color-primary break-line container'>{ order.seller_note }</h4>
+                                        <h4 className='p-1 color-primary break-line border'>{ order.seller_note }</h4>
                                         
                                     </div> }
                                     {visitor && visitor.tracker && <div className='column g-3 p-1'>
                                         <h4>{ translate('Client Token') }:</h4>
                                         <div className='p-relative' style={{height: 68}}>
-                                            <h4 style={{position: 'absolute'}} className='color-primary p-1 break-line w-100 container' > { visitor.tracker } </h4>
+                                            <h4 style={{position: 'absolute'}} className='color-primary p-1 break-line w-100 border' > { visitor.tracker } </h4>
                                         </div>
 
                                         
                                         <h4>{ translate('IP Addresses') }:</h4>
                                         <div className='d-flex flex-wrap gap-3'>
                                             { visitor.ip_adresses.map((address, index)=>(
-                                                <h4 className='container px-2' key={index}>{ address.ip_address }</h4>
+                                                <h4 className='border px-2' key={index}>{ address.ip_address }</h4>
                                             ))}
                                         </div>
                                         <Button onClick={toggleVisitor} theme={ visitorBlocked ? 'dark' : 'red'} className='col-12 d-f g-3'>
-                                            <h4 >{ visitorBlocked ? translate('Unblock visitor') : translate('Block Visitor')}</h4>
+                                            { visitorBlocked ? translate('Unblock visitor') : translate('Block Visitor')}
                                             { blockingVisitor && <Loader diam={22} color={'red'} /> }
                                         </Button>
                                     </div>}

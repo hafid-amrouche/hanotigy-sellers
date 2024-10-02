@@ -39,6 +39,7 @@ const Input = forwardRef(({
   const blueHandler=(e)=>{
     setLabelOnTop(false)
     const newValue = isSlug ? e.target.value.replace(/-$/, '') : e.target.value.trim()
+    console.log(newValue)
     onBlur(newValue)
     setInnerValue(newValue)
   }

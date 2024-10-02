@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import classes from './general.module.css'
-import { adjustScrollToTop, translate } from '../utils/utils';
-import useHideHeader from 'hooks/useHideHeader';
+import { adjustScrollToTop, extractImageUrls, translate } from '../utils/utils';
+import useNonStickyHeader from 'hooks/useNonStickyHeader';
 import AddProductContextProvider, { AddProductContext, shakeField } from './add-product/store/add-product-context';
 import RelatedProducts from './add-product/RelatedProducts';
 import Button from 'components/Button';
@@ -22,26 +22,12 @@ import DiscountSection from './add-product/DiscountSection';
 import { createPortal } from 'react-dom';
 import ProductDetails from './add-product/ProductDetails';
 
-function extractImageUrls(htmlString) {
-    // Create a temporary DOM element to parse the HTML string
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = htmlString;
-
-    // Select all image elements within the HTML
-    const imgTags = tempDiv.getElementsByTagName('img');
-
-    // Extract the src attribute from each image tag
-    const imgUrls = Array.from(imgTags).map(img => img.src);
-
-    return imgUrls;
-}
-
 
 const AddProductInner = () => {
     const {id : productId} = useParams()
 
     const isEditing = productId.toLowerCase() !== 'add'
-    useHideHeader()    
+    useNonStickyHeader()    
     const setShakeField = useContextSelector(AddProductContext, state=>state.setShakeField)
 
     const checkErrors=()=>{
@@ -161,27 +147,25 @@ const AddProductInner = () => {
     const [navigationState, setNavigationState] = useState('info')
     return (
         <>
-            <div className='p-2 d-f p-sticky' style={{backgroundColor: 'var(--containerColor)', borderBottom: '1px solid var(--borderColor)', zIndex: 2}}>
+            <div className='p-2 d-f p-sticky' style={{backgroundColor: 'var(--containerColor)', borderBottom: '1px solid var(--borderColor)', zIndex: 100}}>
                 <div className='flex-1 d-f g-2 mx-2 pb-2' style={{overflowX: 'auto'}}>
                     <Button outline={navigationState === 'info'} onClick={()=>setNavigationState('info')} style={{borderRadius: 20}}>{ translate('Infomation') }</Button>
                     <Button outline={navigationState === 'variants'} onClick={()=>setNavigationState('variants')} style={{borderRadius: 20}}>{ translate('Variants') }</Button>
                     <Button outline={navigationState === 'shipping'} onClick={()=>setNavigationState('shipping')} style={{borderRadius: 20}}>{ translate('Shipping') }</Button>
                 </div>
-                <Button outline theme='success' disabled={loading} onClick={nextHandler} className='g-3 ms-2 mb-2' >
+                <Button style={{whiteSpace: 'nowrap'}} outline theme='success' disabled={loading} onClick={nextHandler} className='g-3 ms-2 mb-2' >
                     { !loading && <i className='fa-solid fa-square-plus' style={{fontSize: 24}}/>}
                     { loading && <Loader diam={24} /> }
-                    <h4 style={{whiteSpace: 'nowrap'}}>
-                        { isEditing ? translate('Update') : translate('Add product')}
-                    </h4>
+                    { isEditing ? translate('Update') : translate('Save')}
                 </Button>
             </div>
             <div className={classes['container']} style={{marginBottom: 64, display: navigationState === 'info' ? 'block' : 'none'}}>
                 <Intro ref={introRef} /> 
                 <UploadImagesSection ref={UploadImagesRef} show={navigationState === 'info'} />
+                <RichTextSection ref={richtextSectionRef} />
                 <ProductDetails ref={productDetailsRef} />
                 <DiscountSection ref={discountRef} />
                 <CategoriesSection ref={categoriesSectionRef} />       
-                <RichTextSection ref={richtextSectionRef} />
                 <RelatedProducts ref={RelatedProductsRef} />
             </div>
             <div className={classes['container']} style={{marginBottom: 64, display: navigationState === 'variants' ? 'block' : 'none'}}>

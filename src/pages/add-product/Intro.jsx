@@ -5,6 +5,7 @@ import { translate } from '../../utils/utils';
 import { useContextSelector } from 'use-context-selector';
 import { AddProductContext } from './store/add-product-context';
 import Shake from 'components/Shake';
+import { useUserContext } from 'store/user-context';
 
 const TitleField=memo(({title, setTitle})=>{
     const checkError=(newValue)=>{
@@ -54,15 +55,17 @@ const SlugField=memo(({slug, setSlug})=>{
     let changeHandler=(newSlug)=>{
         setSlug(newSlug)
     }
+    const {userData} = useUserContext()
     return (
         <div className='container p-2'>
-            <div className={'d-f g-3 f-wrap align-center' }  id='slug'>
-                <h4 className='color-text'>https://baara-menage.hanotify.store/</h4>
+            <div className={'d-f g-3 f-wrap align-center' } dir='ltr' id='slug'>
+                <h4 className='color-text' >https://{ userData.domain }/products/</h4>
                 <Input
                     type='text'
                     onChange={changeHandler}
                     style={{
-                        width: '100%'
+                        width: '100%',
+                        minWidth: 200
                     }}
                     onBlur={changeHandler}
                     value={slug}

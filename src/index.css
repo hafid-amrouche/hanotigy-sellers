@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000');
 /* CSS for changing text selection color */
+
 ::selection {
   background-color: rgba(var(--primaryColor-rgb), 0.8); /* Green color */
   color: var(--containerColor); /* Text color */
@@ -10,12 +11,12 @@
   background-color: var(--primaryColor);
   color: var(--containerColor);
 }
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
+  color: var(--textColor);
 }
 #root {
   color: var(--colorText);
@@ -26,6 +27,9 @@ a{
   text-decoration: none;
   color: unset;
   cursor: pointer;
+}
+i{
+  color: inherit;
 }
 
 .no-scroll{
@@ -95,6 +99,10 @@ a{
 .color-primary{
   color: var(--primaryColor);
 }
+.bg-primary{
+  background-color: var(--primaryColor) !important;
+  color: var(--backgroundColor) !important;
+}
 .color-text{
   color: var(--textColor);
 }
@@ -130,6 +138,8 @@ button{
   opacity: 0.5 !important;
   pointer-events: none !important; /* Disable any pointer events (clicks, hovers, etc.) */
   cursor:not-allowed !important;
+  user-select: none;
+  -webkit-user-select: none;
 }
 input[disabled]{
   opacity: 0.8 !important;
@@ -149,7 +159,6 @@ input[disabled]{
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   position: relative;
-  white-space: nowrap; /* Prevents the text from wrapping to the next line */
   overflow: hidden; /* Ensures that the overflow text is hidden */
   text-overflow: ellipsis; /* Adds the ellipsis at the end of the text */
   width: 100%;
@@ -203,7 +212,7 @@ input[type='checkbox']:not(.simple):checked{
 input[type='checkbox']:not(.simple):after{
   background: var(--containerColor);
   border-radius: 50%;
-  box-shadow: 0 0 5px #0003;
+  box-shadow: 0 0 5px var(--textColor);
   content: "";
   height: 20px;
   left: 10%;
@@ -236,6 +245,8 @@ input[type=radio] {
 .border{
   box-shadow: 0 5px 20px var(--textFadingColor);
   border: 1px solid var(--borderColor);
+}
+.rounded{
   border-radius: 4px;
 }
 .border-primary{
@@ -287,9 +298,12 @@ input[type=radio] {
 .p-2{
   padding: 8px !important;
 }
+.p-0{
+  padding: 0px !important;
+}
 
 .p-1{
-  padding: 4px;
+  padding: 4px !important;
 }
 
 .p-3{
@@ -304,8 +318,8 @@ input[type=radio] {
   padding-right: 16px;
 }
 .px-2{
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
 }
 .px-1{
   padding-left: 4px !important;
@@ -354,7 +368,6 @@ input[type=radio] {
 
 .reorder-item ul {
   position: relative;
-  cursor: pointer;
 }
 
 .reorder-item li {
@@ -363,16 +376,12 @@ input[type=radio] {
   position: relative;
   flex-shrink: 0;
   transition: scale 300ms ease-in;
+  cursor: move;
+
 }
 .reorder-item li:hover,
 .reorder-item li:active{
   scale: 1.01;
-}
-
-.reorder-item li svg {
-  width: 18px;
-  height: 18px;
-  cursor: grab;
 }
 
 .reorder-item .background {
@@ -441,6 +450,7 @@ input[type=radio] {
 .lh-1{
   line-height: 130%;
 }
+
 .break-line{
   word-wrap: break-word; /* Older property, still widely supported */
   word-break: break-word; /* Ensures text breaks within long words */
@@ -454,4 +464,20 @@ input[type=radio] {
 }
 .flex-shrink-0{
   flex-shrink: 0 !important;
+}
+.color-inherit{
+  color: inherit;
+}
+
+.cursor-grap{
+  cursor: grab;
+}
+.cursor-move{
+  cursor: move;
+}
+.primary-light-on-hover:hover{
+  background-color: rgba(var(--primaryColor-rgb), 0.4);
+}
+.rounded-4 {
+  border-radius: 32px !important;
 }

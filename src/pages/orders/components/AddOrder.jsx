@@ -7,7 +7,7 @@ import { capitalizeFirstLetter, translate } from 'utils/utils'
 import Button from 'components/Button'
 import { useBrowserContext } from 'store/browser-context'
 import Select from 'components/tags/Select'
-import DialogComponent, { useDialogContext } from 'components/tags/Dialog'
+import { useDialogContext } from 'components/tags/Dialog'
 import IconWithHover from 'components/IconWithHover'
 import Loader from 'components/Loader'
 import Img from 'components/Img'
@@ -31,6 +31,14 @@ const homeShippingOptions=[
 const States = STT.map(stt=>({...stt,
     label: stt.name
 }))
+ 
+States.push( {
+    id: null,
+    code: null,
+    name: "------",
+    name_ar: "------",
+    label : '------'
+},)
 
 const defaultOrder={
     "product": {
@@ -109,10 +117,9 @@ const AddOrder=({order})=>{
                 }
             )
             setVariants(response.data.variants)
-            setprice(response.data.price)
             setOrderData(orderData=>({
                 ...orderData,
-                price: response.data.price,
+                price: response.data.price || 0,
             }))
         }catch(err){
             console.log(err)
@@ -122,7 +129,6 @@ const AddOrder=({order})=>{
     useEffect(()=>{
         if(!order.id){
             if(selectedProduct){
-                console.log(selectedProduct)
                 getProductVariants()
             }
             else{
@@ -132,9 +138,8 @@ const AddOrder=({order})=>{
     }, [selectedProduct])
     
     ///////
-    const [selectedState, setSelectedState] = useState(States[order.shipping_state_id - 1])
+    const [selectedState, setSelectedState] = useState(States.find(state=>state.id === order.shipping_state_id))
     const [cities, setCities] = useState([])
-    const [price, setprice] = useState(order.product.price)
     const [city, setCity] = useState(null)
     const [orderData, setOrderData] = useState({
         price: order.product.price,
@@ -147,6 +152,7 @@ const AddOrder=({order})=>{
         shippingCost: order.product.shipping_cost,
         shippingToHome: order.shipping_to_home
     })
+    console.log(orderData)
     const upadteOrderData=(value, id)=>{
         setOrderData(orderData=>({
             ...orderData,
@@ -174,7 +180,11 @@ const AddOrder=({order})=>{
 
                 
         }
-        upadateCities()
+        if (selectedState.id) upadateCities()
+        else{
+            setCities([])
+            setCity(null)
+        }
     }, [selectedState])
     const {setGlobalMessageA} = useBrowserContext()
     const createOrder=async()=>{
@@ -191,7 +201,7 @@ const AddOrder=({order})=>{
             shipping_cost: orderData.shippingCost,
             shipping_to_home: orderData.shippingToHome,
             state_id: selectedState.id,
-            city_id: city.id,
+            city_id: city && city.id,
             variants,
             product_id: selectedProduct.id,
             title: selectedProduct.title,
@@ -243,9 +253,10 @@ const AddOrder=({order})=>{
         setloading(false)
     }
     const [laoding, setloading] = useState(false)
+    console.log(selectedState)
     return( 
         <>
-            <div className='p-2 container' style={{maxWidth: '90vw', width:1080, height: '80vh', overflowY: 'auto'}}>
+            <div className='p-2 container' style={{maxWidth: '90vw', width:1080, height: 'calc(100vh - 140px)', overflowY: 'auto'}}>
                 <div className='column g-3'>
                     <div className='d-f align-items-center justify-content-between'>
                         <h4 className='color-primary'>{ translate('Product Info') }</h4>
@@ -308,7 +319,7 @@ const AddOrder=({order})=>{
                                             <h4>
                                                 { capitalizeFirstLetter(key) }
                                             </h4>
-                                            <input className='box-input' defaultValue={variants[key]} onBlur={(e)=>setVariants(variants=>({
+                                            <input className='box-input' value={variants[key]} onChange={(e)=>setVariants(variants=>({
                                                 ...variants,
                                                 [key]: e.target.value
                                             }))}/>
@@ -320,13 +331,13 @@ const AddOrder=({order})=>{
                                 <h4>
                                     { capitalizeFirstLetter('Price') }
                                 </h4>
-                                <input type='number' className='box-input' onChange={e=>upadteOrderData(Number(e.target.value), 'price')} value={orderData.price || 0}/>
+                                <input type='number' className='box-input' onChange={e=>upadteOrderData(Number(e.target.value), 'price')} value={orderData.price}/>
                             </div>
                             <div>
                                 <h4>
                                     { capitalizeFirstLetter('Quantity') }
                                 </h4>
-                                <input type='number' min={1} className='box-input' defaultValue={orderData.quantity} onBlur={(e)=>upadteOrderData(Number(e.target.value), 'quantity')}/>
+                                <input type='number' min={1} className='box-input' value={orderData.quantity} onChange={(e)=>upadteOrderData(Number(e.target.value), 'quantity')}/>
                             </div>
 
                         </div>
@@ -338,11 +349,11 @@ const AddOrder=({order})=>{
                         <div className=' d-f f-wrap g-3'>
                             <div style={{maxWidth: 400, width:'100%'}}>
                                 <h4>{ translate('Client full name') }</h4>
-                                <input className='box-input' defaultValue={orderData.fullName} onBlur={e=>upadteOrderData(e.target.value, 'fullName')} label={'Full name'} />
+                                <input className='box-input' value={orderData.fullName} onChange={e=>upadteOrderData(e.target.value, 'fullName')} label={'Full name'} />
                             </div>
                             <div  style={{maxWidth: 400, width:'100%'}}>
                                 <h4>{ translate('Client phone') }</h4>
-                                <input className='box-input' style={{maxWidth: 400}} defaultValue={orderData.phoneNumber} onBlur={e=>upadteOrderData(e.target.value, 'phoneNumber')} label={'Phone number'} type='tel'/>
+                                <input disabled={orderData.phoneNumber='locked'} className='box-input' style={{maxWidth: 400}} value={orderData.phoneNumber} onChange={e=>upadteOrderData(e.target.value, 'phoneNumber')} label={'Phone number'} type='tel'/>
                             </div>
                         </div>
                         <div className=' d-f f-wrap g-3'>
@@ -350,25 +361,26 @@ const AddOrder=({order})=>{
                                 <h4>{ translate('State') }</h4>
                                 <Select label={ translate('States') } options={States} selectedOption={selectedState} onChange={state=>setSelectedState(state)} />
                             </div>
-                            <div  style={{maxWidth: 400, width:'100%'}}>
+                            { city && <div  style={{maxWidth: 400, width:'100%'}}>
                                 <h4>{ translate('City') }</h4>
-                                { city && 
+                                
                                     <Select label={ translate('City') } options={cities} selectedOption={city} onChange={city=>setCity(city)} />
-                                }
-                            </div>
+                               
+                            </div> 
+                            }
                         </div>
 
                         <div  style={{maxWidth: 400}}>
                             <h4>{ translate('Address') }</h4>
-                            <textarea defaultValue={orderData.shipping_address} onBlur={e=>upadteOrderData(e.target.value.trim(), 'shipping_address')} className='box-input'/>
+                            <textarea value={orderData.shipping_address} onChange={e=>upadteOrderData(e.target.value.trim(), 'shipping_address')} className='box-input'/>
                         </div>
                         <div  style={{maxWidth: 400}}>
                             <h4>{ translate('Client Note') }</h4>
-                            <textarea defaultValue={orderData.client_note} onBlur={e=>upadteOrderData(e.target.value.trim(), 'client_note')} className='box-input'/>
+                            <textarea value={orderData.client_note} onChange={e=>upadteOrderData(e.target.value.trim(), 'client_note')} className='box-input'/>
                         </div>
                         <div  style={{maxWidth: 400}}>
                             <h4>{ translate('Seller Note') }</h4>
-                            <textarea defaultValue={orderData.seller_note} onBlur={e=>upadteOrderData(e.target.value.trim(), 'seller_note')} className='box-input'/>
+                            <textarea value={orderData.seller_note} onChange={e=>upadteOrderData(e.target.value.trim(), 'seller_note')} className='box-input'/>
                         </div>
                         <div className='d-f g-3 f-wrap' style={{alignItems: 'flex-end'}}>
                             <div style={{maxWidth: 400, width:'100%'}}>

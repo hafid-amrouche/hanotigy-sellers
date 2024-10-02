@@ -1,0 +1,6 @@
+.container [class^='hide-900']{
+    @media (max-width: 900px){
+        display: none;
+        flex: 0;
+    }
+}

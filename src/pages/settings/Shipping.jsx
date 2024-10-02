@@ -62,7 +62,7 @@ const Shipping = () => {
            <div className='p-2'>
             <Button className='g-3' outline onClick={updateShippingCosts} background style={{width: '100%'}}>
                 <i className='fa-solid fa-bookmark'/>
-                <h3>
+                <h3 className='color-inherit'>
                   { translate('Save') }
                 </h3>
                 { loading && <Loader diam={22} />}

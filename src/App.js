@@ -4,7 +4,6 @@ import Container from './components/main-components/Container'
 import BrowserContextProvider from './store/browser-context';
 import Dashboard from './pages/Dashboard';
 import Orders from './pages/Orders';
-import AbandonedOrders from './pages/orders/pages/AbandonedOrders';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import { UserContextProvider, useUserContext } from './store/user-context';
@@ -18,11 +17,17 @@ import Settings from 'pages/Settings';
 import Store from 'pages/Store';
 import Apps from 'pages/Apps';
 import FacebookPixel from 'pages/apps/FacebookPixel';
+import TiktokPixels from 'pages/apps/TiktokPixels';
+import Design from 'pages/store/pages/Design';
+import Categories from 'pages/store/pages/Categories';
+import ThankYoupage from 'pages/store/pages/ThankYoupage';
+import PrivacyPolicy from 'pages/store/pages/PrivacyPolicy';
+import TermsOfService from 'pages/store/pages/TermsOfService';
+import CustomizeHomePage from 'pages/store/pages/CustomizeHomePage';
+import CustomizeCategoryPage from 'pages/store/pages/CustomizeCategoryPage';
+import CustomizeProductPage from 'pages/store/pages/CustomizeProductPage';
 
 //LAZY LOAD PAGES
-
-
-
 
 const AppWithoutProviding = () => {
   const {userData} = useUserContext()
@@ -35,10 +40,10 @@ const AppWithoutProviding = () => {
       path: '/login',
       element: userData ? <Redirect redirect='/dashboard' /> : <Login/> ,
     },
-    {
-      path: '/register',
-      element: userData ? <Redirect redirect='/dashboard' /> :  <Register/>,
-    },
+    // {
+    //   path: '/register',
+    //   element: userData ? <Redirect redirect='/dashboard' /> :  <Register/>,
+    // },
     {
       path: "/",
       element: userData ? <Container /> : <Redirect redirect='/login' />,
@@ -81,7 +86,52 @@ const AppWithoutProviding = () => {
         },
         {
           path: "store",
+          element: <Redirect redirect={'design'} />
+        },
+        {
+          path: "store",
+          element: <Outlet />,
+          children: [
+            {
+              path: 'design',
+              element: <Design />
+            },
+            {
+              path: 'categories',
+              element: <Categories/>
+            },
+          ]
+        },
+        {
+          path: "store",
           element: <Store />,
+          children: [
+            {
+              path: 'customize-category-page',
+              element: <CustomizeCategoryPage/>
+            },
+            {
+              path: 'customize-product-page',
+              element: <CustomizeProductPage/>
+            },
+            {
+              path: 'thank-you-page',
+              element: <ThankYoupage/>
+            },
+            {
+              path: 'privacy-policy',
+              element: <PrivacyPolicy/>
+            },
+            {
+              path: 'terms-of-service',
+              element: <TermsOfService/>
+            }
+            
+          ]
+        },
+        {
+          path: 'store/customize-home-page',
+          element: <CustomizeHomePage/>
         },
         {
           path: "stats",
@@ -110,6 +160,10 @@ const AppWithoutProviding = () => {
         {
           path: "apps/facebook-pixel",
           element: <FacebookPixel />,
+        },
+        {
+          path: "apps/tiktok-pixels",
+          element: <TiktokPixels />,
         },
         {
           path: "support",

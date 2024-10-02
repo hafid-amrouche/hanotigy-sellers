@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const ChildComponet=({iconClass, label, link, onClick})=>(
   <NavLink to={'/' + link} rel='path' end className={({isActive})=>`${classes.component} ${isActive ? classes.active : ''}`} onClick={onClick}>
         <i className={`${iconClass} ${classes.icon}`} ></i>
-        <label className={classes.label}>{label}</label>
+        <label className={`${classes.label} color-inherit`}>{label}</label>
   </NavLink>
 )
 
@@ -22,7 +22,7 @@ const SidebarComponent = ({iconClass, label, link, onClick, childrenData}) => {
     <div>
       <NavLink to={'/' + link}  className={({isActive})=>`${classes.component} ${isActive ? classes.active : ''}`} onClick={clickHandler}>
           <i className={`${iconClass} ${classes.icon}`} ></i>
-          <label className={classes.label}>{label}</label>
+          <label className={`${classes.label} color-inherit`}>{label}</label>
       </NavLink>
       {childrenData && showChildren && (
           <div className={classes['children-container']}>

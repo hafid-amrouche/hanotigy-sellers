@@ -5,15 +5,16 @@ import MultipleSelect from 'components/tags/MulipleSelect'
 import useScrollToTop from 'hooks/useScrollToTop'
 import React, {forwardRef, useImperativeHandle, useMemo, useRef, useState } from 'react'
 import { slugify, translate } from 'utils/utils'
-import UploadImageButton from './UploadImageButton'
 import axios from 'axios'
 import { apiUrl } from 'constants/urls'
 import { useBrowserContext } from 'store/browser-context'
-import Loader from '../../components/Loader'
 import IconWithHover from 'components/IconWithHover'
 import { useContextSelector } from 'use-context-selector'
 import { AddProductContext } from './store/add-product-context'
 import Accordiant from 'components/Accordiant'
+import Loader from 'components/Loader'
+import UploadImageButton from 'components/UploadImageButton'
+import { useUserContext } from 'store/user-context'
 
 const AddCategoryContent=({setCategories, setSelecetdCategories, close})=>{
     const [title, setTitle] = useState('')
@@ -77,6 +78,7 @@ const AddCategoryContent=({setCategories, setSelecetdCategories, close})=>{
         setloading(false)
     }
 
+    const {userData} = useUserContext()
     return(
         <div style={{
             width: '80vw',
@@ -92,7 +94,7 @@ const AddCategoryContent=({setCategories, setSelecetdCategories, close})=>{
             <h3 className='color-primary'>{ translate('Add Category') }</h3>
             <Input label={'Title'} value={title} onChange={setTitle} onBlur={blurHandler} className='flex-1' />
             <div className='d-f align-center g-3 f-wrap'>
-                <h4>https://baara-menage.hanotify.store/categories/</h4>
+                <h4>https://{userData}/categories/</h4>
                 <input style={{minWidth: 200}} placeholder={'Slug'} value={slug} onChange={(e)=>setSlug(slugify(e.target.value))} className='flex-1 box-input' />
             </div>
             <textarea defaultValue={description} onBlur={(e)=>setDescription(e.target.value.trim())} placeholder={'Description for the category'} className='box-input' />
@@ -184,12 +186,12 @@ const CategoriesSection = forwardRef((props, ref) => {
 
   return (
     <div className='p-2 m-3 container column g-3' id='category-container'>
-        <div className={' d-f align-center g-3'}>
-            <Accordiant checked={show} setChecked={setShow} />
+        <div className={' d-f align-center g-3 cursor-pointer'} onClick={()=>setShow(!show)} >
+            <Accordiant checked={show} setChecked={()=>{}} />
             <h3 className='color-primary'>{translate('Categories')}</h3>
         </div>            
         { show &&
-            <div className='d-f g-4 align-center' style={{width: '100%'}}>
+            <div className='d-f g-4 align-center' style={{width: '100%', zIndex: 110}}>
                 <MultipleSelect 
                     ref={mutipleSelectRef}
                     label={( !categoriesFetch  && `${ selectedCategories.map(obj=>obj.label).join(' | ')}` )|| translate('Categories')   } 

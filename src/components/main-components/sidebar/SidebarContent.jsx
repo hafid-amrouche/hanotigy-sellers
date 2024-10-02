@@ -48,6 +48,23 @@ const sidebarElemnts =[
       label: translate("Store"),
       iconClass: "fa-solid fa-store",
       link: 'store',
+      childrenData:[
+        {
+            label: translate("General design"),
+            iconClass: "fa-solid fa-palette",
+            link: 'store/design',
+        },
+        {
+            label: translate("Categories"),
+            iconClass: "fa-solid fa-list",
+            link: 'store/categories',
+        },
+        {
+          label: translate("Customize pages"),
+          iconClass: "fa-solid fa-edit",
+          link: 'store/customize-home-page',
+      },
+    ]
   },
   {
     label: translate("Apps"),

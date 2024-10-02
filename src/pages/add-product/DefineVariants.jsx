@@ -8,23 +8,21 @@ import './VariationSection.css'
 import ColorPicker from 'components/ColorPicker'
 import DialogComponent from 'components/tags/Dialog'
 import MotionItem from 'components/Motionitem'
-import { AnimatePresence, color, motion } from 'framer-motion'
-import { useContextSelector } from 'use-context-selector'
-import { AddProductContext } from './store/add-product-context'
-import UploadImageButton from './UploadImageButton'
+import { AnimatePresence } from 'framer-motion'
+import UploadImageButton from 'components/UploadImageButton'
 
 const variantTypes = [
     {
-        label: 'Dropdown',
-        value: 'dropdown'
+        label: 'Text button',
+        value: 'text-button'
     },
     {
         label: 'Radio button',
         value: 'radio-button'
     },
     {
-        label: 'Text button',
-        value: 'text-button'
+        label: 'Dropdown',
+        value: 'dropdown'
     },
     {
         label: 'Colored square',
@@ -76,88 +74,6 @@ const ColorOptionButton=({order, option, setOption, removeOption})=>{
     )
 }
 
-const ImagesModalContent=({option, setOption, order, innerImage, imageInputRef, setInnerImage, modelRef})=>{
-    const galleryImages = useContextSelector(AddProductContext, state=>state.productInfo.galleryImages)
-
-    useEffect(()=>{
-        if (!galleryImages.map(image=>image.imageUrl).includes(option.image)){
-            setOption(
-                order, 
-                {
-                    ...option,
-                    image: null
-                }
-            )
-        }
-        if (!galleryImages.map(image=>image.image).includes(innerImage)){
-            setInnerImage(null)
-        }
-    }, [galleryImages])
-    return(
-        <div 
-            style={{
-                width: '80vw',
-                maxWidth: 600,
-                height: '60vh',
-                backgroundColor: 'var(--containerColor)',
-                borderRadius: 8,
-                padding: 10,
-            }}
-            className='column'
-        >
-            <button
-                onClick={()=>{
-                    imageInputRef.current?.click()
-                }}
-                style={{margin: 'auto'}}
-            >
-                <IconWithHover iconClass='fa-solid fa-cloud-arrow-up color-primary'  style={{fontSize: 56}}/>
-            </button>
-            <hr style={{margin: '20px 0'}}/>
-            <div style={{
-                flex: 1,
-                overflowY: 'auto',
-            }}>
-                <div style={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    justifyContent: 'center',
-                    gap: 16,
-                    paddingTop: 10,
-                }}>
-                    {galleryImages.map((file)=>(
-                        <MotionItem
-                            Tag={motion.div} 
-                            animate={{scale: [1, 0.5, 1], opacity: 1}} 
-                            transition={{duration: 0.5}} 
-                            style={{
-                            backgroundImage: `url(${file.image})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            width: 80,
-                            height: 80
-                            }}
-                            key={file.order} 
-                            onClick={()=>{
-                                setInnerImage(file.image)
-                                setOption(
-                                    order, 
-                                    {
-                                        ...option,
-                                        image: file.imageUrl
-                                    }
-                                )
-                            modelRef.current?.close()
-                            }}
-                            className={classes['suggest-image']} 
-                        
-                        />
-                    ))}
-                </div>
-            </div>
-        </div>
-    )
-}
 const ImageTextOptionButton=({order, option, setOption, removeOption})=>{
     const [deleting, setDeleting] = useState(false)
 
@@ -363,7 +279,7 @@ const DefineVariants = memo(forwardRef(({variants, setVariants}, ref) => {
             if (varinatsKeys.length === 0 ) return ({
                 1: {
                     name: '',
-                    type: 'dropdown',
+                    type: 'text-button',
                     options: {},
                 }   
             })
@@ -371,7 +287,7 @@ const DefineVariants = memo(forwardRef(({variants, setVariants}, ref) => {
                 const lastKey = varinatsKeys[varinatsKeys.length-1]
                 newList[Number(lastKey) + 1] = {
                     name: '',
-                    type: 'dropdown',
+                    type: 'text-button',
                     options: {},
                 }
                 return newList

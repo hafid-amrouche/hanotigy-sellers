@@ -20,9 +20,9 @@ const ProductDetails = forwardRef((props, ref) => {
         }
     }))
   return (
-    <div className='p-2 m-3 container column g-3 ' id='details-section'>
+    <div className='p-2 m-3 container column g-3 cursor-pointer' id='details-section' onClick={()=>{setShow(!show)}}>
         <div className={'d-f align-center g-3'}>
-            <Accordiant checked={show} setChecked={setShow} />
+            <Accordiant checked={show} setChecked={()=>{}} />
             <h3 className='color-primary'>{translate('Product Details')}</h3>
         </div>
         { show && <div className='column g-3'>

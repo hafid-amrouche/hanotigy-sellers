@@ -3,7 +3,7 @@ import classes from './Select.module.css'
 import ClickOutsideComponent from '../ClickOutsideComponent'
 import { adjustScrollPosition } from '../../utils/utils'
 
-const Select = ({options, selectedOption, disabled, onChange=()=>{}, containerStyle}) => {
+const Select = ({options, selectedOption, disabled, onChange=()=>{}, containerStyle, noPadding}) => {
   const [dropDownshown, setDropdownShown] = useState(false)
   const [innerSelectedOption, setInnerSelectedOption] = useState(selectedOption)
 
@@ -21,8 +21,8 @@ const Select = ({options, selectedOption, disabled, onChange=()=>{}, containerSt
   }, [dropDownshown])
   return (
     <ClickOutsideComponent onClickOutside={()=>setDropdownShown(false)} listeningCondintion={dropDownshown} style={containerStyle} >
-      <div className='p-relative cursor-pointer' disabled={disabled}>
-        <div className={classes['select-container']} onClick={()=>setDropdownShown(state=>!state)}>
+      <div className={'p-relative cursor-pointer ' + (noPadding ? classes['no-padding'] : '')} disabled={disabled}>
+        <div className={classes['select-container']} onClick={()=>setDropdownShown(state=>!state)} >
           <h4 className='color-primary' style={{width: '100%', minHeight: 30}}>{finalSelectedOption.label}</h4>
           <i className={`fa-solid fa-chevron-${dropDownshown ? 'up' : 'down'} color-primary`} ></i>
         </div>

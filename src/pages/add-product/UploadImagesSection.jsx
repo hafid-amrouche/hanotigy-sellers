@@ -17,7 +17,7 @@ import DialogComponent from 'components/tags/Dialog'
 
 const uploadImage =async(file)=>{
   try{
-    const image = (await reduceImageQuality([file], 0.7, 2048, "webp"))[0];
+    const image = file;
     const formData = new FormData();
     formData.append('image', image);
     formData.append('product_id', localStorage.getItem('productId'));
@@ -48,30 +48,35 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
   const [previousOrdering, setPreviousOrdering] = useState([]) // in case if canceling the ordering
   const inputRef = useRef()
   const [disablePinning, setDisablePinning] = useState(false)
+  const [optimizingImages, setOptimizingImages] = useState(false)
   const changeHandler=async (e)=>{
     setDisablePinning(true)
     setTimeout(()=>{
       if(inputRef.current) inputRef.current.value = ''
     }, 200)
 
-    const newFiles = e.target.files
+    setOptimizingImages(true)
+    const newFiles = await reduceImageQuality(e.target.files, 0.7, 2048, "webp")
+    setOptimizingImages(false)
     let newFiles64Base= []
-    for (const newFile of newFiles){
+    for (let newFile of newFiles){
       const order = files64Base.length + newFiles64Base.length + 1
+      const base64Url = await fileToBase64(newFile)
       const newFile64Base = {
-        base64Url : await fileToBase64(newFile),
+        base64Url : base64Url,
         order: order,
         file : newFile,
         status: 'loading'
       }
       newFiles64Base=[
+        ...newFiles64Base,
         newFile64Base,
-        ...newFiles64Base
+
       ]
     }
     setFiles64Base(files=>([
+      ...files,
       ...newFiles64Base,
-      ...files
     ]))
     const newImagesUrl = []
     for (const file64base of newFiles64Base){
@@ -99,7 +104,7 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
         }
     }
     setDisablePinning(false)
-    saveImages([...newImagesUrl, ...files64Base.map(file=>file.imageUrl)])
+    saveImages([...files64Base.map(file=>file.imageUrl), ...newImagesUrl])
   }
 
   const deleteImageHandler=async(url)=>{
@@ -243,10 +248,12 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
     galleryImages: files64Base.length > 0 ? files64Base.map(file=>file.imageUrl) : undefined
   }))
 
-  console.log(files64Base) 
   return <div className={'container column p-2 m-3 g-4'}>
     <div>
-      <h3 className='color-primary mt-2'>{translate('Images')}</h3>
+      <h3 className='color-primary mt-2 d-f g-3 align-items-center'>
+        {translate('Images')}
+        { files64Base.length > 0 && optimizingImages && <Loader diam={28} />}
+      </h3>
     </div>
     {
      show && (
@@ -262,13 +269,12 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
                   }}
                   ref={inputRef}
                 />
-              <div className={'container p-3 ' + classes['gallery-container']} style={{height: '60vh', overflowY:'auto', borderRadius: 0}}>
+              <div className={'container p-3 ' + classes['gallery-container']} style={{height: '50vh', overflowY:'auto', borderRadius: 0}}>
                 { files64Base.length === 0 &&
 
                       <div style={{width: '100%', height: '100%'}} className='d-f align-center justify-center'>
-                        <MotionItem>
-                          <IconWithHover iconClass='fa-solid fa-cloud-arrow-up color-primary' size={100} onClick={()=>inputRef.current?.click()} />
-                        </MotionItem>
+                        { !optimizingImages && <MotionItem><IconWithHover iconClass='fa-solid fa-cloud-arrow-up color-primary' size={100} onClick={()=>inputRef.current?.click()} /></MotionItem>}
+                        { optimizingImages && <MotionItem className='jiggle color-primary'><Loader diam={100} /></MotionItem>}
                       </div>
                   }
                   {
@@ -391,7 +397,7 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
                   <MotionItem style={{width: '48%'}}>
                     <Button disabled={disablePinning} outline={reorder} style={{width: '100%', gap: 8}} className='g-3' onClick={reorderImagesHandler}>
                       <i className="fa-solid fa-bars-staggered" ></i>
-                      <span>{ reorder ? translate('Save ordering') : translate('Reorder images')}</span>
+                      { reorder ? translate('Save ordering') : translate('Reorder images')}
                     </Button>
                   </MotionItem>
                   { !reorder &&
@@ -414,7 +420,7 @@ const UploadImagesSection = forwardRef(({show}, ref) => {
                     <div style={{
                         width: '80vw',
                         maxWidth: 600,
-                        mxHeight: '60vh',
+                        mxHeight: '50vh',
                         backgroundColor: 'var(--containerColor)',
                         borderRadius: 8,
                         padding: 10,

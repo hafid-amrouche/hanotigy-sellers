@@ -2,22 +2,30 @@ import React from 'react';
 
 const StoreSvg = ({
   primaryColor,  // Main color, e.g., for the shirt icon
-  backgroundColor = 'var(--backgroundColor)', // Background color, almost white
-  containerColor = 'var(--containerColor)',  // Container color, pure white
-  textColor = 'var(--textColor)',        // Dark text color
-  bordersRounded
+  backgroundColor, // Background color, almost white
+  containerColor,  // Container color, pure white
+  textColor,        // Dark text color
+  bordersRounded,
+  headerOutlined,
+  lang
 }) => {
   return (
     <svg
       viewBox="0 0 400 500"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ borderRadius: bordersRounded ? 4 : 0, width:'300' }}
-      className='container'
+      style={{ 
+        borderRadius: bordersRounded ? "2%" : 0, 
+        width: 300,
+        transform: lang === 'ar' ? 'scaleX(-1)' : undefined ,
+        boxShadow: '0 5px 20px var(--textFadingColor)',
+      }}
+      className={ !headerOutlined ? undefined : 'container'}
     >
       {/* Background */}
       <rect width="100%" y="0" height="100%" fill={backgroundColor} />
 
-      <rect x="0" y="0" width="400" height="60" fill={primaryColor} />
+      <rect x="0" y="0" width="400" height="60" fill={headerOutlined ? containerColor : primaryColor} />
+      {headerOutlined && <rect x="0" y="60" width="400" height="1" opacity={0.4} fill={primaryColor} />}
       
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +33,7 @@ const StoreSvg = ({
         x="360"
         y="-220"
         width="30"
-        fill="var(--containerColor)"
+        fill={ !headerOutlined ? containerColor : primaryColor}
       >
         <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
       </svg>
@@ -37,8 +45,8 @@ const StoreSvg = ({
         width="380"
         height="415"
         fill={containerColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
 
       {/* Main Image Placeholder with Border */}
@@ -50,8 +58,8 @@ const StoreSvg = ({
         fill="none"
         stroke="var(--borderColor)"
         strokeWidth="1"
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
 
       {/* Shirt Icon in the Main Image Placeholder */}
@@ -75,8 +83,8 @@ const StoreSvg = ({
         width="100"
         height="10"
         fill={textColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="210"
@@ -84,8 +92,8 @@ const StoreSvg = ({
         width="40"
         height="15"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="260"
@@ -93,8 +101,8 @@ const StoreSvg = ({
         width="42"
         height="15"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="310"
@@ -102,8 +110,8 @@ const StoreSvg = ({
         width="42"
         height="15"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
 
       <rect
@@ -112,8 +120,8 @@ const StoreSvg = ({
         width="100"
         height="10"
         fill={textColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="210"
@@ -121,8 +129,8 @@ const StoreSvg = ({
         width="30"
         height="30"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="245"
@@ -130,8 +138,8 @@ const StoreSvg = ({
         width="30"
         height="30"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="280"
@@ -139,8 +147,8 @@ const StoreSvg = ({
         width="30"
         height="30"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
 
       <rect
@@ -149,8 +157,8 @@ const StoreSvg = ({
         width="150"
         height="30"
         fill={primaryColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
 
       {/* Price Tag */}
@@ -164,8 +172,8 @@ const StoreSvg = ({
         fill="none"
         stroke={ primaryColor }
         strokeWidth="1"
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       ></rect>
       <rect
         x="220"
@@ -173,8 +181,8 @@ const StoreSvg = ({
         width="100"
         height="10"
         fill={textColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="220"
@@ -184,8 +192,8 @@ const StoreSvg = ({
         fill="none"
         stroke={ primaryColor }
         strokeWidth="1"
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       ></rect>
       <rect
         x="220"
@@ -193,8 +201,8 @@ const StoreSvg = ({
         width="100"
         height="10"
         fill={textColor}
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       />
       <rect
         x="220"
@@ -204,8 +212,8 @@ const StoreSvg = ({
         fill="none"
         stroke={ primaryColor }
         strokeWidth="1"
-        rx={ bordersRounded ? "5" : undefined}
-        ry={ bordersRounded ? "5" : undefined}
+        rx={ bordersRounded ? "1%" : undefined}
+        ry={ bordersRounded ? "1%" : undefined}
       ></rect>
     </svg>
   );

@@ -1,17 +1,16 @@
-import React, { forwardRef, useRef, useState } from 'react'
-import classes from '../AddProduct.module.css'
+import React, { useRef, useState } from 'react'
 import { deleteImage, fileToBase64, reduceImageQuality, translate } from 'utils/utils'
 import DialogComponent from 'components/tags/Dialog'
 import IconWithHover from 'components/IconWithHover'
-import Loader from '../../components/Loader'
+import Loader from './Loader'
 import axios from 'axios'
 import { filesUrl } from 'constants/urls'
-import { AddProductContext } from './store/add-product-context'
 import { useContextSelector } from 'use-context-selector'
 import { useBrowserContext } from 'store/browser-context'
+import { AddProductContext } from 'pages/add-product/store/add-product-context'
 
 
-const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-variant-image', outputFormat='webp', resolution=1080, extraData={}, fixedWidth=true, type, rounded=true})=>{
+const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-variant-image', outputFormat='webp', resolution=1080, extraData={}, fixedWidth=true, type, rounded=true, fixHeight=true})=>{
     const [showModal, setShowModal] =useState(false)
     const modelRef = useRef()
     const productId = useContextSelector(AddProductContext, state=>state.productInfo.productId)
@@ -26,7 +25,7 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
       setTimeout(()=>modelRef.current?.close(), 100)
       try{ 
           const files = event.target.files
-          const file = (await reduceImageQuality(files, 0.7, resolution, outputFormat))[0];
+          const file = (await reduceImageQuality(files, 0.7, resolution, outputFormat, fixHeight))[0];
           if (file) {
               const formData = new FormData();
               formData.append('image', file);
@@ -57,7 +56,7 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
           time: 2000
         })
       }
-      imageInputRef.current.value=''
+      if (imageInputRef.current) imageInputRef.current.value=''
     }
   
     const [deleting, setDeleting] = useState(false)
@@ -77,7 +76,6 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
         
       setDeleting(false)
     }
-    console.log(innerImage)
     return(
       <>
         <input type='file' onChange={changeHandler} 
@@ -85,13 +83,15 @@ const UploadImageButton=({image, imageChangeHandler, size=32, url='/upload-varia
           style={{display: 'none'}} ref={imageInputRef} />
         <button 
             style={{
-                width: size,
-                height: size,
+                width: size || 38,
+                height: size || 38,
                 backgroundColor: innerImage ? 'transparent' : undefined,
                 border: innerImage ? 'none' : undefined,
-                borderRadius : rounded ? undefined : 0
+                borderRadius : rounded ? undefined : 0,
+                borderRadius: 4,
+                position: 'relative'
             }}
-            className={classes['color-button'] + ' container'}
+            className='container'
             onClick={()=> image ? setShowModal(true) : imageInputRef.current?.click()}
         >
             { !innerImage && !loading && <i className='fa-solid fa-cloud-arrow-up color-primary' style={{fontSize: size/2}} />}

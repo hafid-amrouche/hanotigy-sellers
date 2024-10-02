@@ -131,6 +131,7 @@ const StateShippingCostsCard=({state, setStates})=>{
 
 const ShippingByStateSection=({states: stts, setStates})=>{
         const [search, setSearch] = useState('')
+        console.log(stts)
         const states = stts.filter(elem=>elem.name.toLowerCase().includes(search.toLowerCase().trim()))
         return(
         <div style={{minHeight: 200}}> 

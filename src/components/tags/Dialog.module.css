@@ -8,14 +8,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--textColor-rgb), 0.8); /* semi-transparent black */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000; /* Ensure it is above other content */
   animation: fade-in 0.3s ease-out; /* Animation for backdrop fade-in */
 }
-
 /* Keyframes for sliding the dialog up from the bottom */
 @keyframes slide-up {
   from {

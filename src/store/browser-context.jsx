@@ -35,17 +35,22 @@ const BrowserContext = createContext({
         time: 4000,
         children: null
     }, 
-    setGlobalMessageA: ({color, time})=>{},
+    setGlobalMessageA: ({color, time, children})=>{},
     langTerms: ltr
     
 })
 
 const root = document.getElementById('root')
 
+const lang ='en'
+
 const BrowserContextProvider=({children})=>{
     // language
-    const lang ='en'
     const langTerms = lang === 'ar' ? rtl : ltr
+    useEffect(()=>{
+        document.documentElement.setAttribute('lang', lang)
+        document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr')
+    }, [lang])
 
     // theme
     const defaultTheme = localStorage.getItem('theme') || 'light'
@@ -102,6 +107,7 @@ const BrowserContextProvider=({children})=>{
         setMetaData,
         setGlobalMessageA,
         globalMessageA,
+        lang,
         langTerms
     }
     return(

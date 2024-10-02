@@ -1,5 +1,4 @@
 .container{
-    color: var(--containerColor);
     display: flex;
     align-items: center;
     justify-content: center;

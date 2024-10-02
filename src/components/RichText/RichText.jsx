@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { forwardRef, useRef, useState } from 'react';
 import SunEditor from 'libs/suneditor-react/src/index';
 import plugins from 'libs/suneditor/src/plugins';
 import { en } from 'libs/suneditor/src/lang';
@@ -8,11 +8,7 @@ import 'libs/suneditor/dist/css/suneditor.min.css';
 import 'katex/dist/katex.min.css';
 import 'codemirror/mode/htmlmixed/htmlmixed';
 import 'codemirror/lib/codemirror.css';
-import axios from 'axios';
-import { filesUrl } from 'constants/urls';
-import { reduceImageQuality, translate } from 'utils/utils';
-import { AddProductContext } from 'pages/add-product/store/add-product-context';
-import { useContextSelector } from 'use-context-selector';
+import { translate } from 'utils/utils';
 
 const options = {
   plugins: plugins,
@@ -60,38 +56,14 @@ const options = {
   ]
 };
 
-const RichText = ({ name, onChange, ...props }) => {
-  const productId = useContextSelector(AddProductContext, state=>state.productInfo.productId)
-  const handleImageUploadBefore = async (files) => {
-    const image = (await reduceImageQuality(files, 0.7, 1080, 'webp', false))[0]
-    const authToken = localStorage.getItem('token'); // Replace with your actual authentication token
-    const formData = new FormData();
-    formData.append('image', image);
-    formData.append('product_id', productId)
-    formData.append('store_id', localStorage.getItem('storeId'))
-
-    await axios({
-      method: 'POST',
-      url: filesUrl + '/upload-rich-text-image', // Replace with your actual upload URL
-      headers: {
-        'Authorization': `Bearer ${authToken}`
-      },
-      data: formData
-    })
-      .then((response) => {
-        document.querySelector(`img[src^='data']`).setAttribute('src', response.data.url)
-        editorRef.current.appendContents('');
-      })
-      .catch((error) => {
-        document.querySelectorAll(`img[src^='data']`).forEach(elem=>elem.parentElement.parentElement.remove())
-        alert(translate('Image was not uploaded'))
-      });
-  };
-  const editorRef = useRef(null);
+const RichText = forwardRef(({ name, onChange, handleImageUploadBefore, editorRef, className, ...props }, ref) => {
+ 
   return (
-    <div>
+    <div
+      className={className}
+    >
       <SunEditor
-        ref={editorRef}
+        ref={ref}
         placeholder={translate("Please type here...")}
         name={name}
         lang="en"
@@ -105,6 +77,6 @@ const RichText = ({ name, onChange, ...props }) => {
       />
     </div>
   );
-};
+});
 
 export default RichText;

@@ -50,10 +50,11 @@
     margin-top: 12px;
 }
 .color-picker .react-colorful__hue-pointer {
-    width: 18px;
+    width: 4Ppx;
     height: 18px;
     /* height: inherit; */
     /* border-radius: 0;  */
+    opacity: 1 !important;
 }
 
 .react-colorful__last-control {

@@ -38,9 +38,9 @@ const DiscountSection = forwardRef((props, ref) => {
     const [show, setShow] = useState(defaultDiscount)
     useScrollToTop(show, '#discount-section', 70)
   return (
-    <div className='p-2 m-3 container column g-3 ' id='discount-section'>
-        <div className={'d-f align-center g-3'}>
-            <Accordiant checked={show} setChecked={setShow} />
+    <div className='p-2 m-3 container column g-3 cursor-pointer' id='discount-section'>
+        <div className={'d-f align-center g-3'} onClick={()=>setShow(!show)}>
+            <Accordiant checked={show} setChecked={()=>{}} />
             <h3 className='color-primary'>{translate('Discount')}</h3>
         </div>
         { show && <div>

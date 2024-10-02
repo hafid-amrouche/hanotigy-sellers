@@ -210,19 +210,19 @@ const Register = () => {
         <div className={classes['input-container']}>
           {step === 1 && (<>
             <div>
-              <Input type='text' className={errorInputs['firstName'] ? 'error' : undefined} label={translate('First name')}  onChange={inputChangeHandler.bind(this, 'firstName')} value={registrationInputs['firstName']} />
+              <Input type='text' className={errorInputs['firstName'] ? 'error' : undefined} label={translate('First name')} onBlur={inputChangeHandler.bind(this, 'firstName')}  onChange={inputChangeHandler.bind(this, 'firstName')} value={registrationInputs['firstName']} />
               { errorInputs['firstName'] && <h4 className='error'>{ errorInputs['firstName'] }</h4> }
             </div>
             <div>
-              <Input type='text' className={errorInputs['lastName'] ? 'error' : undefined} label={translate('Last name')}  onChange={inputChangeHandler.bind(this, 'lastName')} value={registrationInputs['lastName']} />
+              <Input type='text' className={errorInputs['lastName'] ? 'error' : undefined} label={translate('Last name')} onBlur={inputChangeHandler.bind(this, 'lastName')}   onChange={inputChangeHandler.bind(this, 'lastName')} value={registrationInputs['lastName']} />
               { errorInputs['lastName'] && <h4 className='error'>{ errorInputs['lastName'] }</h4> }
             </div>
             <div>
-              <Input type='password' className={errorInputs['password'] ? 'error' : undefined} label={translate('Password')}  onChange={inputChangeHandler.bind(this, 'password')} value={registrationInputs['password']} /> 
+              <Input type='password' className={errorInputs['password'] ? 'error' : undefined} label={translate('Password')} onBlur={inputChangeHandler.bind(this, 'password')}  onChange={inputChangeHandler.bind(this, 'password')} value={registrationInputs['password']} /> 
               { errorInputs['password'] && <h4 className='error'>{ errorInputs['password'] }</h4> }
             </div>
             <div>
-              <Input type='password' className={errorInputs['confirmPassword'] ? 'error' : undefined} label={translate('Confirm password')}  onChange={inputChangeHandler.bind(this, 'confirmPassword')} value={registrationInputs['confirmPassword']} />
+              <Input type='password' className={errorInputs['confirmPassword'] ? 'error' : undefined} label={translate('Confirm password')}  onBlur={inputChangeHandler.bind(this, 'confirmPassword')} onChange={inputChangeHandler.bind(this, 'confirmPassword')} value={registrationInputs['confirmPassword']} />
               { errorInputs['confirmPassword'] && <h4 className='error'>{ errorInputs['confirmPassword'] }</h4> }
             </div>
           </>)}

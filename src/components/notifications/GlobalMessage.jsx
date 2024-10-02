@@ -42,7 +42,7 @@ const GlobalMessage = ({children}) => {
                 backgroundColor: globalMessageA.color
             }}
         
-        ><div className='p-1'>{children}</div>
+        ><div className='p-1' style={{ color: 'var(--containerColor)'}}>{children}</div>
         </div>
     )
 }
